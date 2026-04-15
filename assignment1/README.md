@@ -120,10 +120,120 @@ The top match is **SHA1 (mode 100)**, confirming plain unsalted SHA-1. So the ha
 ### 2.2 Crack hashes using Hashcat and Rockyou Wordlist
 
 **Command Used:**
-`[💻 在此处写出使用的 Hashcat 命令]`
+```shell
+~/Courses/SWE267P/assignment1 » hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -o cracked_2_2.txt --potfile-disable
+```
+
+| Flag | Meaning |
+|---|---|
+| `hashcat` | Invokes the hashcat binary. |
+| `-m 100` | Sets the hash type to **SHA-1** (raw, unsalted, non-iterated). Each algorithm has a fixed numeric ID; 100 = plain SHA-1. |
+| `-a 0` | Sets the attack mode to **dictionary (straight)**. Hashcat reads candidates line-by-line from the wordlist, computes SHA-1 for each, and compares against the full target hash set. |
+| `linkedin_500k_hashes.txt` | The target hash file — 500,000 40-character SHA-1 hashes, one per line. |
+| `rockyou.txt` | The wordlist — 14,344,392 real-world passwords leaked in the 2009 RockYou breach, the most widely used wordlist in password cracking. |
+| `-o cracked_2_2.txt` | Appends successfully cracked `hash:plaintext` pairs to this output file for later inspection (does not affect terminal output). |
+| `--potfile-disable` | Disables hashcat's potfile cache (`~/.local/share/hashcat/hashcat.potfile`). By default hashcat skips any hash it has already cracked in a previous run, which prevents `-o` from being written on a re-run. This flag forces a full re-execution every time. |
 
 **Results and Performance:**
-`[📸 在此处插入截图并填写破解结果（耗时、破解数量等）]`
+
+| Metric | Value |
+|---|---|
+| Hash Mode | 100 (SHA1) |
+| Wordlist | rockyou.txt (14,344,391 passwords) |
+| Device | Apple M4 GPU (OpenCL, 10MCU) |
+| Speed | 372.3 kH/s |
+| **Recovered** | **144,622 / 500,000 (28.92%)** |
+| Time Taken | ~39 seconds |
+
+```shell
+~/Courses/SWE267P/assignment1 (main*) » hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -o cracked_2_2.txt --potfile-disable                                                      ericsong@ERICS-MACBOOK-PRO
+hashcat (v7.1.2) starting
+
+METAL API (Metal 371.5)
+=======================
+* Device #01: Apple M4, skipped
+
+OpenCL API (OpenCL 1.2 (Jan 16 2026 07:22:26)) - Platform #1 [Apple]
+====================================================================
+* Device #02: Apple M4, GPU, 6062/12124 MB (1136 MB allocatable), 10MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 500000 digests; 500000 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Early-Skip
+* Not-Salted
+* Not-Iterated
+* Single-Salt
+* Raw-Hash
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Pure kernels can crack longer passwords, but drastically reduce performance.
+If you want to switch to optimized kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Temperature abort trigger set to 100c
+
+Host memory allocated for this attack: 687 MB (2447 MB free)
+
+Dictionary cache built:
+* Filename..: rockyou.txt
+* Passwords.: 14344392
+* Bytes.....: 139921507
+* Keyspace..: 14344385
+* Runtime...: 0 secs
+
+Cracking performance lower than expected?
+
+* Append -O to the commandline.
+  This lowers the maximum supported password/salt length (usually down to 32).
+
+* Append -w 3 to the commandline.
+  This can cause your screen to lag.
+
+* Append -S to the commandline.
+  This has a drastic speed impact but can be better for specific attacks.
+  Typical scenarios are a small wordlist but a large ruleset.
+
+* Update your backend API runtime / driver the right way:
+  https://hashcat.net/faq/wrongdriver
+
+* Create more work items to make use of your parallelization power:
+  https://hashcat.net/faq/morework
+
+Approaching final keyspace - workload adjusted.
+
+
+Session..........: hashcat
+Status...........: Exhausted
+Hash.Mode........: 100 (SHA1)
+Hash.Target......: linkedin_500k_hashes.txt
+Time.Started.....: Tue Apr 14 19:43:24 2026 (39 secs)
+Time.Estimated...: Tue Apr 14 19:44:03 2026 (0 secs)
+Kernel.Feature...: Pure Kernel (password length 0-256 bytes)
+Guess.Base.......: File (rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#02........:   372.3 kH/s (0.06ms) @ Accel:1024 Loops:1 Thr:64 Vec:1
+Recovered........: 144622/500000 (28.92%) Digests (total), 144622/500000 (28.92%) Digests (new)
+Remaining........: 355378 (71.08%) Digests
+Recovered/Time...: CUR:N/A,N/A,N/A AVG:N/A,N/A,N/A (Min,Hour,Day)
+Progress.........: 14344385/14344385 (100.00%)
+Rejected.........: 0/14344385 (0.00%)
+Restore.Point....: 14344385/14344385 (100.00%)
+Restore.Sub.#02..: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#02...: 0844132938 -> $HEX[042a0337c2a156616d6f732103]
+Hardware.Mon.SMC.: Fan0: 0%
+Hardware.Mon.#02.: Util: 44% Pwr:585mW
+
+Started: Tue Apr 14 19:43:23 2026
+Stopped: Tue Apr 14 19:44:03 2026
+```
 
 ### 2.3 Crack target hashes using Rockyou Wordlist + Standard Rules
 > Try adding rules to the Rockyou dictionary (e.g., best64, InsidePro-PasswordsPro).
