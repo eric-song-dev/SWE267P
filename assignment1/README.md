@@ -240,7 +240,34 @@ The CrackStation Human-Only wordlist recovered **36.27%** of hashes — a **+7.3
 ### 2.5 Summary for Part 2
 > Description of what Hashcat cracking methods were used, which dictionaries, performance aspects and a summary of the results (number of hashes cracked and time taken).
 
-`[📝 在此总结 Part 2 的破解方法、字典、性能表现（例如体现 macOS 原生优势）以及最终总结果]`
+**Hash Type**
+
+All cracking in Part 2 targeted a single hash type: **SHA-1 (unsalted)**, identified manually from the 40-character hex digest length and confirmed with `hashcat --identify`. The corresponding Hashcat mode is `-m 100`.
+
+**Methods and Dictionaries**
+
+Three distinct attack strategies were applied across four runs, all using dictionary mode (`-a 0`):
+
+| Step | Method | Wordlist | Rule File | Effective Keyspace | Recovered | Recovery Rate | Time |
+|---|---|---|---|---|---|---|---|
+| 2.2 | Dictionary (plain) | rockyou.txt (14.3M passwords) | — | 14,344,392 | 144,622 / 500,000 | 28.92% | ~39 s |
+| 2.3 (best66) | Dictionary + Rules | rockyou.txt (14.3M passwords) | best66.rule (66 rules) | 946,729,410 | 229,459 / 500,000 | 45.89% | ~1 min 10 s |
+| 2.3 (InsidePro) | Dictionary + Rules | rockyou.txt (14.3M passwords) | InsidePro-PasswordsPro.rule (3,234 rules) | 46,389,741,090 | 302,154 / 500,000 | 60.43% | ~2 min 46 s |
+| 2.4 | Dictionary (curated) | crackstation-human-only.txt (63.9M passwords) | — | 63,941,069 | 181,345 / 500,000 | 36.27% | ~52 s |
+
+**Key Findings**
+
+The ranking — InsidePro (60.43%) > best66 (45.89%) > CrackStation (36.27%) > plain RockYou (28.92%) — reflects the two levers that drive coverage: **rule breadth** and **wordlist diversity**.
+
+- **InsidePro tops the chart** because its 3,234 rules apply the widest variety of transformations (leet-speak variants, mixed-case patterns, multi-character substitutions, symbol padding), expanding RockYou's 14.3M words into ~46 billion candidates that capture how real users mutate base passwords.
+- **best66 ranks second** for the same reason but at smaller scale: its 66 rules cover only the most common mutations (capitalise first letter, append digits/symbols, toggle case), producing ~947M candidates — effective, but missing the more exotic patterns InsidePro catches.
+- **CrackStation finishes third** despite being 4.5× larger than RockYou in raw word count. Without any rules, it can only match passwords that appear verbatim in its breach data. InsidePro's rule-augmented RockYou produces far more candidate variants, meaning a curated-but-unmangled wordlist cannot compete with a well-ruled smaller one once the coverage gap widens.
+
+**Performance on macOS (Apple M4 GPU)**
+
+All runs used Hashcat's OpenCL backend on the Apple M4 GPU (10MCU) natively on macOS, sustaining ~1 GH/s for SHA-1 and completing even the heaviest run (InsidePro, ~46B candidates) in under 3 minutes.
+
+**Overall Best Result:** InsidePro-PasswordsPro rules on RockYou cracked **302,154 out of 500,000 hashes (60.43%)** in approximately 2 minutes 46 seconds — the highest recovery rate achieved in Part 2.
 
 ---
 
