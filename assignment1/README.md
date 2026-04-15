@@ -289,7 +289,7 @@ All runs used Hashcat's OpenCL backend on the Apple M4 GPU (10MCU) natively on m
 `[📸 在此处插入截图并填写叠加规则后的破解结果]`
 
 ### 3.3 Create a custom rule
-> Try creating your own custom rule by editing an existing rule (e.g., extending Leetspeak substitution in rule2 and adding symbols).
+> Try creating your own custom rule by editing an existing rule (e.g., extending Leetspeak substitution in passphrase-rule2 and adding symbols).
 
 **Custom Rule Description:**
 `[📝 在此描述你自己修改的规则内容和思路]`
