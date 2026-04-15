@@ -1,5 +1,27 @@
 # Password Hash Assignment Report
 
+![Hashcat](https://img.shields.io/badge/Hashcat-6.2.6-red?style=for-the-badge&logo=linux&logoColor=white
+)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-4-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![MD5](https://img.shields.io/badge/MD5-Hash_Cracking-blue?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)
+![John the Ripper](https://img.shields.io/badge/John_the_Ripper-Password_Cracking-darkgreen?style=for-the-badge&logo=linux&logoColor=white)
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Course-SWE_267P-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Quarter-Spring_2026-brightgreen?style=flat-square">
+  <img src="https://img.shields.io/badge/Student-Zhenyu_Song-orange?style=flat-square">
+</p>
+
+This report documents the exploration of **password hashing techniques**, covering online and local hash generation/cracking, dictionary and brute-force attacks, and analysis of real-world leaked hash datasets.
+
+<div style="page-break-after: always;"></div>
+
+## 📂 Table of Contents
+
+[TOC]
+
+<div style="page-break-after: always;"></div>
+
 ## Part 1: Hash generation/cracking online
 
 ### 1.1 Online Hash Generation
@@ -75,7 +97,7 @@ For the strings "über_alles!" and "Lösenord", the results from `https://md5dec
 *   **Pros:** They are highly convenient, require zero local setup or computational power, and are excellent for quick, on-the-fly hash generation or simple reverse dictionary lookups.
 *   **Cons:** They introduce severe security and privacy risks, as submitting raw passwords exposes them over the internet to third-party servers. Furthermore, they are inherently unreliable when handling special, non-ASCII characters due to opaque, undocumented character encoding treatments (as demonstrated above).
 
----
+<div style="page-break-after: always;"></div>
 
 ## Part 2: MD5 hash cracking locally on macOS using Hashcat
 
@@ -271,7 +293,7 @@ All runs used Hashcat's OpenCL backend on the Apple M4 GPU (10MCU) natively on m
 
 **Overall Best Result:** InsidePro-PasswordsPro rules on RockYou cracked **302,154 out of 500,000 hashes (60.43%)** in approximately 2 minutes 46 seconds — the highest recovery rate achieved in Part 2.
 
----
+<div style="page-break-after: always;"></div>
 
 ## Part 3: Passphrase cracking
 
@@ -473,7 +495,7 @@ All runs used Hashcat's OpenCL backend on the Apple M4 GPU (10MCU), sustaining ~
 
 **Overall Best Result:** Custom stacked rules (passphrase-rule1 + passphrase-custom) cracked **14 out of 21 hashes (66.67%)** in approximately 2 minutes 55 seconds.
 
----
+<div style="page-break-after: always;"></div>
 
 ## Part 4: Document password cracking
 
