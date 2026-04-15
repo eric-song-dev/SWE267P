@@ -79,6 +79,8 @@ For the strings "über_alles!" and "Lösenord", the results from `https://md5dec
 
 ## Part 2: MD5 hash cracking locally on macOS using Hashcat
 
+> **Note on environment:** The assignment instructions state *"Since Hashcat performs better with a GPU and more RAM, install and run it on a more powerful system than a Kali VM for better performance."* Following this guidance, all cracking tasks in Part 2 were performed natively on a MacBook (Apple M4 GPU) rather than inside a Kali Linux VM.
+
 ### 2.1 Identify the Hash Type
 > Analyze the target hashes to determine their type(s). 
 
