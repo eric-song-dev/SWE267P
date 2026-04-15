@@ -136,116 +136,63 @@ The top match is **SHA1 (mode 100)**, confirming plain unsalted SHA-1. So the ha
 
 **Results and Performance:**
 
+![alt text](image/image.png)
+
 | Metric | Value |
 |---|---|
 | Hash Mode | 100 (SHA1) |
-| Wordlist | rockyou.txt (14,344,391 passwords) |
+| Wordlist | rockyou.txt |
 | Device | Apple M4 GPU (OpenCL, 10MCU) |
-| Speed | 372.3 kH/s |
 | **Recovered** | **144,622 / 500,000 (28.92%)** |
 | Time Taken | ~39 seconds |
-
-```shell
-~/Courses/SWE267P/assignment1 (main*) » hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -o cracked_2_2.txt --potfile-disable                                                      ericsong@ERICS-MACBOOK-PRO
-hashcat (v7.1.2) starting
-
-METAL API (Metal 371.5)
-=======================
-* Device #01: Apple M4, skipped
-
-OpenCL API (OpenCL 1.2 (Jan 16 2026 07:22:26)) - Platform #1 [Apple]
-====================================================================
-* Device #02: Apple M4, GPU, 6062/12124 MB (1136 MB allocatable), 10MCU
-
-Minimum password length supported by kernel: 0
-Maximum password length supported by kernel: 256
-
-Hashes: 500000 digests; 500000 unique digests, 1 unique salts
-Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
-Rules: 1
-
-Optimizers applied:
-* Zero-Byte
-* Early-Skip
-* Not-Salted
-* Not-Iterated
-* Single-Salt
-* Raw-Hash
-
-ATTENTION! Pure (unoptimized) backend kernels selected.
-Pure kernels can crack longer passwords, but drastically reduce performance.
-If you want to switch to optimized kernels, append -O to your commandline.
-See the above message to find out about the exact limits.
-
-Watchdog: Temperature abort trigger set to 100c
-
-Host memory allocated for this attack: 687 MB (2447 MB free)
-
-Dictionary cache built:
-* Filename..: rockyou.txt
-* Passwords.: 14344392
-* Bytes.....: 139921507
-* Keyspace..: 14344385
-* Runtime...: 0 secs
-
-Cracking performance lower than expected?
-
-* Append -O to the commandline.
-  This lowers the maximum supported password/salt length (usually down to 32).
-
-* Append -w 3 to the commandline.
-  This can cause your screen to lag.
-
-* Append -S to the commandline.
-  This has a drastic speed impact but can be better for specific attacks.
-  Typical scenarios are a small wordlist but a large ruleset.
-
-* Update your backend API runtime / driver the right way:
-  https://hashcat.net/faq/wrongdriver
-
-* Create more work items to make use of your parallelization power:
-  https://hashcat.net/faq/morework
-
-Approaching final keyspace - workload adjusted.
-
-
-Session..........: hashcat
-Status...........: Exhausted
-Hash.Mode........: 100 (SHA1)
-Hash.Target......: linkedin_500k_hashes.txt
-Time.Started.....: Tue Apr 14 19:43:24 2026 (39 secs)
-Time.Estimated...: Tue Apr 14 19:44:03 2026 (0 secs)
-Kernel.Feature...: Pure Kernel (password length 0-256 bytes)
-Guess.Base.......: File (rockyou.txt)
-Guess.Queue......: 1/1 (100.00%)
-Speed.#02........:   372.3 kH/s (0.06ms) @ Accel:1024 Loops:1 Thr:64 Vec:1
-Recovered........: 144622/500000 (28.92%) Digests (total), 144622/500000 (28.92%) Digests (new)
-Remaining........: 355378 (71.08%) Digests
-Recovered/Time...: CUR:N/A,N/A,N/A AVG:N/A,N/A,N/A (Min,Hour,Day)
-Progress.........: 14344385/14344385 (100.00%)
-Rejected.........: 0/14344385 (0.00%)
-Restore.Point....: 14344385/14344385 (100.00%)
-Restore.Sub.#02..: Salt:0 Amplifier:0-1 Iteration:0-1
-Candidate.Engine.: Device Generator
-Candidates.#02...: 0844132938 -> $HEX[042a0337c2a156616d6f732103]
-Hardware.Mon.SMC.: Fan0: 0%
-Hardware.Mon.#02.: Util: 44% Pwr:585mW
-
-Started: Tue Apr 14 19:43:23 2026
-Stopped: Tue Apr 14 19:44:03 2026
-```
 
 ### 2.3 Crack target hashes using Rockyou Wordlist + Standard Rules
 > Try adding rules to the Rockyou dictionary (e.g., best64, InsidePro-PasswordsPro).
 
-**Command Used (best64):**
-`[💻 在此处写出使用 best64.rule 的命令]`
+> **Note on best64 vs best66:** Hashcat's canonical "best64" rule set was later extended to `best66.rule` (66 rules). No `best64.rule` ships with modern Hashcat distributions; `best66.rule` is its direct successor and superset, so it is used here.
+
+**Command Used (best66):**
+```shell
+~/Courses/SWE267P/assignment1 » hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -r rules/best66.rule -o cracked_2_3_best66.txt --potfile-disable
+```
 
 **Command Used (InsidePro-PasswordsPro):**
-`[💻 在此处写出使用 InsidePro-PasswordsPro.rule 的命令]`
+```shell
+~/Courses/SWE267P/assignment1 » hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -r rules/InsidePro-PasswordsPro.rule -o cracked_2_3_insidepro.txt --potfile-disable
+```
+
+**Flag Reference:**
+
+| Flag | Meaning |
+|---|---|
+| `-m 100` | Hash type: SHA-1 (same as 2.2). |
+| `-a 0` | Dictionary (straight) attack mode. |
+| `-r <rule>` | Apply a mangling rule file; each word in the wordlist is transformed by every rule before hashing, multiplying the effective keyspace. |
+| `--potfile-disable` | Force a full re-run, bypassing the cached potfile. |
+| `-o <file>` | Write cracked `hash:plaintext` pairs to the specified output file. |
 
 **Results and Performance:**
-`[📸 在此处插入截图并填写破解结果对比]`
+
+![alt text](image/image-17.png)
+
+![alt text](image/image-18.png)
+
+| Metric | best66 | InsidePro-PasswordsPro |
+|---|---|---|
+| Hash Mode | 100 (SHA1) | 100 (SHA1) |
+| Rule File | best66.rule (66 rules) | InsidePro-PasswordsPro.rule (3,234 rules) |
+| Wordlist | rockyou.txt | rockyou.txt |
+| Effective Keyspace | 946,729,410 | 46,389,741,090 |
+| Device | Apple M4 GPU (OpenCL, 10MCU) | Apple M4 GPU (OpenCL, 10MCU) |
+| **Recovered** | **229,459 / 500,000 (45.89%)** | **302,154 / 500,000 (60.43%)** |
+| Time Taken | ~1 min 10 secs | ~2 mins 46 secs |
+
+**Analysis:**
+
+Adding mangling rules dramatically increases the number of cracked hashes compared to the plain dictionary attack (28.92% in 2.2).
+
+- **best66** (66 rules, ~947 M candidates): Recovered **45.89%** — a +17% gain over the baseline in roughly 2× the time. The rule set applies common transformations such as capitalizing the first letter, appending/prepending digits and symbols, and toggling case, covering the most frequent real-world password patterns efficiently.
+- **InsidePro-PasswordsPro** (3,234 rules, ~46 B candidates): Recovered **60.43%** — a further +14.5% gain at the cost of ~2× more time. Its larger rule set captures more exotic transformations (leet-speak variants, mixed-case patterns, multi-character substitutions), at the expense of a ~49× larger keyspace that still completes in under 4 minutes on the Apple M4 GPU.
 
 ### 2.4 Crack target hashes using a curated and larger wordlist
 > Use a search engine to find a dictionary that cracks more than Rockyou.
