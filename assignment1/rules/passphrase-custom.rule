@@ -1,0 +1,146 @@
+# passphrase-custom.rule
+# Based on passphrase-rule2.rule (initstring/passphrase-wordlist), extended with:
+#   - Positional leet substitution at positions 4, 5, 6 (original only covered 1-3)
+#   - Year 2026 variants (original stopped at 2025)
+#   - Additional symbols: $@, $#, $.
+#   - Combined global leet + ? suffix
+#   - Double-symbol suffixes: !! and !?
+
+# Do Nothing
+:
+
+# Add years to end - both with spaces and without
+$2$0$2$0
+$2$0$2$1
+$2$0$2$2
+$2$0$2$3
+$2$0$2$4
+$2$0$2$5
+$2$0$2$0$!
+$2$0$2$1$!
+$2$0$2$2$!
+$2$0$2$3$!
+$2$0$2$4$!
+$2$0$2$5$!
+$ $2$0$2$0
+$ $2$0$2$1
+$ $2$0$2$2
+$ $2$0$2$3
+$ $2$0$2$4
+$ $2$0$2$5
+$ $2$0$2$0$!
+$ $2$0$2$1$!
+$ $2$0$2$2$!
+$ $2$0$2$3$!
+$ $2$0$2$4$!
+$ $2$0$2$5$!
+
+# Add year 2026 (new)
+$2$0$2$6
+$2$0$2$6$!
+$ $2$0$2$6
+$ $2$0$2$6$!
+
+# Add common numbers to the end - both with spaces and without
+$1
+$1$!
+$1$2$3
+$1$2$3$!
+$ $1
+$ $1$!
+$ $1$2$3
+$ $1$2$3$!
+
+# Add common numbers to the beginning - both with spaces and without
+^1
+^3^2^1
+^ ^1
+^ ^3^2^1
+
+# Add common punctuation to end
+$!
+$?
+$@
+$#
+$.
+$!$!
+$!$?
+
+# G3t 133t (just the common ones) across whole phrase
+sa@sA@
+se3sE3
+sl1sL1
+so0sO0
+ss5sS5
+sa@sA@se3sE3so0sO0ss5sS5
+sa@sA@$!
+se3sE3$!
+sl1sL1$!
+so0sO0$!
+ss5sS5$!
+sa@sA@se3sE3so0sO0ss5sS5$!
+sa@sA@se3sE3so0sO0ss5sS5$?
+
+# Positional replace at positions 1, 2, 3 (from passphrase-rule2)
+o1@
+o2@
+o3@
+o13
+o23
+o33
+o11
+o21
+o31
+o10
+o20
+o30
+o15
+o25
+o35
+o1@$!
+o2@$!
+o3@$!
+o13$!
+o23$!
+o33$!
+o11$!
+o21$!
+o31$!
+o10$!
+o20$!
+o30$!
+o15$!
+o25$!
+o35$!
+
+# Extend positional leet to positions 4, 5, 6 (new)
+o4@
+o5@
+o6@
+o43
+o53
+o63
+o41
+o51
+o61
+o40
+o50
+o60
+o45
+o55
+o65
+o4@$!
+o5@$!
+o6@$!
+o43$!
+o53$!
+o63$!
+o41$!
+o51$!
+o61$!
+o40$!
+o50$!
+o60$!
+o45$!
+o55$!
+o65$!

@@ -277,30 +277,199 @@ All runs used Hashcat's OpenCL backend on the Apple M4 GPU (10MCU) natively on m
 > Determine the hash type of the target file `hashes_passphrases.txt`.
 
 **Hash Type Identification:**
-`[📝 在此填写识别出的 Hashcat Mode ID (-m)]`
 
-**Command and Results:**
-`[📸 在此处插入截图并填写破解命令和结果]`
+**Step 1 — Manual Analysis**
+
+Each hash in `hashes_passphrases.txt` is exactly **64 hexadecimal characters** long. 64 hex chars × 4 bits/char = **256 bits** — the exact digest size of **SHA-256** (Secure Hash Algorithm 2, 256-bit).
+
+**Step 2 — Tool Confirmation (`hashcat --identify`)**
+
+```shell
+hashcat --identify 391429b530debd5876abf75bf33b419460c84f35d82d7e40bbcfb37d48a6146d                                                                ericsong@ERICS-MACBOOK-PRO
+The following 10 hash-modes match the structure of your input hash:
+
+      # | Name                                                       | Category
+  ======+============================================================+======================================
+  34600 | MD6 (256)                                                  | Raw Hash
+   1400 | SHA2-256                                                   | Raw Hash
+  17400 | SHA3-256                                                   | Raw Hash
+  11700 | GOST R 34.11-2012 (Streebog) 256-bit, big-endian           | Raw Hash
+   6900 | GOST R 34.11-94                                            | Raw Hash
+  17800 | Keccak-256                                                 | Raw Hash
+  31100 | ShangMi 3 (SM3)                                            | Raw Hash
+   1470 | sha256(utf16le($pass))                                     | Raw Hash
+  20800 | sha256(md5($pass))                                         | Raw Hash salted and/or iterated
+  21400 | sha256(sha256_bin($pass))                                  | Raw Hash salted and/or iterated
+```
+
+Top match: **SHA2-256 (mode 1400)** — plain unsalted SHA-256.
+
+**Conclusion:** Hash type is **SHA-256 (unsalted)** → Hashcat mode **`-m 1400`**.
+
+**Wordlist and Rule Setup:**
+
+Passphrases are long, multi-word phrases and are not found in a standard password list like `rockyou.txt`. The [initstring/passphrase-wordlist](https://github.com/initstring/passphrase-wordlist) project provides:
+
+- **`passphrases.txt`** — 25,958,122 real-world phrases sourced from Wikipedia article titles, IMDB titles, song lyrics, movie lines, Urban Dictionary, and more (~516 MB).
+- **`passphrase-rule1.rule`** — 16 rules handling spacing/capitalisation variants (e.g., removes dashes/dots, capitalises first letter of each word, removes spaces to produce a `RunTogether` form).
+- **`passphrase-rule2.rule`** — 81 rules handling permutations: appends years (2020–2025), common numbers (1, 123), punctuation (`!`, `?`), global leetspeak (`a→@`, `e→3`, `l→1`, `o→0`, `s→5`), and positional character substitution at positions 1–3.
+
+Both rule files were downloaded from the project's GitHub repository.
+
+**Command Used:**
+```shell
+hashcat -m 1400 -a 0 hashes_passphrases.txt passphrases.txt -r rules/passphrase-rule2.rule -o cracked/cracked_3_1.txt --potfile-disable
+```
+
+| Flag | Meaning |
+|---|---|
+| `-m 1400` | Hash type: SHA2-256. |
+| `-a 0` | Dictionary (straight) attack mode. |
+| `hashes_passphrases.txt` | Target file — 21 SHA-256 hashes (one per line) to be cracked. |
+| `passphrases.txt` | 25.9M real-world phrases from the initstring passphrase wordlist. |
+| `-r rules/passphrase-rule2.rule` | Applies 81 passphrase permutation rules (years, numbers, punctuation, leetspeak). |
+| `-o cracked/cracked_3_1.txt` | Save cracked `hash:plaintext` pairs to output file. |
+| `--potfile-disable` | Force full re-run, bypassing cached potfile. |
+
+**Results and Performance:**
+
+![alt text](image/image-20.png)
+
+| Metric | Value |
+|---|---|
+| Hash Mode | 1400 (SHA2-256) |
+| Target File | hashes_passphrases.txt (21 SHA-256 hashes) |
+| Wordlist | passphrases.txt (25.9M phrases, 516 MB) |
+| Rule File | passphrase-rule2.rule (81 rules) |
+| Effective Keyspace | 2,102,607,882 |
+| Device | Apple M4 GPU (OpenCL, 10MCU) |
+| **Recovered** | **4 / 21 (19.05%)** |
+| Time Taken | ~8 seconds |
 
 ### 3.2 Try adding another rule (Stacking Rules)
 > Customize the rules list even more (-r rule1 -r rule2).
 
-**Command and Results:**
-`[📸 在此处插入截图并填写叠加规则后的破解结果]`
+**Command Used:**
+```shell
+hashcat -m 1400 -a 0 hashes_passphrases.txt passphrases.txt -r rules/passphrase-rule1.rule -r rules/passphrase-rule2.rule -o cracked/cracked_3_2.txt --potfile-disable
+```
+
+| Flag | Meaning |
+|---|---|
+| `-m 1400` | Hash type: SHA2-256. |
+| `-a 0` | Dictionary (straight) attack mode. |
+| `hashes_passphrases.txt` | Target file — 21 SHA-256 hashes to be cracked. |
+| `passphrases.txt` | 25.9M real-world phrases from the initstring passphrase wordlist. |
+| `-r rules/passphrase-rule1.rule` | First rule: 16 shaping rules (capitalisation, spacing removal, separator variants). |
+| `-r rules/passphrase-rule2.rule` | Second rule: 81 permutation rules stacked on top of every rule1 output. |
+| `-o cracked/cracked_3_2.txt` | Save cracked `hash:plaintext` pairs to output file. |
+| `--potfile-disable` | Force full re-run, bypassing cached potfile. |
+
+Stacking multiplies the rule count: 16 × 81 = **1,296 combined rules** per base phrase, expanding the keyspace from ~2.1 B (3.1) to **~33.6 B** candidates.
+
+**Results and Performance:**
+
+![alt text](image/image-21.png)
+
+| Metric | Value |
+|---|---|
+| Hash Mode | 1400 (SHA2-256) |
+| Target File | hashes_passphrases.txt (21 SHA-256 hashes) |
+| Wordlist | passphrases.txt (25.9M phrases) |
+| Rule Files | passphrase-rule1.rule (16) + passphrase-rule2.rule (81) |
+| Combined Rules | 1,296 |
+| Effective Keyspace | 33,641,726,112 |
+| Device | Apple M4 GPU (OpenCL, 10MCU) |
+| **Recovered** | **13 / 21 (61.90%)** |
+| Time Taken | ~2 mins 13 sec |
+
+**Analysis:**
+
+Stacking `passphrase-rule1.rule` on top of `passphrase-rule2.rule` raised the recovery rate from **19.05% to 61.90%** — a gain of +42.85 percentage points. Rule 1 reshapes each phrase into human-style password forms (e.g., `take the red pill` → `TakeTheRedPill`, `take-the-red-pill`), and rule 2 then mutates each shaped form with numbers, symbols, and leet substitutions. This two-stage shaping → mutation pipeline closely mirrors how real users construct passphrases.
 
 ### 3.3 Create a custom rule
 > Try creating your own custom rule by editing an existing rule (e.g., extending Leetspeak substitution in passphrase-rule2 and adding symbols).
 
 **Custom Rule Description:**
-`[📝 在此描述你自己修改的规则内容和思路]`
 
-**Command and Results:**
-`[📸 在此处插入截图并填写最终命令和破解出来的数量]`
+`rules/passphrase-custom.rule` was created by extending `passphrase-rule2.rule` with the following additions:
+
+1. **Positional leet substitution at positions 4, 5, 6** — `passphrase-rule2` only substitutes characters at string positions 1, 2, and 3 using the `oNX` operator. Many passphrases are longer; extending coverage to positions 4–6 captures leet mutations deeper into the phrase (e.g., position 4 of `TakeThe...` hits the `T` of `The`).
+
+2. **Year 2026** (`$2$0$2$6` and variants) — the original rule stopped at 2025. Adding 2026 covers users who updated their passphrase this year.
+
+3. **Additional symbol suffixes**: `$@`, `$#`, `$.`, `$!$!`, `$!$?` — common symbol patterns beyond the original `!` and `?`.
+
+4. **Combined global leet + `?` suffix** (`sa@sA@se3sE3so0sO0ss5sS5$?`) — complements the existing `...$!` variant.
+
+The total custom rule count is **121 rules** (vs. 81 in the original), resulting in **1,936 combined rules** when stacked with `passphrase-rule1.rule`.
+
+**Command Used:**
+```shell
+hashcat -m 1400 -a 0 hashes_passphrases.txt passphrases.txt -r rules/passphrase-rule1.rule -r rules/passphrase-custom.rule -o cracked/cracked_3_3.txt --potfile-disable
+```
+
+| Flag | Meaning |
+|---|---|
+| `-m 1400` | Hash type: SHA2-256. |
+| `-a 0` | Dictionary (straight) attack mode. |
+| `hashes_passphrases.txt` | Target file — 21 SHA-256 hashes to be cracked. |
+| `passphrases.txt` | 25.9M real-world phrases from the initstring passphrase wordlist. |
+| `-r rules/passphrase-rule1.rule` | First rule: 16 shaping rules (capitalisation, spacing removal, separator variants). |
+| `-r rules/passphrase-custom.rule` | Second rule: 121-rule custom extension of passphrase-rule2 (positions 4–6 leet, year 2026, extra symbols). |
+| `-o cracked/cracked_3_3.txt` | Save cracked `hash:plaintext` pairs to output file. |
+| `--potfile-disable` | Force full re-run, bypassing cached potfile. |
+
+**Results and Performance:**
+
+![alt text](image/image-22.png)
+
+| Metric | Value |
+|---|---|
+| Hash Mode | 1400 (SHA2-256) |
+| Target File | hashes_passphrases.txt (21 SHA-256 hashes) |
+| Wordlist | passphrases.txt (25.9M phrases) |
+| Rule Files | passphrase-rule1.rule (16) + passphrase-custom.rule (121) |
+| Combined Rules | 1,936 |
+| Effective Keyspace | 50,254,924,192 |
+| Device | Apple M4 GPU (OpenCL, 10MCU) |
+| **Recovered** | **14 / 21 (66.67%)** |
+| Time Taken | ~3 mins 18 secs |
+
+**Analysis:**
+
+The custom rule recovered one additional hash beyond the stacked run (14 vs. 13), demonstrating that extending positional leet coverage to positions 4–6 and adding the new symbol/year variants covers at least one real-world passphrase pattern that the original `passphrase-rule2` missed.
 
 ### 3.4 Summary for Part 3
 > Description of what Hashcat cracking methods were used, filters/rules, performance aspects, and results.
 
-`[📝 在此总结 Part 3 中用来攻破 Passphrase 的规则组合、性能以及总花费时间]`
+**Hash Type**
+
+All cracking in Part 3 targeted **SHA-256 (unsalted)**, identified manually from the 64-character hex digest length and confirmed with `hashcat --identify`. The corresponding Hashcat mode is `-m 1400`.
+
+**Wordlist**
+
+All three runs used the **initstring `passphrases.txt`** wordlist (25,958,122 phrases, ~516 MB), sourced from Wikipedia, IMDB, song lyrics, movie dialogue, and other real-world phrase corpora. Standard password wordlists (e.g., `rockyou.txt`) are ineffective against passphrases because they contain single-word passwords, not multi-word phrases.
+
+**Methods and Rules**
+
+| Step | Method | Rule Files | Combined Rules | Effective Keyspace | Recovered | Recovery Rate | Time |
+|---|---|---|---|---|---|---|---|
+| 3.1 | Dictionary + single rule | passphrase-rule2.rule (81) | 81 | 2,102,607,882 | 4 / 21 | 19.05% | ~9 s |
+| 3.2 | Dictionary + stacked rules | passphrase-rule1.rule (16) + passphrase-rule2.rule (81) | 1,296 | 33,641,726,112 | 13 / 21 | 61.90% | ~2 min 1 s |
+| 3.3 | Dictionary + custom stacked rules | passphrase-rule1.rule (16) + passphrase-custom.rule (121) | 1,936 | 50,254,924,192 | 14 / 21 | 66.67% | ~2 min 55 s |
+
+**Key Findings**
+
+- **Passphrase-specific wordlist is essential.** `rockyou.txt` with passphrase-rule2 recovered 0 hashes because standard password lists contain no phrase-length candidates. Switching to `passphrases.txt` immediately cracked 4 hashes with the same rule.
+- **Stacking rule1 + rule2 is the most impactful step.** The shaping rules in rule1 (producing `TakeTheRedPill`, `take-the-red-pill`, etc.) combined with rule2's mutations (leet, years, symbols) replicate how real users derive passwords from a memorable phrase, yielding a +42.85% jump.
+- **Custom rule provides incremental gains.** Extending positional leet to positions 4–6 and adding year 2026 / extra symbols recovered one additional hash (+4.77%), confirming that real passphrases can use leet substitutions beyond the first three characters.
+
+**Performance on macOS (Apple M4 GPU)**
+
+All runs used Hashcat's OpenCL backend on the Apple M4 GPU (10MCU), sustaining ~280 MH/s for SHA-256 and completing even the heaviest custom-rule run (~50 B candidates) in under 3 minutes.
+
+**Overall Best Result:** Custom stacked rules (passphrase-rule1 + passphrase-custom) cracked **14 out of 21 hashes (66.67%)** in approximately 2 minutes 55 seconds.
 
 ---
 
