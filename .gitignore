@@ -39,3 +39,13 @@
 
 # debug information files
 *.dwo
+
+# macOS
+.DS_Store
+
+# Large wordlists and hash files (assignment1)
+assignment1/rockyou.txt
+assignment1/passphrases.txt
+assignment1/crackstation-human-only.txt
+assignment1/linkedin_500k_hashes.txt
+assignment1/john.lst
