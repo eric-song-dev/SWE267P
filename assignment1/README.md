@@ -97,7 +97,7 @@ Inspecting a sample of hashes from `linkedin_500k_hashes.txt` (e.g., `37d2ef282d
 Running `hashcat --identify 37d2ef282dfcc97eb77245ff5d24e311d58625fe` on the sample hash yields:
 
 ```shell
-~/Courses/SWE267P/assignment1 » hashcat --identify 37d2ef282dfcc97eb77245ff5d24e311d58625fe                                                                                                ericsong@ERICS-MACBOOK-PRO
+hashcat --identify 37d2ef282dfcc97eb77245ff5d24e311d58625fe                                                                                                ericsong@ERICS-MACBOOK-PRO
 The following 7 hash-modes match the structure of your input hash:
 
       # | Name                                                       | Category
@@ -121,7 +121,7 @@ The top match is **SHA1 (mode 100)**, confirming plain unsalted SHA-1. So the ha
 
 **Command Used:**
 ```shell
-~/Courses/SWE267P/assignment1 » hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -o cracked_2_2.txt --potfile-disable
+hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -o cracked/cracked_2_2.txt --potfile-disable
 ```
 
 | Flag | Meaning |
@@ -131,7 +131,7 @@ The top match is **SHA1 (mode 100)**, confirming plain unsalted SHA-1. So the ha
 | `-a 0` | Sets the attack mode to **dictionary (straight)**. Hashcat reads candidates line-by-line from the wordlist, computes SHA-1 for each, and compares against the full target hash set. |
 | `linkedin_500k_hashes.txt` | The target hash file — 500,000 40-character SHA-1 hashes, one per line. |
 | `rockyou.txt` | The wordlist — 14,344,392 real-world passwords leaked in the 2009 RockYou breach, the most widely used wordlist in password cracking. |
-| `-o cracked_2_2.txt` | Appends successfully cracked `hash:plaintext` pairs to this output file for later inspection (does not affect terminal output). |
+| `-o cracked/cracked_2_2.txt` | Appends successfully cracked `hash:plaintext` pairs to this output file for later inspection (does not affect terminal output). |
 | `--potfile-disable` | Disables hashcat's potfile cache (`~/.local/share/hashcat/hashcat.potfile`). By default hashcat skips any hash it has already cracked in a previous run, which prevents `-o` from being written on a re-run. This flag forces a full re-execution every time. |
 
 **Results and Performance:**
@@ -153,12 +153,12 @@ The top match is **SHA1 (mode 100)**, confirming plain unsalted SHA-1. So the ha
 
 **Command Used (best66):**
 ```shell
-~/Courses/SWE267P/assignment1 » hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -r rules/best66.rule -o cracked_2_3_best66.txt --potfile-disable
+hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -r rules/best66.rule -o cracked/cracked_2_3_best66.txt --potfile-disable
 ```
 
 **Command Used (InsidePro-PasswordsPro):**
 ```shell
-~/Courses/SWE267P/assignment1 » hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -r rules/InsidePro-PasswordsPro.rule -o cracked_2_3_insidepro.txt --potfile-disable
+hashcat -m 100 -a 0 linkedin_500k_hashes.txt rockyou.txt -r rules/InsidePro-PasswordsPro.rule -o cracked/cracked_2_3_insidepro.txt --potfile-disable
 ```
 
 **Flag Reference:**
@@ -198,13 +198,44 @@ Adding mangling rules dramatically increases the number of cracked hashes compar
 > Use a search engine to find a dictionary that cracks more than Rockyou.
 
 **Dictionary Used (Name and Source):**
-`[📝 在此填写你找到的精选大字典名称和下载链接]`
+
+**CrackStation Human-Only Wordlist** — curated by Defuse Security from real human password leaks across multiple website database breaches.
+
+- Source: https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm
+- Direct download: `https://crackstation.net/files/crackstation-human-only.txt.gz`
+- ~63.9 million passwords (4.5× larger than RockYou's 14.3M)
+- 247 MiB compressed / 683 MiB uncompressed
+- License: Creative Commons Attribution-ShareAlike 3.0
 
 **Command Used:**
-`[💻 在此填写使用的命令]`
+```shell
+hashcat -m 100 -a 0 linkedin_500k_hashes.txt crackstation-human-only.txt -o cracked/cracked_2_4.txt --potfile-disable
+```
+
+| Flag | Meaning |
+|---|---|
+| `-m 100` | Hash type: SHA-1 (same as 2.2). |
+| `-a 0` | Dictionary (straight) attack mode. |
+| `crackstation-human-only.txt` | Curated wordlist of ~63.9M real human passwords from leaked website databases. |
+| `-o cracked/cracked_2_4.txt` | Save cracked `hash:plaintext` pairs to output file. |
+| `--potfile-disable` | Force full re-run, bypassing cached potfile. |
 
 **Results and Performance:**
-`[📸 在此处插入截图并填写新的破解成绩]`
+
+![alt text](image/image-19.png)
+
+| Metric | Value |
+|---|---|
+| Hash Mode | 100 (SHA1) |
+| Wordlist | crackstation-human-only.txt |
+| Wordlist Size | 63,941,069 passwords (683 MiB) |
+| Device | Apple M4 GPU (OpenCL, 10MCU) |
+| **Recovered** | **181,345 / 500,000 (36.27%)** |
+| Time Taken | ~52 secs |
+
+**Analysis:**
+
+The CrackStation Human-Only wordlist recovered **36.27%** of hashes — a **+7.35% gain** over the plain RockYou baseline (28.92%) without using any rules. This improvement comes from the wordlist containing 4.5× more real-world human passwords sourced from a wider variety of leaked databases beyond the original 2009 RockYou breach. Despite the larger keyspace (~64M vs ~14M candidates), the Apple M4 GPU processed the entire list in just over a minute, demonstrating efficient GPU acceleration on macOS without any virtualisation overhead.
 
 ### 2.5 Summary for Part 2
 > Description of what Hashcat cracking methods were used, which dictionaries, performance aspects and a summary of the results (number of hashes cracked and time taken).
