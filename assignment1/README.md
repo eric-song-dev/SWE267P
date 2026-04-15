@@ -478,19 +478,107 @@ All runs used Hashcat's OpenCL backend on the Apple M4 GPU (10MCU), sustaining ~
 ### 4.1 Extract Hash from LibreOffice Document (hashcat.odt)
 > The password hash can be extracted from the document using the John tool (`office2john.py`).
 
-**Command Used and Extracted Hash:**
-`[📸 在此处写出你的工具提取命令并贴出部分提取结果截图]`
+**Tool Installation:**
+
+`john-jumbo` was installed via Homebrew on macOS, which includes the `libreoffice2john.py` script (the correct tool for ODF/LibreOffice files):
+
+```shell
+brew install john-jumbo
+```
+
+**Command Used:**
+```shell
+python3 /opt/homebrew/Cellar/john-jumbo/1.9.0_1/share/john/libreoffice2john.py hashcat.odt \
+  | cut -d: -f2 > cracked/odt_hash.txt
+```
+
+**Extracted Hash:**
+```shell
+python3 /opt/homebrew/Cellar/john-jumbo/1.9.0_1/share/john/libreoffice2john.py hashcat.odt \                                                       ericsong@ERICS-MACBOOK-PRO
+  | cut -d: -f2
+$odf$*1*1*1024*32*9fd1c9be34d1bc2dea61644f6f659b330b69eae9fc72d29bd4539c7d7d9cb434*16*5ab78e4550a9453feb2d60f83d0b6869*16*f1ea2a614223c64274b33866e01a5207*0*d2076332386588e150207046e8a3510ad6ebb299fec6852852f8dc7494008cbb23692813e259781bd1c95c0e1a76c92353ccdedd9fed56a2ce4270471414078bb82f88db372765257be963090ca72a288a16bbd33baf2c0661c18791dc0baf15ed4300d3fc1062479ebbeb31b8cfe93d4b80cc2d73a9fab83e4bfa427a2cdee2b28a782f1237ae1c55b22fea31adb01cc4a87eecc8b0941d92861dfd1d980d64df1c9858dcaa42b9d6b192554d967da6c82dfe7c2b9ca30efb043e57aa1fa7619ee7d14b8cf66c657871299572b1c6991707819af6dd6b0e7847f0a57583c5ad43351fca184f1bd20ede37c376079cee9fe82735ffb021fd7530131195c9c5013060155980e58107709bb48bd29d77cd2125057658e8e7cd1f399df36f9b3b8a5f88c0cbc8172031f52c37f83d877d55549f0c981d6601b31e8c76961bb0e0482c568820c109c24580bae82b637a3c2823b799333d1afa4b506cb41acd31605bc3b1eb6ac8e1cc8b42605237ed251b633c520ece2be909de1deffc881dff7d6be11595b844005a291b3b4274574ce0dc5c1bc4e0b4b82095c368799328cc0e8c73fe4d26c8c31eb1c6451952c774ecfe7b2b0dc22d6df6744ea3f7599a25bd4cd79767cfc9d3899b1fa83ffcddb2f1ec785a5c318309495f82e416bd6b5983f10794fb6dc3081e47e82568f4d8ffb32777e99ebc90fb073492676b8da1bc5581f79cba3bc6598c8e3c31e79810f2e0503e7f250da2359cd9c74087448a2d8a325275e2e6f0b32c42efccf2dfc8a0b26aeee4809e638c4718d7ec45d73bd5a483a2e329a81c2e3c2cb3e4ec179d125470c036ed51da23e3bf06febe3050d0fd6101eaefaf4e19d5a73e44dea9302b2f7e3608c4c1b8411ccf031ad9d1a9d82be2c2fd8599b69ed7d5777c6ba8b61d0f082ede8878d821c9652af3b439a545aceeda2d2e0df3588ca4fd1cd857ade2cdd2a295e6b7f74b2577192eb5b4686fb042d57ed50965fb5ee235c8e262e4a0b6b4037a3b3be427d71fd39e6834ccaa85750d4451a71a734e20cf0b563a60dff24fda0b5ec54330934e8d6ced72639178c7aa271573ff7e0e1c16f01637d4db4c75f30f63d22cb57018c7e16b5eb3420ae180fd624fa50d574025c8b3702e9957161ffcbf09806ad6e4b58143f84efa4260386a6829e62ef858882e98c696dcbc3eb472402773e2a0e3cffc391f33f38541cbf3cfd2397b0ca1d35511d1c27b61a8828f3a89500ab94d90883af9e66813f600a5bfd3c79bd8e1669ac4cf2d09e644fb89792fde191bc478b21b3b36b752e3346f75c566d5a1ca3541d287aea9f80d3051575945aee0d78bfc6308caadb46dd9cc9d76c9a6226e5dcaab76f944c0b94a02bafdd2ee72ac118373da55793b1e191ceb4ac1f0900f8e7bc1b489d424c3da3d685d858c184a625037a688554934
+```
+
+The `$odf$` hash format encodes algorithm metadata as `*`-delimited fields:
+
+```
+$odf$ * <cipher> * <checksum> * <iterations> * <key_size> * ...
+         ↑           ↑
+         1           1
+```
+
+| Field | Value | Meaning |
+|---|---|---|
+| `cipher` | `0` = Blowfish (ODF 1.1) / `1` = **AES-CBC** (ODF 1.2) | Encryption algorithm |
+| `checksum` | `0` = SHA-1 (ODF 1.1) / `1` = **SHA-256** (ODF 1.2) | Integrity checksum algorithm |
+| `iterations` | `1024` | PBKDF2 key derivation iteration count |
+| `key_size` | `32` | AES key length in bytes (256-bit) |
+
+Both `cipher=1` (AES) and `checksum=1` (SHA-256) together identify this as **ODF 1.2** — mapped to Hashcat mode **`-m 18400`**. An ODF 1.1 document would show `$odf$*0*0*` (Blowfish + SHA-1), which maps to mode `-m 18600`.
+
+> Refer to: https://hashcat.net/wiki/doku.php?id=example_hashes
 
 ### 4.2 Crack Hash with Hashcat
 > Feed Hashcat with the hash and start with a dictionary.
 
-**Command Used:**
-`[💻 在此处写出使用的 Hashcat 命令，及找到的对应文件 Mode ID (-m)]`
+**Hash Mode Identification:**
 
-**Results (Password Found & Time Taken):**
-`[📸 在此处插入爆破成功的截图，并写出该文档密码]`
+The `$odf$*1*...` prefix indicates **ODF 1.2**, which maps to Hashcat mode **18400** (Open Document Format 1.2 — SHA-256, PBKDF2-HMAC-SHA1, AES-CBC).
+
+**Command Used:**
+```shell
+hashcat -m 18400 cracked/odt_hash.txt rockyou.txt -o cracked/cracked_4_2.txt --potfile-disable
+```
+
+| Flag | Meaning |
+|---|---|
+| `-m 18400` | Hash type: ODF 1.2 (SHA-256, PBKDF2-HMAC-SHA1 with 1,024 iterations, AES-CBC). |
+| `-a 0` | Dictionary (straight) attack mode (default). |
+| `cracked/odt_hash.txt` | The extracted ODF hash from `hashcat.odt`. |
+| `rockyou.txt` | RockYou wordlist (14.3M real-world passwords). |
+| `-o cracked/cracked_4_2.txt` | Save cracked `hash:plaintext` pair to output file. |
+| `--potfile-disable` | Force full re-run, bypassing cached potfile. |
+
+**Results and Performance:**
+
+![alt text](image/image-23.png)
+
+| Metric | Value |
+|---|---|
+| Hash Mode | 18400 (ODF 1.2, SHA-256, AES) |
+| Wordlist | rockyou.txt (14.3M passwords) |
+| Device | Apple M4 GPU (OpenCL, 10MCU) |
+| **Recovered** | **1 / 1 (100.00%)** |
+| Time Taken | ~25 seconds |
+| **Password Found** | **`[cowboys!]`** |
+
+Hashcat writes every cracked `hash:plaintext` pair to the `-o` output file. After the run completes with `Status: Cracked`, read the last `:` -delimited field to extract the plaintext:
+
+```shell
+grep -o '[^:]*$' cracked/cracked_4_2.txt
+```
+
+```
+[cowboys!]
+```
+
+The document password is **`[cowboys!]`**.
 
 ### 4.3 Summary for Part 4
 > Description of what Hashcat cracking methods were used, which dictionaries, performance aspects and a summary of the results.
 
-`[📝 在此总结成功解开 office 文档所用的方法和耗费的时间]`
+**Hash Extraction**
+
+The password hash was extracted from `hashcat.odt` using the `libreoffice2john.py` script (part of John the Ripper Jumbo, installed via `brew install john-jumbo`). The script parses the ODF container's `content.xml` encryption metadata and outputs a hashcat-compatible `$odf$` hash string. The `cut -d: -f2` step strips the filename prefix to leave only the raw hash for Hashcat.
+
+**Hash Type**
+
+The extracted hash begins with `$odf$*1*1*` — the second field (`1`) identifies the format as **ODF 1.2**, mapped to Hashcat mode **`-m 18400`** (SHA-256 checksum, PBKDF2-HMAC-SHA1 key derivation with 1,024 iterations, AES-CBC encryption).
+
+**Method and Dictionary**
+
+A single **dictionary attack** (`-a 0`) with the **RockYou** wordlist (14,344,385 passwords) was sufficient to recover the password.
+
+**Performance Notes**
+
+ODF 1.2 uses PBKDF2-HMAC-SHA1 with 1,024 iterations for key derivation, which is significantly more computationally expensive than a raw SHA-1 or SHA-256 hash. As a result, the cracking speed (~431.8 kH/s) is several orders of magnitude slower than the raw SHA-1 attacks in Part 2 (~1 GH/s). Despite this, the Apple M4 GPU sustained enough throughput to exhaust over 74% of the RockYou wordlist in under a minute, successfully recovering the password `[cowboys!]` in approximately 25 seconds.
