@@ -588,6 +588,8 @@ grep -o '[^:]*$' cracked/cracked_4_2.txt
 
 The document password is **`[cowboys!]`**.
 
+Then you can open the `hashcat.odt` to verify the password.
+
 ```shell
 open -a LibreOffice hashcat.odt
 ```
