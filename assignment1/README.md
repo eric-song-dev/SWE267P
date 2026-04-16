@@ -588,6 +588,10 @@ grep -o '[^:]*$' cracked/cracked_4_2.txt
 
 The document password is **`[cowboys!]`**.
 
+```shell
+open -a LibreOffice hashcat.odt
+```
+
 ### 4.3 Summary for Part 4
 > Description of what Hashcat cracking methods were used, which dictionaries, performance aspects and a summary of the results.
 
