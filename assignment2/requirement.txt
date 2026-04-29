@@ -1,0 +1,47 @@
+Risk Assessment Assignment
+Due Wednesday by 11:59pm Points 100 Submitting a file upload
+Company Description - PharmaX
+PharmaX is a US-based pharmaceutical company and has physical offices in San Jose, McLean and Durham (main office). The company develops and sells pharmaceuticals and enterprise software solutions for the pharmaceutical industry, There are 140 employees and the company also have 20 external third-party consultants on their payroll. Roughly 50% of all employees and external consultants work remotely from their home offices while the rest are based in the physical offices. Remote workers also attend physical meetings in offices when required.
+
+There is a small company board of seasoned executives that support the company at a strategic level. The board has is mainly focused on the company core business and little experience with security and cyber risk matters.
+
+Employee day-to-day work is mostly performed on PCs/laptops working with standard enterprise software such as ”Microsoft Office”, similar applications and specialized pharmaceutical industry software packages. All employees have Internet access and use Outlook email clients and web browsers (Microsoft Edge/Google Chrome).
+
+The company stores and processes customer data, including names, addresses, payment, order and invoice information associated with day-to-day business marketing and sales operations. The company has transitioned to mainly electronic documentation but is also printed files that are stored in filing cabinets. Payment processing is provided by a third party. More sensitive data is stored and processed as part of medical research projects where proprietary products and solutions are developed. There is also an external third party (CodeX) in Vietnam that supplies application development (C/Java) services to PharmaX. The application development is heavily automated and orchestrated with a CI/CD solution provided and managed by CodeX.
+
+PharmaX has never performed a security risk assessment. The company security maturity level is low. The general security awareness level is among management and employees is weak. There is no formal documentation of critical assets or data flows. Technical infrastructure documentation exists but is not kept up to date. Dealing with cyber risk has been “dumped” on the security and IT teams by business management. In the past an external company was contracted to perform a penetration test. When the report was delivered it was not received well by management and it ended up in a binder on a shelf.
+
+ 
+Technical infrastructure – PharmaX
+The diagram below shows the PharmaX high level technical infrastructure. The company recently migrated to ”Cloud Connect” (proprietary solution) that is provided and managed by an external company called CloudX. ”Cloud Connect” provides PharmaX with a private secure network that is not publicly exposed, according to CloudX.
+
+All offices are networked via ”Cloud Connect” to a primary and secondary data center. CloudX manages the routers and switches and Wi-Fi access points in all PharmaX offices. The data centers are provided and managed by the external company HostingX.
+
+PharmaX has an internal IT and Security team that manages the PCs/laptops and IP phones in the offices. Note that certain executive employees and all external consultants have their own personal laptops that they use for business purposes. The PharmaX internal teams also manage all servers in the data centers (backup servers, mail servers, file & print servers, wireless LAN controllers, remote desk top servers and domain controllers.
+
+image.png
+
+The Internet-facing firewalls (including anti-virus, anti-spam and web content filtering) that protect the ”Cloud Connect” network are managed by CloudX. The external company SecX provides security monitoring of the firewall traffic and incident response services. Public telephony traffic is routed via the primary data center. Remote workers connect to the ”Cloud Connect” network via a the Internet using a VPN solution managed by CloudX.
+
+Some Examples
+
+We have provided a few example risk assessment reports for you to look at.
+
+opm2020.txt Download opm2020.txt
+
+vancouver2021.txt Download vancouver2021.txt
+
+croydon2021.txt Download croydon2021.txt
+
+northdakota2021.txt Download northdakota2021.txt
+
+fortworth2020.txt Download fortworth2020.txt
+
+Risk Assessment
+In this assignment, you are taking on the role of a newly hired employee at PharmaX who has been tasked with producing a documented high level qualitative PharmaX Top 10 security risk assessment report.
+
+ 
+
+The report should follow the format described in riskProcess.txt   Download riskProcess.txt 
+which refers to the nistspecialpublication800-30r1(1).txt Download nistspecialpublication800-30r1(1).txt
+

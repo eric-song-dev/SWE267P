@@ -1,0 +1,42 @@
+University of California Irvine
+Department of Computer Science
+Risk Assessment Sections
+• Introduction – Define objectives 
+– Why is this assessment needed?
+• Assumptions
+– You will need to make many assumptions about the details of 
+the organization
+– State them all
+• Findings and Recommendations 
+– Enumerate all threat events (Table E-2)
+– Determine the risk associated with it
+– If risk is significant, make a recommendation
+University of California Irvine
+Department of Computer Science
+Assessing a Risk
+•
+Threat Events – Appendix E
+–
+Which are possible?
+•
+Threat Sources – Appendix D
+–
+How many sources can execute a threat?
+•
+Vulnerabilities – Appendix F
+–
+Does your organization have any of these?
+•
+Likelihood – Appendix G
+–
+Need assumptions
+•
+Impact – Appendix H
+–
+Estimate approximate scale
+•
+Risk Determination – Appendix I
+–
+Product of likelihood and impact
+•
+Recommendations

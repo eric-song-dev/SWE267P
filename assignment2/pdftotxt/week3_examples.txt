@@ -1,0 +1,114 @@
+U.S. Office of Personnel Management, 2020
+Structure
+• Executive Summary – 1.5 pages long
+• Objectives, Scope, and Methodology - clearly defined, uses NIST 
+(and other standards)
+• Findings and Recommendations – bulk of the document
+Executive Summary, 1.5 pages
+• Short list of key findings
+• Some are good, some are bad
+• This may be all that someone reads
+Identity, Credential, and Access Management (ICAM) – OPM is continuing to develop its agency ICAM 
+strategy, and acknowledges a need to implement an ICAM program. However, OPM still does not have 
+sufficient processes in place to manage contractors in its environment. 
+Data Protection and Privacy – OPM has implemented some controls related to data protection and privacy. 
+However, there are still resource constraints within OPM’s Office of Privacy and Information Management 
+that limit its effectiveness.
+• Written at a high level
+Objectives, Scope, and Methodology, 3 pages
+• Objectives and scope focus the assessment process
+oCan’t evaluate everything
+oIn this case, scope is defined by the Federal Information Security 
+modernization Act (FISMA)
+• State methodology for credibility
+oThey list 18 sources of criteria
+oInterviews and documents were used
+oDid NOT check the reliability of the documents
+Audit Findings and Recs, 54 pages
+• List specific “metrics” with recommendations and responses
+• Each metric is an aspect of security which they evaluate
+• Metrics are defined by FISMA
+• Present FISMA metric organization and assessment rubrics
+Assessment Rubrics
+Federal Information Security modernization Act (FISMA)
+Metrics
+Each metric has the following:
+•
+Number and name
+•
+Rubric evaluation score
+•
+A few paragraphs description of findings
+•
+Recommendations, 1 or more
+Each recommendation has the following:
+•
+Statement of the recommendation
+•
+Response from the OPM organization
+•
+Rebuttal comment from the evaluators
+Metric 1 – Inventory of Major Systems and System 
+Interconnections 
+FY2020 Maturity Level: 1 – Ad-hoc. OPM has policies 
+and procedures for maintaining an inventory of 
+information systems. These require an interconnection 
+service agreement or memoranda of understanding to 
+be established for system interconnections. OPM 
+operates a centrally maintained tool for managing its 
+system inventory and information.
+Recommendation 1 (Rolled forward from 2018) 
+We recommend that OPM improve the policies and 
+procedures for defining system boundaries and 
+classifying the systems in its environment. 
+OPM Response: 
+“We do not concur with the recommendation. 
+OIG Comment: 
+During fieldwork discussions in FY 2020 Q3, OPM 
+indicated that the pilot program was still in progress. 
+City of Fort Worth, 2020 (12 pages total)
+Structure
+• Executive Summary – 1 page long
+• Background – Useless definition of security (1 page)
+• Objectives, Scope, and Methodology - uses NIST (and other 
+standards), 1 page
+• Audit Results – findings, without recommendations, 1.5 pages
+• Detailed Audit Findings – elaboration about each finding, with 
+recommendations and auditee response
+Executive Summary vs. Audit Results
+• Audit results are a 1.5 page version of the executive summary
+• Executive summary is less specific
+Continuity of Operations (COOP) Plans – The City has departmental COOP plans. However, a formal 
+process for the management and maintenance of those plans did not exist. COOP plans existed for 
+most, but not all, departments. In some instances, departmental COOP plans had inaccurate 
+information and/or were outdated. 
+Six departmental Continuity of Operations (COOP) plans contained incorrect contact (primary and 
+alternate) information, and 10 department plans contained no information regarding dates of last 
+review/update.
+Detailed Audit Findings
+• Problem
+• A problem is identified and described in a few paragraphs
+• Recommendation 
+• A solution is recommended
+• Not really optional
+• Auditee’s Response
+• Auditee describes that they either have fixed the problem or will fix it
+• They give a date by which it will be fixed
+Example Problem
+• 1. Continuity of Operations (COOP) Plans did not exist for each City 
+department, and some existing COOP Plans were not up-to-date.
+We reviewed the current CFW Continuity of Operations plans for each department, and noted 
+the following:
+Recommendation and Response
+• Recommendation 1A: The Fire Chief, through the Office of Emergency Management’s 
+Emergency Operations Manager, should ensure that all CFW departments provide current and 
+up-to-date COOP plan documents for their respective operations. 
+• Auditee’s Response: Concur. The Fire Chief in association with the Emergency Operations 
+Coordinator has confirmed that COOP plans have been submitted by all CFW departments. 
+Those plans can be accessed on the City of Fort Worth’s JEOC Sharepoint site at: 
+https://fortworthtexas.sharepoint.com/sites/JEOC/SitePages/Continuity-of-Operations-
+(COOP).aspx. 
+• Responsibility: Fire – Office of Emergency Management (OEM) 
+• Target Implementation Date: Completed 
+• Applicable Department Head: James Davis, Fire Chief 
+• Applicable Assistant City Manager: Valerie Washington 
