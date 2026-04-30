@@ -1,5 +1,26 @@
 # PharmaX Top 10 Security Risk Assessment Report
 
+![NIST 800-30](https://img.shields.io/badge/NIST_SP_800--30-Risk_Assessment-005B94?style=for-the-badge&logo=nist&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Threat_Analysis-red?style=for-the-badge&logo=hackthebox&logoColor=white)
+![Risk Management](https://img.shields.io/badge/Risk_Management-Top_10-orange?style=for-the-badge&logo=databricks&logoColor=white)
+![PharmaX](https://img.shields.io/badge/PharmaX-Pharmaceutical-purple?style=for-the-badge&logo=moleculer&logoColor=white)
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Course-SWE_267P-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Quarter-Spring_2026-brightgreen?style=flat-square">
+  <img src="https://img.shields.io/badge/Student-Zhenyu_Song-orange?style=flat-square">
+</p>
+
+This report presents a **high-level qualitative Top 10 Security Risk Assessment** for PharmaX, following the NIST SP 800-30 methodology. It identifies threat events, assesses likelihood and impact, and provides actionable recommendations to improve PharmaX's security posture.
+
+<div style="page-break-after: always;"></div>
+
+## 📂 Table of Contents
+
+[TOC]
+
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## 1. Introduction
