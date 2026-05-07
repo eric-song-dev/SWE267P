@@ -111,7 +111,7 @@ All 160 employees and consultants use Outlook email and web browsers with Intern
 
 **Threat Event (Table E-2):** Deliver known malware to internal organizational information systems; Deliver targeted malware for control of internal systems and exfiltration of data
 
-Attackers could deliver ransomware through email or compromised websites to encrypt PharmaX's data and demand payment. Since there is no EDR or formal patch management (Assumption #4) and no incident response plan (Assumption #1), PharmaX would be highly vulnerable and poorly prepared to respond.
+Attackers could deliver ransomware through email or compromised websites to encrypt PharmaX's data and demand payment. Since there is no EDR (Endpoint Detection and Response) or formal patch management (Assumption #4) and no incident response plan (Assumption #1), PharmaX would be highly vulnerable and poorly prepared to respond.
 
 **Threat Sources:** Organized crime, opportunistic attackers
 

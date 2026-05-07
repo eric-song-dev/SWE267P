@@ -1,0 +1,24 @@
+Packet Sniffing Assignment
+Due Friday by 11:59pm Points 100 Submitting a file upload Available Apr 30 at 12am - May 17 at 11:59pm
+For this assignment you will install Wireshark and use it to examine some network traffic.
+
+First, go to wireshark.org and download and install Wireshark.
+
+Next, you will use Wireshark to observe traffic between your computer and the uci.edu web server. Perform the following steps to capture the packets.
+
+Start a Wireshark packet capture.
+Go to the UCI webpage by typing "uci.edu" into the address line of your web browser.
+Once the page has loaded, go to Wireshark and stop the capture.
+Once you have captured the packets, find the HTTPS packets between the UCI web page and your computer. Take a screenshot which shows the descriptions of the HTTPS packets in the packet-listing window.
+
+- It may help to know the IP address of your computer and of "uci.edu". Use nslookup to figure that out.
+
+ 
+
+Submission
+
+Please submit an image with the descriptions of the HTTPS packets in the packet-listing window.
+
+To get full points, make sure you complete the assignment with this information.
+  - Have a brief description of your work, your machine IP address and uci.edu IP address
+  - Have proof/images and marked/highlighted that you capture HTTPS packets between the UCI web page and your machine.
