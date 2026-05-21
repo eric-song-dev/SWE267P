@@ -1,0 +1,29 @@
+Cloud Recon Assignment
+Due Wednesday by 11:59pm Points 100 Submitting a file upload
+In this assignment students will explore how to map cloud assets associated with a target organization or enterprise. A company often use multiple cloud services as part of their operations. In addition, employees/departments/divisions may have their own projects or services hosted in the cloud, which often creates a gap in terms of organizational cloud asset governance. Mapping cloud assets is valuable to verify what is exposed in the cloud. The focus in this assignment is on cloud application assets.
+
+The student should submit a brief report documenting all work performed, including methodology, use of information resources and tools to complete the exercises in this assignment. Inclusion of screenshots where appropriate is expected.
+
+Cloud Asset Mapping
+Map our target University of California (UCI) cloud assets at the major cloud service providers with a focus on applications. The scope of this assignment excludes ipv6. An important initial goal will be to identify subdomains of the top-level uci.edu domain. Then you can try to identify the IP addresses associated with each subdomain and what servers might be running at each one.
+
+Settle on an overall high-level methodology before diving into the details.
+Break down tasks to be performed into smaller steps.
+Some steps may benefit from simple automation like Linux one-liners or simple scripts to iterate through steps such as reading input saved in a file, row by row, and saving the output in another file for further processing in the next steps.
+Based on your methodology, identify steps that benefit from automation, including applicable tools that may be useful. Try them out and ensure they are effective before investing significant time and effort using them.
+Experiment with tweaking your methodology and choice of techniques/tools to find out benefits and drawbacks.
+Document your approach and work performed to produce your results. What were the challenges? Provide a brief analysis that discusses what information resources and tools were utilized and why these were chosen. What were the pros and cons of different ways to produce the findings?.
+
+Based on your findings, what does the UCI cloud asset attack surface look like? Describe any surprising cloud assets found that are exposed to the public Internet? Do these introduce any security risk? Provide high level recommendations based on your findings on what can be done to reduce security risks associated with publicly exposed UCI cloud application assets.
+
+ 
+
+Some Hints
+
+There are multiple historical databases that can be queried for information that is useful to complete this assignment.
+All the main cloud service providers publish up to date information about their cloud IP ranges.
+Domains, sub domains and hostnames are useful starting points in this assignment.
+Certificates contain a number of elements that are valuable to the complete this assignment.
+Cyber auditors, penetration testers and bug bounty hunters map attack surfaces in their jobs every day. As a result, there are many blog posts, tools, conference presentations, papers and other useful information available that contain valuable information that can be used to complete this assignment. However, be critical of anything found on the Internet since the quality and trustworthiness of such information varies to a high degree,
+An iterative workflow where results are reviewed and then fed back into the process to uncover further information is key to success.
+I have not defined any particular format for your document. I will read each one individually, so just try to define your process and results as clearly as possible.

@@ -1,0 +1,2355 @@
+url,status,server,title
+https://a11ytest.lib.uci.edu,200,AmazonS3,Accessibility Testing
+https://acdcsearch.aws.uci.edu,408,CloudFront,
+https://50th.uci.edu,403,awselb/2.0,403 Forbidden
+https://accreditation.uci.edu,301,Apache,301 Moved Permanently
+https://admin.zotdesk.zotgpt.uci.edu,302,nginx,302 Found
+https://aalm-t.som.uci.edu,200,nginx,
+https://ad-rdpgw-test.ad.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://ad-gis-nlb-prod12.oit-ei-prod12.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://academicplanning.uci.edu,301,Microsoft-IIS/10.0,Document Moved
+https://admin.oit-zotdesk-lb.oit-zotdesk-stage.aws.uci.edu,302,nginx,302 Found
+https://admin.accommodate.dsc.uci.edu,302,Apache,Redirecting to https://admin.accommodate.dsc.uci.edu/shibboleth/login
+https://admin.oit-zotdesk-lb.oit-zotdesk-dev.aws.uci.edu,302,nginx,302 Found
+https://abs.uci.edu,301,Apache,301 Moved Permanently
+https://academicadvising.uci.edu,200,openresty,Academic Advising | UC Irvine
+https://aalm.som.uci.edu,200,nginx,
+https://accounting.uci.edu,200,Apache,Home // Accounting & Fiscal Services // UC Irvine
+https://advance.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://afburke.sandbox.lib.uci.edu,200,Apache,Test Site
+https://admissions.medschool.uci.edu,302,,Object moved
+https://advocacy.uci.edu,403,awselb/2.0,403 Forbidden
+https://advise.education.uci.edu,200,cloudflare,Home
+https://advising.compass.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://aegep.bio.uci.edu,200,AmazonS3,Redirecting...
+https://admin.campusgroups.uci.edu,302,Apache,Redirecting to /home
+https://accessibility.uci.edu,200,Apache,Home // Accessibility // UCI
+https://3dlab.psychology.uci.edu,200,openresty,Development  Disorder  and Delinquency Lab – Elizabeth Cauffman  Ph.D
+https://afterschool.education.uci.edu,200,cloudflare,UC IRVINE AFTERSCHOOL - Home
+https://ai.sa.uci.edu,404,Apache,Not Found
+https://adminintern.studentlife.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://admissions.uci.edu,200,Apache,UC Irvine Office of Undergraduate Admissions
+https://alice.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://aid.ofas.uci.edu,302,,
+https://acrc.manufacturing.uci.edu,200,Apache,Advanced Casting Research Center
+https://allu.studentlife.uci.edu,200,Apache,UCInetID Login Required
+https://airwatch-nlb-prod12.oit-ei-prod12.aws.uci.edu,302,,Object moved
+http://alumni.law.uci.edu,530,cloudflare,
+https://airwatch.oit.uci.edu,302,,Object moved
+https://alumni.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://advancement.uci.edu,200,Apache,advancement.uci.edu &#8211; University Advancement and Alumni Relations
+https://aic.socsci.uci.edu,200,openresty,Annual Interdisciplinary Conference
+http://ambassador.google.uci.edu,301,ESF,
+https://alumni.uci.edu,301,Apache,301 Moved Permanently
+https://airwatch02.hs.uci.edu,302,,Object moved
+https://amp.web.uci.edu,200,Apache,Home // University of California Administrative Management Professionals // UCI
+https://aimslab.eng.uci.edu,200,openresty,AIMS Lab
+https://ams.studentcenter.uci.edu,302,Microsoft-IIS/10.0,Redirecting to https://ams.studentcenter.uci.edu/login
+https://aicps.eng.uci.edu,200,openresty,Embedded &amp; Cyber-Physical Systems Lab &#8211; Autonomous and Intelligent Cyber-Physical Systems  (Al Faruque&#039;s 
+https://aborovik.chem.uci.edu,200,openresty,The Borovik Group
+https://ablativeoncology.uci.edu,200,openresty,Ablative Oncology Center
+https://angaged.bio.uci.edu,200,AmazonS3,Redirecting...
+https://angagepuci.bio.uci.edu,200,AmazonS3,Redirecting...
+https://amir.eng.uci.edu,200,openresty,Amir AghaKouchak &#8211; Chancellor&#039;s Professor  Civil and Environmental Engineering
+https://anteaters365.athletics.uci.edu,200,ESF,Anteater 365
+https://allofus.health.uci.edu,301,openresty,
+https://antlink.uci.edu,301,Apache,301 Moved Permanently
+https://anthropology.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://antnet.uci.edu,200,cloudflare,PeopleGrove
+https://anatomy.uci.edu,302,openresty,
+https://anesthesiology.uci.edu,301,openresty,
+https://anthropology-dev.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Anthropology
+https://api.cng.educ.aws.uci.edu,404,nginx,Error
+https://annualreport.merage.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://api.inventory.educ.aws.uci.edu,404,nginx,Error
+https://api.mat-interviews.educ.aws.uci.edu,404,nginx,Error
+https://ap.uci.edu,200,openresty,UC Irvine Academic Personnel
+https://app-01-dir-lb.trs-ucb-prod.aws.uci.edu,200,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,Index - UC Berkeley Time Reporting System - TRS
+https://api.tirf.educ.aws.uci.edu,400,nginx,
+https://app-01-dir-lb.trs-ucb-stage.aws.uci.edu,503,,503 Service Temporarily Unavailable
+https://app-01-direct-lb.trs-ucb-dev.aws.uci.edu,503,,503 Service Temporarily Unavailable
+https://app-01-direct-lb.trs-uclawsf-prod.aws.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Law SF Time Reporting System - TRS
+https://app-01-direct-lb.trs-uclawsf-stage.aws.uci.edu,403,Apache/2.4.66 () mod_jk/1.2.48,Test Page for the Apache HTTP Server
+https://app-01-direct-lb.trs-ucm-prod.aws.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Merced Time Reporting System - TRS
+https://app-01-direct-lb.trs-ucm-stage.aws.uci.edu,403,Apache/2.4.66 () mod_jk/1.2.49,Test Page for the Apache HTTP Server
+https://app-02-dir-lb.trs-ucb-stage.aws.uci.edu,403,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,It works! Apache httpd
+https://app-02-dir-lb.trs-ucb-prod.aws.uci.edu,200,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,Index - UC Berkeley Time Reporting System - TRS
+https://alp.uci.edu,200,openresty,Anteater Learning Pavilion – The Future Is Here - UCI
+https://anteatervirtues.uci.edu,200,openresty,Anteater Virtues | UC Irvine
+https://allisonlab.bio.uci.edu,200,openresty,The Allison Lab | School of Biological Sciences
+https://app-02-direct-lb.trs-uclawsf-prod.aws.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Law SF Time Reporting System - TRS
+https://app-02-direct-lb.trs-ucb-dev.aws.uci.edu,403,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,It works! Apache httpd
+https://app-02-direct-lb.trs-ucm-prod.aws.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Merced Time Reporting System - TRS
+https://api-web.hs.uci.edu,301,openresty,
+https://app-02-direct-lb.trs-ucm-stage.aws.uci.edu,403,Apache/2.4.66 () mod_jk/1.2.49,Test Page for the Apache HTTP Server
+https://app-alb-lb.trs-ucb-dev.aws.uci.edu,403,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,It works! Apache httpd
+https://app-alb-lb.trs-ucb-stage.aws.uci.edu,403,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,It works! Apache httpd
+https://app-alb-lb.trs-ucb-prod.aws.uci.edu,200,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,Index - UC Berkeley Time Reporting System - TRS
+https://app-alb-lb.trs-ucm-prod.aws.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Merced Time Reporting System - TRS
+https://app-alb-lb.trs-uclawsf-prod.aws.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Law SF Time Reporting System - TRS
+https://app-alb-lb.trs-uclawsf-stage.aws.uci.edu,403,Apache/2.4.66 () mod_jk/1.2.48,Test Page for the Apache HTTP Server
+https://app-alb-lb.trs-ucm-stage.aws.uci.edu,403,Apache/2.4.66 () mod_jk/1.2.49,Test Page for the Apache HTTP Server
+https://app-02-direct-lb.trs-uclawsf-stage.aws.uci.edu,403,Apache/2.4.66 () mod_jk/1.2.49,Test Page for the Apache HTTP Server
+https://app.commencement.uci.edu,403,Apache,HTTP Server Test Page powered by: Rocky Linux
+http://apps-dr.oit.uci.edu,302,BigIP,
+https://alluconference.uci.edu,200,openresty,All-University Leadership Conference
+https://appointments.web.uci.edu,200,Microsoft-IIS/10.0,
+https://app.arts.uci.edu,404,,404 Not Found
+https://apps.campusorgs.uci.edu,200,Apache,UCInetID Login Required
+https://apply.grad.uci.edu,302,,
+https://apply.admissions.uci.edu,302,,
+https://apps.ccc.uci.edu,200,Apache,UCI CCC APPS
+https://apps.communications.uci.edu,403,awselb/2.0,403 Forbidden
+https://antrepreneur.uci.edu,200,openresty,UCI ANTrepreneur Center | From Ideation to Implementation
+https://apps.conduct.uci.edu,200,Apache,UCI AISC APPS
+https://apps.dos.uci.edu,200,Apache,APPS.DOS Home
+https://apps.hr.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,
+https://apps.grad.uci.edu,403,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,Test Page for the HTTP Server on Red Hat Enterprise Linux
+https://apps.ic.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://apps.orientation.uci.edu,302,Apache,
+https://apps.parking.uci.edu,302,Microsoft-IIS/10.0,
+https://apps.studentleadership.uci.edu,200,Apache,UCI Student Leadership
+https://apps.studentcenter.uci.edu,200,Microsoft-IIS/10.0,IIS Windows Server
+https://app.health.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://apps.studentlife.uci.edu,200,Apache,UCInetID Login Required
+https://aprilu.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://apps.veteran.uci.edu,200,Apache,UCInetID Login Required
+https://arb-docs-test.aws.uci.edu,200,AmazonS3,ARB Test Docs
+https://arboretum.bio.uci.edu,200,nginx,UCI School of Biological Sciences &#8211; Arboretum &#8211; Arboretum
+https://arboretum.test-pantheon.bio.uci.edu,200,nginx,UCI School of Biological Sciences &#8211; Arboretum &#8211; Arboretum
+https://arboretum.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://apw.uci.edu,200,openresty,A&amp;PW @ UCI – Academic &amp; Professional Women at UCI
+https://armyrotc.due.uci.edu,200,openresty,Army Reserve Officer Training Corps | Army ROTC
+https://asian-studies.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://ariaei.eng.uci.edu,200,openresty,Fariba Ariaei
+https://asianstudies.uci.edu,302,,
+https://arianna.ps.uci.edu,200,openresty,ARIANNA
+https://archive-beta.ics.uci.edu,200,,UCI Machine Learning Repository
+https://asianstudies-dev.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://assist.uci.edu,404,,Microsoft Azure Web App - Error 404
+https://atc-app-lb.atc-prod.aws.uci.edu,200,Microsoft-IIS/10.0,Upcoming Exams - ATC System
+https://apps.law.uci.edu,200,Microsoft-IIS/10.0,UCI Law School
+https://assessment.uci.edu,302,openresty,
+https://apps.oaa.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://atc-app-lb.atc-stage.aws.uci.edu,200,Microsoft-IIS/10.0,Upcoming Exams - ATC System
+https://ath-web-lb.athletics-web-prod.aws.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://ath-web-lb.athletics-web-dev.aws.uci.edu,200,Apache,
+https://atc-stage.due.aws.uci.edu,200,Microsoft-IIS/10.0,Upcoming Exams - ATC System
+https://ath-web-lb.athletics-web-stage.aws.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://athletics.uci.edu,301,Apache,301 Moved Permanently
+https://audit.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Internal Audit Services // UC Irvine
+https://assembly.cohs.uci.edu,200,openresty,College of Health Sciences Faculty Assembly
+https://athinagroup.eng.uci.edu,200,openresty,AthinaGroup
+http://autodiscover.ad.uci.edu,301,Microsoft-IIS/10.0,
+https://autismsensorytherapy.bio.uci.edu,200,openresty,Sensory Enrichment Therapy for Autism
+http://autodiscover.apep.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.arts.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.ce.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.calit2.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.dailycey.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.chs.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.chs-exch1.chs.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.danielle.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.cleanenergy.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.dss-test.sandbox.lib.uci.edu,302,Apache,302 Found
+https://autodiscover.fenai.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.exchange.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.fernandoosorio.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.exchangetest.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.extension.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.gsm.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.grad.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.health.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.housing.hsg.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.hsg.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.hs.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.kehan.sandbox.lib.uci.edu,302,Apache,302 Found
+https://autodiscover.jennalynn.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.ilass.uci.edu,301,Microsoft-IIS/10.0,
+https://apps.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+http://autodiscover.icha.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.ncarp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.longinstitute.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.law.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.merage.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.nfcrc.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.plampron.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.parcon.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.scole.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.pts.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.rgs.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.research.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.sa.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.uci.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.uadv.uci.edu,301,Microsoft-IIS/10.0,
+https://autodiscover.wikis.sandbox.lib.uci.edu,302,Apache,302 Found
+http://autodiscover.ucicl.uci.edu,301,Microsoft-IIS/10.0,
+https://avise-birds.bio.uci.edu,200,AmazonS3,Avise's Birds of the World
+http://autodiscover.unx.uci.edu,301,Microsoft-IIS/10.0,
+https://auxiliary.uci.edu,301,Apache,
+http://aws-inspection-test.hs.uci.edu,403,awselb/2.0,403 Forbidden
+https://awsdev.name-display.commencement.uci.edu,404,Apache,Not Found
+https://awsprod.name-display.commencement.uci.edu,404,Apache,Not Found
+https://awang.dev.uci-ics-mlr-prod.aws.uci.edu,502,CloudFront,ERROR: The request could not be satisfied
+http://autodiscover.ticketinfo.arts.uci.edu,301,Microsoft-IIS/10.0,
+http://autodiscover.tickets.arts.uci.edu,301,Microsoft-IIS/10.0,
+https://azureapi.zotgpt.uci.edu,404,,
+https://bai.ess.uci.edu,200,ESF,UCI BAI
+https://basicneeds.uci.edu,200,openresty,UCI Basic Needs Center
+https://azizi.bio.uci.edu,200,openresty,Azizi Lab
+https://balsells.eng.uci.edu,200,openresty,California-Catalonia Program &#8211; Balsells Fellowship
+https://bai.innovation.uci.edu,404,envoy,404: Page Not Found | Mailchimp
+https://bayes-bats.ics.uci.edu,200,GitHub.com,We'll Be Right Back
+https://beaches.eng.uci.edu,200,openresty,Metropolitan Beaches Project &#8211; Beaches are nature&#039;s defense against coastal flooding
+https://beauty.bli.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://behaviorcore.uci.edu,200,openresty,UC Irvine Behavioral Testing Core
+https://beacon.bio.uci.edu,200,openresty,BEACoN &#8211; Biomarker Exploration in Aging  Cognition  and Neurodegeneration (BEACoN)
+https://beic.dtei.uci.edu,200,openresty,BEIC | Biology Education Intersegmental Collaborative
+https://bewell.uci.edu,301,Microsoft-IIS/10.0,Document Moved
+https://beyondtheframe.imca.uci.edu,301,Microsoft-IIS/10.0,Document Moved
+http://bestudents.ce.uci.edu,403,cloudflare,
+https://bigcare.uci.edu,200,cloudflare,Home - BigCARE
+https://bigdipa.ccbs.uci.edu,530,cloudflare,
+http://bio.uci.edu,200,Microsoft-IIS/8.5,HTML Meta Tag
+https://bican.uci.edu,200,openresty,BRAIN Initiative Cell Atlas Network: Brain Donation Program – Brain donation is a gift for future generations.
+https://bigbird.socsci.uci.edu,200,openresty,Viper Lab
+http://blog.lib.uci.edu,530,cloudflare,
+https://bitlocker.education.uci.edu,200,AmazonS3,Store Bitlocker Keys
+https://blog.imtfi.uci.edu,200,GSE,IMTFI Blog
+https://bli.uci.edu,200,Sucuri/Cloudproxy,Beckman Laser Institute &#8211; From benchtop to bedside
+https://biochem.uci.edu,302,openresty,
+https://blackcultures.uci.edu,200,openresty,UCI Center for Black Cultures  Resources &#038; Research
+https://bot.oit-zotdesk-lb.oit-zotdesk-dev.aws.uci.edu,200,nginx,UCI ZotDesk
+https://bike.uci.edu,301,openresty,
+https://bot.oit-zotdesk-lb.oit-zotdesk-stage.aws.uci.edu,200,nginx,UCI ZotDesk
+https://bot.zotdesk.zotgpt.uci.edu,200,nginx,UCI ZotDesk
+https://blumcenter.uci.edu,200,openresty,UCI Blum Center
+https://bpbs.hr.uci.edu,200,,
+https://bmed.publichealth.uci.edu,200,openresty,Behavioral Medicine Research Lab
+https://brain.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://bowmanlab.eng.uci.edu,200,openresty,Bowman Lab
+https://brain.test-pantheon.bio.uci.edu,200,nginx,Brain
+https://brain.uci.edu,200,nginx,Brain
+https://brand.uci.edu,403,awselb/2.0,403 Forbidden
+https://bren.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://brinkmas.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://bsa.bio.uci.edu,200,nginx,Dunlop School Ambassadors -
+https://bsa.test-pantheon.bio.uci.edu,200,nginx,UC Irvine Charlie Dunlop School of Biological Sciences &#8211; Dunlop BioSci Ambassadors
+https://bsa.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+http://buddymcgee.studentcenter.uci.edu,200,nginx/1.24.0,Welcome to nginx!
+https://bso.studentlife.uci.edu,200,openresty,Business Services Office  UCI Student Life &#038; Leadership
+https://budgetoffice.uci.edu,200,Apache,Home // Budget Office // UC Irvine
+https://business.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://brodylab.eng.uci.edu,200,openresty,Brody Lab
+https://bw.hs.uci.edu,200,nginx,This is the default server vhost
+https://bzapata.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://bzapata1.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://cada.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://burkelab.medschool.uci.edu,200,openresty,Burke Lab
+https://calplug.calit2.uci.edu,406,Apache,Error 406 - Not Acceptable
+https://calplug.uci.edu,406,Apache,Error 406 - Not Acceptable
+https://calpha.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://calteach.uci.edu,200,openresty,UCI CalTeach
+https://campstatewide.web.uci.edu,302,openresty,
+https://camp.uci.edu,301,openresty,
+https://campuscounsel.uci.edu,200,Apache,Home // UC Legal UCI Office of Campus Counsel // UCI
+https://campusrec.uci.edu,200,Apache,UCI Campus Recreation
+https://campusgroups.uci.edu,302,,
+https://campussocialwork.uci.edu,302,Apache,302 Found
+https://campustours.uci.edu,301,Apache,301 Moved Permanently
+https://cancer.uci.edu,200,nginx,UC Irvine Chao Family Comprehensive Cancer Center
+https://cancerresearch.uci.edu,200,cloudflare,Cancer Research Institute
+https://cannabis.uci.edu,200,Apache,UCI Center for the Study of Cannabis - UCI Center for the Study of Cannabis
+https://campusorgs.uci.edu,200,openresty,UCI Campus Organizations
+https://canvas.eee.uci.edu,302,Apache,
+https://bto.uci.edu,301,openresty,
+https://capandgown.uci.edu,200,Apache,UCI Cap and Gown &#8211; Everything You Need For Graduation
+https://capitalinternships.uci.edu,200,openresty,Redirect for Capital Internships &#8211; Redirect Website
+https://cao.eng.uci.edu,200,openresty,Cao Group &#8211; Extreme Mechanics and Materials Laboratory
+https://career.uci.edu,200,cloudflare,UC Irvine Division of Career Pathways
+https://care.uci.edu,200,openresty,CARE |
+http://careers-main.healthcare.uci.edu,530,cloudflare,
+https://cascade-cms.content.uci.edu,403,awselb/2.0,403 Forbidden
+https://casb.uci.edu,301,cloudflare,301 Moved Permanently
+https://cascade.uci.edu,403,awselb/2.0,403 Forbidden
+https://case.education.uci.edu,200,cloudflare,UC IRVINE CASE PROGRAM - Home
+https://catalogue.uci.edu,200,Apache,University of California  Irvine General Catalogue &lt; University of California Irvine
+http://brilliantfuture.uci.edu,301,awselb/2.0,301 Moved Permanently
+https://cbbr.uci.edu,200,openresty,CBBR
+https://ccbs.uci.edu,200,cloudflare,CCBS Home - Center for Complex Biological Systems
+https://ccrdc.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+http://ccstudents.ce.uci.edu,530,cloudflare,
+https://cdasa.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://cdn.enrollment.uci.edu,403,Apache,It works! Apache httpd
+https://ccp.cfep.uci.edu,200,openresty,UCI Community College Programs &#8211; Building a bridge from community college to UC.
+https://ceb.bio.uci.edu,200,nginx,UC Irvine - Center for Environmental Biology | UC Irvine - Center for Environmental Biology
+https://ceb.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://ce3ml.eng.uci.edu,200,ESF,CE3ML
+https://ceb.test-pantheon.bio.uci.edu,200,nginx,UC Irvine - Center for Environmental Biology | UC Irvine - Center for Environmental Biology
+https://ccam.uci.edu,200,openresty,CCAM &#8211; An UCI MRSEC
+https://cecs.uci.edu,301,Apache,
+https://cee-sds.eng.uci.edu,200,ESF,CEE@UCI SDS 6/5/25
+https://cee-abet.eng.uci.edu,200,ESF,CEE@UCI ABET
+https://cello-nlb-prod12.uci-eng-prod12.aws.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Page Not Found
+https://cei.uci.edu,200,openresty,Redirect for CEI &#8211; Redirect Website
+https://cdc.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://cello7-nlb-prod12.uci-eng-prod12.aws.uci.edu,200,Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips,Page Not Found
+https://cem.medschool.uci.edu,200,openresty,Center for Epigenetics &amp; Metabolism
+https://ccc.uci.edu,200,openresty,UC Irvine Cross-Cultural Center
+https://cence.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://centeronstressandhealth.medschool.uci.edu,200,openresty,UCI Center on Stress & Health
+https://cgpacs.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://cformsapi.dcservices.uci.edu,404,Microsoft-IIS/10.0,
+https://cforms.dcservices.uci.edu,200,Microsoft-IIS/10.0,UCI CForms Construction forms
+https://cg.calit2.uci.edu,403,awselb/2.0,403 Forbidden
+https://cgr.uci.edu,403,awselb/2.0,403 Forbidden
+https://chancellor.uci.edu,403,awselb/2.0,403 Forbidden
+https://chancellorsclub.uci.edu,302,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,302 Found
+https://chat.zotgpt-lb.zot-gpt-dev.aws.uci.edu,302,nginx,302 Found
+https://chat.zotgpt-lb.zot-gpt-stg.aws.uci.edu,302,nginx,302 Found
+https://chat.zotgpt.uci.edu,302,nginx,302 Found
+https://cfep.uci.edu,200,openresty,UCI Center for Educational Partnerships
+https://chen.bli.uci.edu,301,Apache,301 Moved Permanently
+https://changeofmajor.uci.edu,200,openresty,Change of Major
+https://chicanolatinostudies.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://cims.test-pantheon.bio.uci.edu,200,nginx,Center for Integrative Movement Science &#8211; Promoting Innovation and Discovery in All Fields Associated with Movemen
+https://cims.uci.edu,200,nginx,Center for Integrative Movement Science &#8211; Promoting Innovation and Discovery in All Fields Associated with Movemen
+https://cims.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://chr.ss.uci.edu,301,cloudflare,301 Moved Permanently
+https://cie.uci.edu,200,openresty,Website Not Found
+https://cid.dtl.uci.edu,200,openresty,Redirect for CID &#8211; Redirect Website
+https://choi.bli.uci.edu,200,openresty,Microvascular Therapeutics and Imaging (MTI) Laboratory | at the Beckman Laser Institute and Medical Clinic  University 
+https://classchat.oit-instrbt-lb.oit-instructorbot-dev.aws.uci.edu,302,nginx,302 Found
+https://ceres.uci.edu,200,openresty,CERES | Connecting the EdTech Research EcoSystem
+https://classchat.zotgpt.uci.edu,302,nginx,302 Found
+https://classchat.oit-instrbt-lb.oit-instructorbot-stage.aws.uci.edu,302,nginx,302 Found
+https://civicengagement.uci.edu,200,openresty,Office of Civic Engagement | UC Irvine
+https://chicanolatinostudies-dev.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Chicano/Latino Studies
+https://champ.uci.edu,200,openresty,ChAMP Graduate Program – Chemical  Applied  and Materials Physics Graduate Program at University of California  Irvine
+https://clic.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://cisionone-email.uci.edu,404,,
+https://cfar-ds.uci.edu,200,openresty,UCI Center for Aging Research in DS |
+https://classtools.eee.uci.edu,200,Apache,ClassTools | UCI
+https://chow.medschool.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://cloud-inventory.aws.uci.edu,408,CloudFront,
+https://childcare.uci.edu,200,Apache,UCI Child Care Services
+https://click.zotforce-mc.uci.edu,403,,403 - Forbidden: Access is denied.
+https://click.mc.ce.uci.edu,403,,403 - Forbidden: Access is denied.
+https://cleanr.law.uci.edu,200,openresty,CLEANR
+https://circ.eng.uci.edu,200,Apache,Cardiovascular Innovation and Research Center &#8211; UCI &#8211; CIRC
+https://cmb.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://cmb.test-pantheon.bio.uci.edu,200,nginx,Cellular &amp; Molecular Biosciences at UC Irvine
+https://cls.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Criminology  Law and Society | Criminology  Law and Society
+https://clsmas.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Master of Criminology  Law and Society | Online Master of Advanced Study in Criminology  Law and Society
+https://cng.educ.aws.uci.edu,200,AmazonS3,SoE Contracts and Grants
+https://cmb.uci.edu,200,nginx,Cellular &amp; Molecular Biosciences at UC Irvine
+https://cloud.zotforce-mc.uci.edu,404,,
+https://classrooms.uci.edu,200,openresty,Classroom Technologies
+https://cloud.mc.ce.uci.edu,404,,
+https://cnlm.test-pantheon.bio.uci.edu,200,nginx,Center for the Neurobiology of Learning and Memory | UCI CNLM
+https://cnlm.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://climatecollab.uci.edu,200,openresty,UC Irvine Climate Collaboration
+https://cogsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://cohs.uci.edu,302,Apache,302 Found
+https://commencement-d-web.aws.uci.edu,200,Apache,Not the site your looking for
+https://cnlm.uci.edu,200,nginx,Center for the Neurobiology of Learning and Memory | UCI CNLM
+https://communications.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://commencement-p-web.aws.uci.edu,200,Apache,Not the site your looking for
+https://coccolab.bio.uci.edu,200,openresty,Cocco Lab
+https://communications.uci.edu,403,awselb/2.0,403 Forbidden
+https://communityarchives.lib.uci.edu,200,AmazonS3,Community Archives Digital Portal
+https://commencement.uci.edu,200,openresty,UC Irvine Commencement
+https://compassionateaction.uci.edu,200,openresty,UCI Compassion Initiative | A Call to Action
+https://compliance.uci.edu,200,Apache,Compliance | UCI // Compliance // UCI
+https://compasscop.oit.uci.edu,200,openresty,UCI Community of Practice | Building a data ecosystem that serves to meet the operational needs of the UCI
+https://compass.uci.edu,301,openresty,
+https://collegecorps.uci.edu,200,openresty,UC Irvine College Corps
+https://computing.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Computing Services | Social Ecology Computing Services
+https://conferencecenter.uci.edu,308,nginx/1.30.0,308 Permanent Redirect
+https://connectedlearning.uci.edu,200,nginx,Home - Connected Learning Lab
+https://connector.bio.uci.edu,302,Apache/2.4.64 (Amazon Linux) OpenSSL/3.2.2,302 Found
+https://computationalscience.uci.edu,200,Apache,Computational Science
+https://conduct.uci.edu,200,openresty,UCI Office of Academic Integrity &amp; Student Conduct
+https://contecenter.uci.edu,200,cloudflare,Conte Center @ UCI &#8211; Unpredictable Early- Life Experiences  Aberrant Circuit Maturation  Emotional Vulnerabilities
+https://communityresilience.uci.edu,200,openresty,UC Irvine Community Resilience
+https://compphys.bio.uci.edu,200,openresty,Comparative Physiology Group &#8211; &quot;Mechanisms and Adaptations of Exquisite Beauty and the Most Surprising Charac
+https://convocation.uci.edu,200,openresty,New Student Convocation
+https://cosmos.uci.edu,301,openresty,
+https://cor.web.uci.edu,301,openresty,
+https://cosmology.uci.edu,200,openresty,UC Irvine Center for Cosmology
+https://corsa.eng.uci.edu,200,openresty,CORSA Lab &#8211; Compiler Optimization and Reconfigurable Scalable Architectures
+https://content.eee.uci.edu,200,openresty,EEE Content
+https://cp-world-nlb-prod34.oit-sas-prod34.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://cp.uci.edu,200,Apache,Home // Capital Planning & Space Management // UCI
+http://connect.lib.uci.edu,530,cloudflare,
+https://covp.uci.edu,200,openresty,UCI Campus Organizations &#038; Volunteer Programs
+https://copplab.eng.uci.edu,200,openresty,
+https://coeh.uci.edu,301,openresty,
+https://cpanel.aprilu.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.afburke.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.bzapata.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.alice.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.crodelo.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.danielle.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.brinkmas.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://connect.uci.edu,301,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://cpanel.egyptomania.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.dss-park.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.daryanaz.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.goutamreclaim.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.eramirez.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.dss-test.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.esim.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.hyokyunh.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.jennalynn.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://covid-19.publichealth.uci.edu,200,Apache,Not the site your looking for
+https://cpanel.kotterbo.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.kinglong.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://cpanel.laurenhanks.sandbox.lib.uci.edu,200,Apache,cPanel Login
+https://counseling.uci.edu,200,Apache,UCI Counseling Center
+http://covidrisk.hs.uci.edu,200,Werkzeug/0.16.0 Python/3.6.10,COVID-19 Prediction Tools | UCI CAIDM
+http://cpanel.kwentuhan.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.maggior.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.mcbrown.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.mdlaudat.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.ncarp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.oclgbthp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.resteele.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.plampron.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.reclaimtest20220301.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.pjp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.scole.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpanel.sylviabass.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.afburke.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.alice.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.aprilu.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.brinkmas.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.bzapata.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.crodelo.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.dss-park.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.daryanaz.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.danielle.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.dss-test.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.egyptomania.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.eramirez.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.jennalynn.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.esim.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.goutamreclaim.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.fenai.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.hyokyunh.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.kinglong.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.kotterbo.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.kwentuhan.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.laurenhanks.sandbox.lib.uci.edu,302,Apache,302 Found
+http://cpcalendars.maggior.sandbox.lib.uci.edu,302,Apache,302 Found
+https://cpip.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://creator.oit-creator-lb.oit-zotgptcreator-dev.aws.uci.edu,302,nginx,302 Found
+https://creator.oit-creator-lb.oit-zotgptcreator-stage.aws.uci.edu,302,nginx,302 Found
+https://credits-portal.aws.uci.edu,200,AmazonS3,UCI Student AWS Accounts
+https://creator.zotgpt.uci.edu,302,nginx,302 Found
+https://cri.bio.uci.edu,301,Apache,301 Moved Permanently
+https://cri.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://cps-iot-week2025.cecs.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://csl.studentcenter.uci.edu,403,Microsoft-IIS/10.0,403 - Forbidden: Access is denied.
+https://ctbs.socsci.uci.edu,307,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,307 Temporary Redirect
+https://cta.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://cryoem.bio.uci.edu,200,openresty,Gonen Lab &#8211; Find us on BlueSky @gonenshane.bsky.social
+https://crt.education.uci.edu,200,openresty,Education Center for Research on Teacher Development and Professional Practice &#8211; University of California  Irvine 
+https://ctvr.uci.edu,200,nginx,UC Irvine Brunson Center for Translational Vision Research
+https://ctools-alb-prod34.oit-sas-prod34.aws.uci.edu,200,Apache,ClassTools | UCI
+https://ctipr.uci.edu,200,openresty,UCI Center for Trauma &amp; Injury Prevention Research
+https://current.catalogue.uci.edu,302,Apache,302 Found
+https://culture.oit.uci.edu,301,openresty,
+https://cvr.bio.uci.edu,301,cloudflare,301 Moved Permanently
+https://cvr.uci.edu,200,cloudflare,Center for Virus Research
+https://cwrproviders.health.uci.edu,200,openresty,CWR Providers
+https://cwlab.ss.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://cyberclub.ics.uci.edu,307,Vercel,
+https://daplab.education.uci.edu,301,CloudFront,
+https://darthvader.studentcenter.uci.edu,302,Microsoft-IIS/10.0,
+http://dashboard.studentcenter.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://data.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://datahub.oapir.uci.edu,301,openresty,
+https://dccenter.uci.edu,200,openresty,Redirect for DC Center &#8211; Redirect Website
+https://datahub.oir.uci.edu,301,openresty,
+https://dean.bio.uci.edu,200,nginx,Dean LaFerla | Office of the Dean  Charlie Dunlop School of Biological Sciences
+https://dayone.health.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://ddpayan.publichealth.uci.edu,200,openresty,Denise D. Payán  PhD  MPP – Associate Professor and Health Policy Researcher  University of California  Irvine (UC Ir
+https://dean.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://dean.test-pantheon.bio.uci.edu,200,nginx,Dean LaFerla | Office of the Dean  Charlie Dunlop School of Biological Sciences
+https://deconstructingdiversity.uci.edu,307,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,307 Temporary Redirect
+https://datawarehouse.uci.edu,200,openresty,UCI Data Central | Building a data ecosystem that serves to meet the operational needs of the UCI
+https://deep.ps.uci.edu,200,openresty,The DEEP2/DEEP3 Galaxy Redshift Surveys
+https://demo.recruit.ap.uci.edu,200,,Welcome - UC Recruit
+https://democ.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://demography.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://democracy.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://depressioninstitute.uci.edu,200,cloudflare,Depression Institute
+https://deoc.uci.edu,200,Apache,Welcome // Division of Equal Opportunity and Compliance // UCI
+https://deepocean.eng.uci.edu,200,openresty,Deep Ocean Power Science – W.M. Keck Deep Ocean Power Science Laboratory (DOPSL)
+https://designandconstruction.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Design & Construction Services // UC Irvine
+https://dermatology.uci.edu,302,openresty,
+https://dev-edocs.oit.uci.edu,200,Apache,Not the site your looking for
+https://dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://detwiler.eng.uci.edu,200,openresty,Subsurface Processes Lab
+https://dev.accessibility.uci.edu,200,Apache,Home // Accessibility // UCI
+https://dev.accounting.uci.edu,200,Apache,Home // Accounting & Fiscal Services // UC Irvine
+https://dev.admissions.uci.edu,200,Apache,UC Irvine Office of Undergraduate Admissions
+https://dev.amp.web.uci.edu,200,Apache,Home // University of California Administrative Management Professionals // UCI
+https://dev.apps.athletics.uci.edu,200,Apache,
+https://dev.advancement.uci.edu,200,Apache,dev.advancement.uci.edu &#8211; University Advancement and Alumni Relations
+https://dev.assets.athletics.uci.edu,200,Apache,
+https://dev.audit.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Internal Audit Services // UC Irvine
+https://dev.brilliantfuture.uci.edu,200,Apache,Home - Brilliant Future: The Campaign for UCI
+https://dev.campuscounsel.uci.edu,200,Apache,Home // UC Legal UCI Office of Campus Counsel // UCI
+https://dev.budgetoffice.uci.edu,200,Apache,Home // Budget Office // UC Irvine
+https://dev.capandgown.alumni.uci.edu,403,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://dev.capandgown.uci.edu,403,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://dev.cdn.enrollment.uci.edu,403,Apache,It works! Apache httpd
+https://dev.commencement.aws.uci.edu,200,Apache,Not the site your looking for
+https://dev.cp.uci.edu,200,Apache,Home // Capital Planning & Space Management // UCI
+https://dev.cannabis.uci.edu,200,Apache,
+https://dev.compliance.uci.edu,200,Apache,Compliance | UCI // Compliance // UCI
+https://dev.data.athletics.uci.edu,200,Apache,
+https://dev.designandconstruction.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Design & Construction Services // UC Irvine
+https://dev.deoc.uci.edu,200,Apache,Welcome // Division of Equal Opportunity and Compliance // UCI
+https://dev.connect.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,UCI Corporate and Foundation Relations Coming Soon &#8211; dev.connect.uci.edu
+https://dev.dfa.uci.edu,200,Apache,Home // Division of Finance & Administration // UC Irvine
+https://dev.ehs.uci.edu,200,Apache,Home // Environmental Health & Safety // UC Irvine
+https://dev.eec.hr.uci.edu,200,Apache,Employee Experience Center
+https://dev.endfamilyviolence.uci.edu,200,Apache,UCI Initiative to End Family Violence
+https://dev.families.uci.edu,200,Apache,UCI Families
+https://dev.fm.uci.edu,200,Apache,Home // Facilities Management // UC Irvine
+https://dev.em.uci.edu,200,Apache,Home // Emergency Management // UC Irvine
+https://dev.enrollment.uci.edu,200,Apache,Enrollment Management | UCI
+https://dev.gmp.stemcell.uci.edu,200,Apache,HOME // GMP // UC Irvine
+https://dev.fs.uci.edu,200,Apache,Home // Financial Services Students // UC Irvine
+https://dev.hr.uci.edu,200,Apache,UCI Human Resources | Home
+https://dev.int.athletics.uci.edu,200,Apache,
+https://dev.join.uci.edu,302,Apache,
+https://dev.law.uci.edu,200,Apache,Home | UC Irvine Law
+https://dev.liferesources.uci.edu,200,Apache,UCI Life Resources
+https://dev.mat-interviews.educ.aws.uci.edu,200,AmazonS3,MAT Interviews
+https://dev.lrdp.uci.edu,302,Apache,
+https://dev.intra.uadv.uci.edu,200,Apache,UCI Staff Resources Intranet – Coming Soon &#8211; dev.intra.uadv.uci.edu
+https://dev.illuminations.uci.edu,200,Apache,Home // Illuminations The Chancellor's Arts & Culture Initiative // UCI
+https://dev.grad.uci.edu,200,Apache,UCI Graduate Division -
+https://dev.homecoming.uci.edu,200,Apache,Coming Soon &#8211; UCI Homecoming
+https://dev.odit.uci.edu,200,openresty,Website Not Found
+https://dev.name-display.commencement.uci.edu,404,Apache,Not Found
+https://dev.orientation.aws.uci.edu,200,Apache,Not the site your looking for
+https://dev.oeod.uci.edu,200,Apache,Office of Equal Opportunity &amp; Diversity // Office of Equal Opportunity and Diversity // UCI
+https://dev.ofas.uci.edu,200,Apache,Office of Financial Aid and Scholarships | UCI
+https://dev.packagist.oit.uci.edu,302,Apache,Redirecting to https://dev.packagist.oit.uci.edu/home
+https://dev.planningandsustainability.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Campus Planning & Sustainability // UC Irvine
+https://dev.privacy.uci.edu,200,Apache,Welcome // Privacy // UCI
+https://dev.pro.uci.edu,200,Apache,Public Records Office // Public Records Office // UCI
+https://dev.police.uci.edu,200,Apache,UCI Police Department // Police Department // UC Irvine
+https://dev.procurement.uci.edu,200,Apache,Home // Procurement Services // UC Irvine
+https://dev.purchasing.uci.edu,200,Apache,Not the site your looking for
+https://dev.psac.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Public Safety Advisory Committee // UCI
+https://dev.reserve.orientation.uci.edu,200,Apache,Orientation
+https://dev.realestate.uci.edu,200,Apache,Home // Real Estate Services // UC Irvine
+https://dev.risk.uci.edu,200,Apache,Home // Risk Services // UC Irvine
+https://dev.news.uci.edu,302,openresty,
+https://dev.skincenter.uci.edu,200,Apache,Home // SKIN A Skin Biology Resource Center // UC Irvine
+https://dev.reg.commencement.uci.edu,302,Apache,Redirecting to https://dev.reg.commencement.uci.edu/shibboleth/login
+https://dev.staff.fs.uci.edu,200,Apache,Home // Financial Services Staff // UC Irvine
+https://dev.stemcell.uci.edu,200,Apache,Home // Sue & Bill Gross Stem Cell Research Center // UC Irvine
+https://dev.students.athletics.uci.edu,200,Apache,
+https://dev.training.uci.edu,301,Apache,301 Moved Permanently
+https://dev.ucibuy.uci.edu,301,Apache,301 Moved Permanently
+https://dev.uci-ics-mlr-prod.aws.uci.edu,200,,UCI Machine Learning Repository
+https://dev.uciocalliance.uci.edu,403,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://dev.ucifund.uci.edu,200,Apache,AYL Main &#8211; dev.ucifund.uci.edu
+https://dev.uclc.uci.edu,200,Apache,UCLC - UC Learning Center Home Page
+https://dev.uclub.uci.edu,200,Apache,Home // University Club // UCI
+https://dev.update.emergency.uci.edu,200,Apache/2.4.66 (),Emergency Updates | UCI
+https://dev.ucpath.uci.edu,200,Apache,Home // UCPath // UC Irvine
+https://dev.veteranbenefits.uci.edu,200,Apache,Veteran Benefits
+https://dev.wellness.uci.edu,200,Apache,UC Irvine - Wellness
+https://dev.whistleblower.uci.edu,200,Apache,UCI Whistleblower // Whistleblower // UCI
+https://dev.sites.uci.edu,302,openresty,
+https://dev1.alumni.uci.edu,200,Apache,Alumni Coming Soon &#8211; dev1.alumni.uci.edu
+https://dev1.engage.alumni.uci.edu,200,Apache,Alumni Coming Soon &#8211; dev1.engage.alumni.uci.edu
+https://dev1.give.uci.edu,200,Apache,Home - dev1.give.uci.edu
+https://dev1.parents.uci.edu,200,Apache,Parent and Family Engagement &#8211; Coming Soon! &#8211; dev1.parents.uci.edu
+https://dev1.retirees.uci.edu,200,Apache,dev1.retirees.uci.edu &#8211; UCI Center for Emeriti and Retirees
+https://dev2.apps.athletics.uci.edu,200,Apache,
+https://dev1.specialevents.uci.edu,503,Apache,Coming Soon &#8211; dev1.specialevents.uci.edu
+https://dev2.assets.athletics.uci.edu,200,Apache,
+https://dev2.data.athletics.uci.edu,200,Apache,
+https://dev2.int.athletics.uci.edu,200,Apache,
+https://dev2.students.athletics.uci.edu,200,Apache,
+https://devarts-nlb-test12.uci-arts-test12.aws.uci.edu,400,Apache/2.4.58 (Ubuntu),
+https://devcell.bio.uci.edu,200,nginx,Department of Developmental and Cell Biology | UC Irvine BioSci
+https://devcell.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://devcell.test-pantheon.bio.uci.edu,200,nginx,Department of Developmental and Cell Biology | UCI BioSci
+https://dfa.uci.edu,200,Apache,Home // Division of Finance & Administration // UC Irvine
+https://diabetes.uci.edu,301,openresty,
+https://digitallearning.dtei.uci.edu,200,openresty,Redirect for DL &#8211; Redirect Website
+https://dion.eng.uci.edu,200,Pepyaka,NeuroElectronics
+https://directory.uci.edu,200,Apache/2.4.66 (Amazon Linux),UCI Directory
+https://dirha.uci.edu,307,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,307 Temporary Redirect
+http://dev.wp.communications.uci.edu,301,openresty,301 Moved Permanently
+https://distribution.oit.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://directory.aws.uci.edu,200,Apache/2.4.66 (Amazon Linux),UCI Directory
+https://disabilityculture.uci.edu,200,openresty,Disability Cultural Center
+https://diversity.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://dll.gse.uci.edu,301,Apache,301 Moved Permanently
+https://dls.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://dmaf.biochem.uci.edu,301,Apache,301 Moved Permanently
+https://diversityinmedicine.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://dlac.dtei.uci.edu,200,openresty,Redirect for DLAC &#8211; Redirect Website
+https://dos.uci.edu,200,openresty,UC Irvine Office of the Dean of Students
+https://docusign.uci.edu,200,openresty,UCI DocuSign
+https://dosi.bli.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://draymanlab.bio.uci.edu,200,openresty,Drayman Lab
+https://dream.uci.edu,200,openresty,UCI Dream Center
+https://dsc.uci.edu,200,openresty,UCI Disability Services Center &#8211; Disability Services for students at UCI
+http://docs.lawnet.uci.edu,302,ghs,302 Moved
+https://dss-park.sandbox.lib.uci.edu,200,Apache,Welcome! | My cms
+https://due-web.ugs.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://dtl.uci.edu,200,openresty,Redirect for DTL &#8211; Redirect Website
+https://due.uci.edu,200,openresty,UCI Division of Undergraduate Education |
+https://duosupportdesk.service.uci.edu,302,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,302 Found
+https://eaop.uci.edu,301,openresty,
+https://duo.oit.uci.edu,301,openresty,
+https://ecoevo.test-pantheon.bio.uci.edu,200,nginx,UC Irvine Department of Ecology and Evolutionary Biology &#8211; Eco and Evo encompasses four major programs focusing on
+https://ecoevo.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://ecoevo.bio.uci.edu,200,nginx,UC Irvine Department of Ecology and Evolutionary Biology &#8211; Eco and Evo encompasses four major programs focusing on
+https://economics.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://editor.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://edocs-tms-nlb-test12.oit-pmo-test12.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://economicsandpublicpolicy.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://dtei.uci.edu,200,openresty,Division of Teaching Excellence and Innovation | UC Irvine
+https://ecogovlab.socsci.uci.edu,200,openresty,EcoGovLab | UCI
+https://edingerlab.bio.uci.edu,200,openresty,Edinger Lab | UC Irvine - School of Biological Sciences
+https://education.uci.edu,200,cloudflare,UCI School of Education - Home
+https://educationresearch.uci.edu,200,openresty,UCI Education Research Initiative |
+https://economics-dev.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Economics
+https://dss-test.sandbox.lib.uci.edu,200,Apache,Project Club Project  &#8211; A test site for Sandbox Project Club Winter 2026
+https://edtechtools.eee.uci.edu,200,openresty,Educational Technology Tools |
+https://eec.hr.uci.edu,200,Apache,Employee Experience Center
+https://ehs.uci.edu,200,Apache,Home // Environmental Health & Safety // UC Irvine
+https://em.aws.uci.edu,200,Apache,Not the site your looking for
+https://em.uci.edu,200,Apache,Home // Emergency Management // UC Irvine
+https://ema.enrollment.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://emergency.uci.edu,200,AmazonS3,Emergency Updates | UCI
+https://egyptomania.sandbox.lib.uci.edu,200,Apache,Sites · Egyptomania
+https://emssi.uci.edu,404,Pantheon,404 - Unknown site
+https://endfamilyviolence.uci.edu,200,Apache,UCI Initiative to End Family Violence
+https://electrochemicaldynamics.eng.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://engage.due.uci.edu,200,openresty,Redirect to CE | Redirect Website
+https://emergencymed.uci.edu,302,openresty,
+https://engage.police.uci.edu,301,,
+https://enrollment.uci.edu,200,Apache,Enrollment Management | UCI
+https://emrap.medschool.uci.edu,200,openresty,EMERGENCY MEDICINE RESEARCH ASSOCIATES PROGRAM at UCI &#8211; EMRAP at the University of California  Irvine
+https://eduroam.oit.uci.edu,301,openresty,
+https://enterprise.pts.uci.edu,200,Microsoft-IIS/10.0,Parking Portal
+https://engage.advancement.uci.edu,301,cloudflare,
+https://entrepreneur.uci.edu,200,openresty,Website Not Found
+https://environmentalcollaboratory.uci.edu,200,cloudflare,Home Page - UCI Environmental Collaboratory
+https://eod.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://engage.alumni.uci.edu,200,Apache,engage.alumni.uci.edu &#8211; UCI Alumni Association
+https://epl.eng.uci.edu,301,Apache,301 Moved Permanently
+https://equity.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://ent.uci.edu,302,openresty,
+https://epilepsyresearch.uci.edu,200,openresty,Epilepsy Research Center
+https://eramirez.sandbox.lib.uci.edu,200,Apache,My cms
+https://esa.dsc.uci.edu,302,Apache,Redirecting to https://esa.dsc.uci.edu/applications/create
+https://esb-dev.oit.uci.edu,404,,
+https://esb-stage.oit.uci.edu,404,,
+https://esbat.oit.uci.edu,404,,
+https://escape.uci.edu,200,openresty,ESCAPE
+https://esim.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+http://esl-cdp.ce.uci.edu,404,cloudflare,404 - Page Not Found
+http://eslstudents.ce.uci.edu,530,cloudflare,
+https://esports.uci.edu,200,Apache,UC Irvine Esports &middot; Where Passion Meets Performance
+https://esportsconference.uci.edu,200,Apache,Not the site your looking for
+https://essl.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://etad.calit2.uci.edu,200,openresty,ETAD Lab at Calit2 UC Irvine
+https://etd.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://ethicscenter.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://etech.uci.edu,200,openresty,eTech &#8211; Better Learning Through Technology
+https://ethnography.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://eus-t-web01.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://eusweb00.aws.uci.edu,200,Apache,Not the site your looking for
+https://eusweb02.aws.uci.edu,200,Apache,Not the site your looking for
+https://eusweb03.aws.uci.edu,200,Apache,Not the site your looking for
+https://eusweb04.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://eusweb07.aws.uci.edu,200,Apache,Not the site your looking for
+https://eusweb08.aws.uci.edu,200,Apache,Not the site your looking for
+https://eusweb7.aws.uci.edu,200,Apache,Not the site your looking for
+https://eusweb8.aws.uci.edu,403,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://eventive.studentcenter.uci.edu,302,Apache,Redirecting to /user/login?destination=/
+http://eventivedev.studentcenter.uci.edu,200,nginx/1.24.0,Welcome to nginx!
+https://eventservices.studentcenter.uci.edu,303,Microsoft-IIS/10.0,Document Moved
+https://event-request.studentaffairs.uci.edu,302,Apache,Redirecting to https://event-request.studentaffairs.uci.edu/shibboleth/login
+https://excellence.bio.uci.edu,302,Apache/2.4.64 (Amazon Linux) OpenSSL/3.2.2,Redirecting to /dashboard/
+https://exhibits.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://experts.communications.uci.edu,403,awselb/2.0,403 Forbidden
+https://explorer-lb.spark-migration-prod.aws.uci.edu,200,Microsoft-IIS/10.0,Home - Explorer
+https://explorer.compass.uci.edu,200,Microsoft-IIS/10.0,Home - Explorer
+https://fa.uci.edu,301,Apache,301 Moved Permanently
+https://facilities.bio.uci.edu,200,nginx,Home - Charlie Dunlop School of Biological Sciences Facilities
+https://facilities.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://facilities.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://facilities.test-pantheon.bio.uci.edu,200,nginx,Home - Charlie Dunlop School of Biological Sciences Facilities
+https://facility-nlb-prod12.uci-eng-prod12.aws.uci.edu,301,Apache,301 Moved Permanently
+https://facility2.inrf.uci.edu,301,Apache,301 Moved Permanently
+https://faculty.uci.edu,200,Apache/2.4.62 (Rocky Linux) mod_jk/1.2.50,UC Irvine - Faculty Profile System
+https://facultyhub.ap.uci.edu,200,Microsoft-IIS/10.0,Hub
+https://faculty.sites.uci.edu,200,openresty,Faculty Websites &#8211; Simple Websites for UCI Faculty
+https://families.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,UCI Families
+https://faultline.sites.uci.edu,200,openresty,faultline &#8211; A publication from the MFA Programs in Writing at UC Irvine
+https://familymed.uci.edu,302,openresty,
+https://fieldstudy.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Field Study | Field Study
+https://filen2-app-nlb-dev.filenet-dev.aws.uci.edu,200,,IBM HTTP Server
+https://filen2-app-nlb-prod.filenet-prod.aws.uci.edu,200,,IBM HTTP Server
+https://filen2-app-nlb-stage.filenet-stage.aws.uci.edu,200,,IBM HTTP Server
+https://filen3-pub-nlb-prod.filenet-prod.aws.uci.edu,200,,IBM HTTP Server
+https://filenet-d.oit.uci.edu,200,,IBM HTTP Server
+https://filenet-ibaw.oit.uci.edu,200,,IBM HTTP Server
+https://filenet.oit.uci.edu,200,,IBM HTTP Server
+https://filenet-t.oit.uci.edu,200,,IBM HTTP Server
+https://fim.socsci.uci.edu,200,Vercel,Fimlabuci
+https://facultydev.sites.uci.edu,302,openresty,
+https://fip.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://first.uci.edu,200,openresty,FIRST: First-Year Internet Required Training
+https://flyevo.bio.uci.edu,200,AmazonS3,Mueller Home Page
+https://floodlab.eng.uci.edu,200,openresty,
+https://fm.uci.edu,200,Apache,Home // Facilities Management // UC Irvine
+https://fnet-app-lb.filenet-dev.aws.uci.edu,200,,IBM HTTP Server
+https://firstgen.due.uci.edu,200,openresty,UCI First Generation
+https://fnet-app-lb.filenet-prod.aws.uci.edu,200,,IBM HTTP Server
+https://fnet-app-lb.filenet-stage.aws.uci.edu,200,,IBM HTTP Server
+https://fortinlab.bio.uci.edu,200,AmazonS3,Home | Fortin Lab @UCI
+https://freshmanseminar.uci.edu,200,openresty,Freshman Seminar | UC Irvine
+https://fs.uci.edu,200,Apache,Home // Financial Services Students // UC Irvine
+https://freespeech.uci.edu,200,openresty,UC Irvine Free Speech
+https://foundation.uci.edu,301,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://fundconsciousness.socsci.uci.edu,301,Apache,301 Moved Permanently
+https://gartner.uci.edu,301,Apache,301 Moved Permanently
+https://fyre.due.uci.edu,200,openresty,Foster Youth Resilience in Education | UC Irvine
+https://fundopp.uci.edu,200,cloudflare,fundopp.uci.edu
+https://garp.education.uci.edu,200,cloudflare,GENDER & ACHIEVEMENT RESEARCH PROGRAM - Home
+https://frostiglab.bio.uci.edu,200,openresty,Frostig Lab
+https://gd-prod-alb-prod34.oit-esms1-prod34.aws.uci.edu,403,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,Test Page for the HTTP Server on Red Hat Enterprise Linux
+https://food.uci.edu,200,openresty,Dining Services
+https://gautlab.bio.uci.edu,301,openresty,
+https://gdp.math.uci.edu,200,Caddy,GDP@UCI
+https://gati.due.uci.edu,200,openresty,GATI | OVPTL
+https://genomics.uci.edu,200,cloudflare,Home - Genomics Research and Technology Hub (GRT Hub)
+https://german.bio.uci.edu,200,AmazonS3,German Lab :: Home
+https://giftlegacy.uci.edu,403,cloudflare,Attention Required! | Cloudflare
+https://gis.oit.uci.edu,200,Microsoft-IIS/10.0,gis.oit.uci.edu - /
+https://ghtf.biochem.uci.edu,301,openresty,
+https://github.aws.uci.edu,302,GitHub.com,
+https://geri.uci.edu,301,openresty,
+https://give.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://giving.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://globalengagement.uci.edu,404,UploadServer,Site is not available
+https://globalstudies.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://glog-web-lb.glog-dev.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://givingday.uci.edu,200,waitress,
+https://gmp.stemcell.uci.edu,200,Apache,HOME // GMP // UC Irvine
+https://give.uci.edu,200,Apache,Home - give.uci.edu
+https://global.uci.edu,200,openresty,Office of Global Engagement
+https://goutamreclaim.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://geecs.eng.uci.edu,200,openresty,Society of Graduate Electrical Engineers &amp; Computer Scientists &#8211; University of California  Irvine
+https://glassercenter.uci.edu,200,Apache,The Alec Glasser Center for the Power of Music &amp; Social Change
+https://grad.bio.uci.edu,200,nginx,UC Irvine BioSci Graduate Studies &amp; Support - UC Irvine Biological Sciences Graduate
+https://go.merage.uci.edu,302,,
+https://grad.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+http://go-ce.uci.edu,302,,
+https://grad.test-pantheon.bio.uci.edu,200,nginx,UC Irvine BioSci Graduate Studies &amp; Support - UC Irvine Biological Sciences Graduate
+https://gradstudies.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://grad.oit.uci.edu,403,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,Test Page for the HTTP Server on Red Hat Enterprise Linux
+https://grads.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Graduate Affairs | Graduate Student Services
+https://google.uci.edu,301,openresty,
+https://gps.bio.uci.edu,301,openresty,
+https://grunigen.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://gradtraining.socsci.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://graduate.eng.uci.edu,200,openresty,Engineering Graduate and Professional Studies
+https://grosberglab.eng.uci.edu,200,openresty,Cardiovascular Modeling Laboratory
+https://gsams-d-ui.aws.uci.edu,302,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,302 Found
+https://gsams-d-ws.aws.uci.edu,403,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,403 Forbidden
+https://gsams-dev.service.uci.edu,302,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,302 Found
+https://grad.uci.edu,200,Apache,Home Page - UC Irvine Graduate Division
+https://grants.uci.edu,200,Apache,grants.uci.edu &#8211; UCI Corporate and Foundation Relations
+https://gsams-p-ui.aws.uci.edu,302,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,302 Found
+https://gsams-p-ws.aws.uci.edu,403,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,403 Forbidden
+https://gsams-ws-dev.service.uci.edu,403,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,403 Forbidden
+https://gsams-ws.service.uci.edu,403,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,403 Forbidden
+http://gush.clubs.uci.edu,301,ESF,
+https://guitar-nlb-prod12.uci-eng-prod12.aws.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,
+https://gsams.service.uci.edu,302,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,302 Found
+https://gwenstacy.studentcenter.uci.edu,404,Microsoft-IIS/10.0,The resource cannot be found.
+http://happyhogan.studentcenter.uci.edu,200,nginx/1.24.0,Welcome to nginx!
+https://hack.ics.uci.edu,200,GitHub.com,Hack at UCI
+https://guides.lib.uci.edu,200,nginx,Home - Research Guides at University of California Irvine
+https://healthsciences.uci.edu,302,Apache,302 Found
+https://hazing.uci.edu,200,openresty,UCI Hazing Prevention
+https://gps-stem.grad.uci.edu,200,openresty,GPS-STEM UCI
+https://hearing.uci.edu,200,cloudflare,Home - Center for Hearing Research
+https://healthspan.cohs.uci.edu,200,openresty,Adding Healthy Years to Human Life
+https://healthscitech.nursing.uci.edu,200,Apache,Health SciTech Group
+https://helab.eng.uci.edu,200,openresty,He Lab &#8211; University of California  Irvine (UCI)
+https://heart.uci.edu,200,openresty,Heart Disease Prevention Program
+https://help.education.uci.edu,302,cloudflare,
+https://help.lawnet.uci.edu,200,ESF,LawNet Help
+https://help.replay.uci.edu,200,openresty,UCI Replay &#8211; TechSmith Relay
+https://helpdesk.soceco.uci.edu,301,Apache,301 Moved Permanently
+https://hero.eng.uci.edu,200,openresty,Hero Lab &#8211; We develop novel tools to explore biology and improve healthcare
+https://herschel.uci.edu,200,openresty,Cooray Group | Department of Physics &amp; Astronomy - School of Physical Sciences
+https://hie.eng.uci.edu,200,GitHub.com,HIE Lab | UC Irvine - High-speed Integrated Electronics
+https://historyproject.uci.edu,200,openresty,UCI History Project
+https://hnl.ss.uci.edu,200,ESF,HNL
+https://home.due.uci.edu,301,openresty,
+https://homecoming.uci.edu,200,Apache,UCI Homecoming
+https://homekit.studenthealth.uci.edu,403,Apache,HTTP Server Test Page powered by: Rocky Linux
+https://honors.uci.edu,200,openresty,Campuswide Honors Collegium | CHC at UC Irvine
+https://honorsconvocation.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://hooder-checkin.commencement.uci.edu,200,Apache,
+https://housing.uci.edu,200,openresty,UCI Student Housing | Creating Places to Thrive and Connect
+http://howardstark.studentcenter.uci.edu,200,nginx/1.24.0,Welcome to nginx!
+https://hr-stg.oit.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,
+https://hr-web02-alb-prod34.oit-eas-prod34.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,
+https://hr-web03-alb-prod34.oit-eas-prod34.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,Index - UCI Time Reporting System - TRS
+https://hr.uci.edu,200,Apache,UCI Human Resources | Home
+https://hr.studentlife.uci.edu,200,openresty,Human Resources  UCI Student Life &#038; Leadership
+https://hsl.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://hsl.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://hssoelabs.eng.uci.edu,200,ESF,Engineering Labs &amp; Laptops
+https://humanities.uci.edu,302,,
+https://hughesmedia.bio.uci.edu,200,openresty,Hughes Media &amp; Design | Innovating Science Learning through Creative Arts and Digital Media
+https://humcore-2.lib.uci.edu,200,AmazonS3,Inception
+https://humcore.lib.uci.edu,200,AmazonS3,HumCore 2026 Tarzan
+https://hui.bme.uci.edu,200,openresty,Hui Lab &#8211; Biological Microtechnology
+https://hyokyunh.sandbox.lib.uci.edu,200,Apache,Sites · Hyokyung Hwang
+https://hype-noreply.hr.uci.edu,302,nginx,
+https://ican.bio.uci.edu,404,Pantheon,404 - Unknown site
+https://ibms10.eng.uci.edu,200,openresty,The 10th International Biofluid Mechanics and Mechanobiology Symposium (IBMS 10) &#8211; September 5-7  2025  Irvine  CA
+https://ican.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://ic.uci.edu,200,openresty,UCI International Center
+https://ican.uci.edu,200,nginx,Irvine Center for Addiction Neuroscience (ICAN) &#8211; Irvine Center for Addiction Neuroscience (ICAN) at UCI
+https://ican.test-pantheon.bio.uci.edu,200,nginx,Irvine Center for Addiction Neuroscience (ICAN) &#8211; Irvine Center for Addiction Neuroscience (ICAN) at UCI
+https://id.sa.uci.edu,404,Apache,Not Found
+https://icha.uci.edu,200,cloudflare,Home - Irvine Campus Housing Authority
+https://icts.uci.edu,200,openresty,UC Irvine Institute for Clinical &amp; Translational Science &#8211; UC Irvine Institute for Clinical &amp; Translationa
+https://ijclinic.law.uci.edu,200,openresty,International Justice Clinic
+https://iisbr.uci.edu,200,openresty,Center for Biomarker &amp; Biobehavioral Research
+https://illuminations.uci.edu,200,Apache,Home // Illuminations The Chancellor's Arts & Culture Initiative // UCI
+https://ilssc.soceco.uci.edu,200,openresty,ILSSC – Irvine Lab for the Study of Space and Crime
+https://image.zotforce-mc.uci.edu,403,AkamaiGHost,Access Denied
+https://image.mc.ce.uci.edu,403,AkamaiGHost,Access Denied
+https://imagine.hs.uci.edu,302,openresty,
+https://immunology.uci.edu,200,cloudflare,Home - Institute for Immunology
+https://immigrationresearch.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://imbs-dev.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://imageworks.bio.uci.edu,301,openresty,
+https://imaging.uci.edu,200,openresty,Campus Center for Neuroimaging
+https://imeded.uci.edu,200,openresty,iMedEd &#8211; UCI School of Medicine
+https://imtfi.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://impact.uci.edu,302,,
+https://infectiousdiseaseinitiative.uci.edu,301,Microsoft-IIS/10.0,Document Moved
+https://imri.uci.edu,200,openresty,Irvine Materials Research Institute &#8211; Driving Materials Innovation
+https://imtfi-dev.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | IMTFI
+https://innovation.uci.edu,200,nginx,UCI Beall Applied Innovation &#8211; Innovation and Entrepreneurship in Orange County  CA
+https://inclusion.uci.edu,200,openresty,The Office of Inclusive Excellence
+https://inp.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://inp.test-pantheon.bio.uci.edu,200,nginx,University of California  Irvine &#8211; Interdepartmental Neuroscience Program &#8211; Interdepartmental Neuroscience P
+https://inp.uci.edu,200,nginx,University of California  Irvine &#8211; Interdepartmental Neuroscience Program &#8211; Interdepartmental Neuroscience P
+http://info.ip.ce.uci.edu,302,,
+https://int.athletics.uci.edu,301,Apache,301 Moved Permanently
+https://innovation.oit.uci.edu,200,openresty,Accelerating Innovation
+https://imca.uci.edu,301,openresty,
+https://insite.ics.uci.edu,200,cloudflare,Business - Webflow HTML website template
+https://internalaws.shuttle.uci.edu,403,Apache,HTTP Server Test Page powered by: Rocky Linux
+https://internationalpeergroup.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://internal.jobs.uci.edu,302,nginx,
+https://intranet.due.uci.edu,302,openresty,
+https://inventory.educ.aws.uci.edu,200,AmazonS3,SoE Inventory Tracker
+https://intra.uadv.uci.edu,200,Apache,Intranet Login &#8211; intra.uadv.uci.edu
+https://intranet.ovptl.uci.edu,302,openresty,
+https://iopcredit.studyabroad.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://ip.extension.uci.edu,301,Apache,301 Moved Permanently
+https://inrf.uci.edu,200,openresty,Integrated Nanosystems Research Facility | University of California  Irvine
+https://ipat.law.uci.edu,200,openresty,UCI IP  Arts &amp; Tech Clinic – Intellectual Property  Arts  &amp; Technology Clinic
+https://iplookuptool.aws.uci.edu,408,CloudFront,
+https://ipg.due.uci.edu,302,openresty,
+https://iseb.uci.edu,200,openresty,Interdisciplinary Science and Engineering Building
+https://isi-buds.ics.uci.edu,200,GitHub.com,ISI-BUDS: ISI-BUDS 2026
+https://isep.due.uci.edu,200,openresty,International Student Excellence Programs (ISEP)
+https://isrw.bio.uci.edu,200,openresty,International Sleep Replay Workshop &#8211; International Sleep Replay Workshop
+https://irap.uci.edu,200,openresty,UC Irvine - Institutional Research  Assessment  and Planning (IRAP)
+https://it-teachingworkshop.merage.uci.edu,301,,
+https://it.dos.uci.edu,302,Apache,Redirecting to https://it.dos.uci.edu/shibboleth/login
+https://it.studentlife.uci.edu,200,Apache,Home - UCI SLL Info Tech
+https://ithelp.hs.uci.edu,200,,UCI Health Remote Support
+https://its.health.uci.edu,200,openresty,Information Technology Services
+https://itsneo.health.uci.edu,200,openresty,ITS NEO
+https://jamf-lb.oit-dss-dev.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://janeway-nlb-prod12.uci-soceco-prod12.aws.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Page Not Found
+https://jbrouwer.eng.uci.edu,200,openresty,Jack Brouwer
+https://jdsylab.physics.uci.edu,200,openresty,JDSY Lab | playing with 2d materials
+https://jenkins-dev.oit.uci.edu,403,Jetty(12.1.6),
+https://jennalynn.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://jfrog.cicd.aws.uci.edu,200,,JFrog
+https://jhicks.bio.uci.edu,200,AmazonS3,
+https://jianglab.eng.uci.edu,200,openresty,Sunny Jiang Lab
+https://jmartiny.bio.uci.edu,200,openresty,Jennifer Martiny Lab |
+https://join.uci.edu,302,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://jobs.uci.edu,302,nginx,
+https://jp.eng.uci.edu,404,openresty,Page not found &#8211; UCI-DUT Joint Program
+http://kfs-dr.oit.uci.edu,302,BigIP,
+https://kinglong.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://kiosk.lib.uci.edu,200,AmazonS3,Libraries Kiosk
+https://kotterbo.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://kr-d-alb-test12.oit-eas-test12.aws.uci.edu,403,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Test Page for the HTTP Server on Red Hat Enterprise Linux
+https://kr-dev.oit.uci.edu,403,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Test Page for the HTTP Server on Red Hat Enterprise Linux
+https://knowledge.zotforce.uci.edu,301,cloudflare,
+https://kr-p-web-alb-prod34.oit-eas-prod34.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,
+https://kr-s-alb-test12.oit-eas-test12.aws.uci.edu,403,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Test Page for the HTTP Server on Red Hat Enterprise Linux
+https://kr-stg.oit.uci.edu,403,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Test Page for the HTTP Server on Red Hat Enterprise Linux
+https://kr.oit.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,
+https://kualidocs.oit.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://kwentuhan.sandbox.lib.uci.edu,200,Apache,Kwentuhan Oral History Project
+https://kwhiteson.bio.uci.edu,200,openresty,the whiteson lab @ UCI | The Whiteson Lab studies human associated microbial and viral communities.
+https://laferlalab.bio.uci.edu,200,openresty,LaFerla Lab &#8211; UC Irvine &#8211; School of Biological Sciences
+https://lakey.som.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://lander-office.bio.uci.edu,200,openresty,Dr. Arthur Lander
+https://langsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://languagescience.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://languagescience.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://larc.uci.edu,200,openresty,Learning & Academic Resource Center | LARC
+https://lauci.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://laspadalab.medschool.uci.edu,200,openresty,La Spada Lab |
+https://laurenhanks.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://latinx.uci.edu,200,openresty,UCI Latinx Resource Center
+https://launchpad.merage.uci.edu,200,nginx,Home -
+https://law.uci.edu,301,Apache,301 Moved Permanently
+https://ldi-online.merage.uci.edu,301,cloudflare,301 Moved Permanently
+https://ldi.merage.uci.edu,404,Pepyaka,
+https://law34-nlb-prod34.uci-law-prod34.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://leadher.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://laptops.eng.uci.edu,200,ESF,Engineering Labs &amp; Laptops
+https://levelup.studentcenter.uci.edu,200,Microsoft-IIS/10.0,Level Up
+http://levelupdev.studentcenter.uci.edu,200,nginx/1.24.0,Welcome to nginx!
+https://lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://leeap.bme.uci.edu,200,openresty,BioMiNT Lab &#8211; University of California  Irvine
+https://lee.eng.uci.edu,200,openresty,HIER
+https://lee-cemi-lab.eng.uci.edu,200,openresty,Elizabeth M.Y. Lee Research Group | Computational Engineering of Material Interfaces (CEMI) Lab &#8211; Elizabeth M.Y. L
+https://libra.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://lgbtrc.uci.edu,200,openresty,UCI LGBT Resource Center &#8211; A website to share information about UC Irvine&#039;s LGBT Resource Center
+https://libguides.law.uci.edu,200,nginx,Home - UCI Law Research Guides at University of California  Irvine - Law Library
+https://libguides.lib.uci.edu,404,nginx,
+https://liferesources.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,UCI Life Resources
+https://ligthsaildev.ags.uci.edu,200,Apache,LAMP packaged by Bitnami
+https://ligthsaildev.apad.asuci.uci.edu,200,Apache,LAMP packaged by Bitnami
+https://ligthsaildev.asuci.uci.edu,200,Apache,LAMP packaged by Bitnami
+https://ligthsaildev.funding.clubs.uci.edu,200,Apache,LAMP packaged by Bitnami
+https://lifted.uci.edu,200,openresty,UCI LIFTED
+https://ligthsaildev.vendorfair.asuci.uci.edu,200,Apache,LAMP packaged by Bitnami
+https://ligthsaildev.tgif.asuci.uci.edu,200,Apache,LAMP packaged by Bitnami
+https://lj20tutorial.lib.uci.edu,200,AmazonS3,Literary Journalism Tutorial
+https://liu.bme.uci.edu,200,GitHub.com,Home | Liu Lab at UC Irvine
+https://lomaridge.bio.uci.edu,200,nginx,The Loma Ridge Global Change Experiment | LRGCE Lomaridge
+https://lin.hs.uci.edu,200,openresty,Lin Lab &#8211; Innovations in Glaucoma
+http://ln.math.uci.edu,308,Caddy,
+https://lomaridge.test-pantheon.bio.uci.edu,200,nginx,The Loma Ridge Global Change Experiment | LRGCE Lomaridge
+https://livablecitieslab.socialecology.uci.edu,200,openresty,Livable Cities Lab | Creating liveable cities for all
+https://lomaridge.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://longevity.uci.edu,404,Pantheon,404 - Unknown site
+https://longinstitute.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://lps.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://lrdp.uci.edu,302,Apache,
+https://lopour.eng.uci.edu,200,openresty,Laboratory of Computational and Translational Neuroscience &#8211; Dr. Beth A. Lopour | Biomedical Engineering at the Un
+https://lvaslab.education.uci.edu,301,Pepyaka,
+https://lu.math.uci.edu,200,Caddy,Dr. Zhiqin Lu's Homepage
+https://loudonlab.bio.uci.edu,200,openresty,Catherine Loudon (UCI) &#8211; Dept. of Ecology and Evolutionary Biology
+https://m.uci.edu,302,,
+https://madlab.socsci.uci.edu,301,openresty,
+https://magazine.news.uci.edu,302,,
+https://maggior.sandbox.lib.uci.edu,200,Apache,Medical Humanities
+https://mai-jnkns-alb-test12.oit-ei-test12.aws.uci.edu,403,Jetty(12.1.6),
+https://mai-nexus-alb-prod12.oit-ei-prod12.aws.uci.edu,301,Apache/2.4.37 (Red Hat Enterprise Linux),301 Moved Permanently
+https://mail.afburke.sandbox.lib.uci.edu,200,Apache,Test Site
+https://mail.alice.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://mail.aprilu.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://mail.brinkmas.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://mail.bzapata.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://mail.bzapata1.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://mail.danielle.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://mail.crodelo.sandbox.lib.uci.edu,200,Apache,My cms
+https://mail.dss-park.sandbox.lib.uci.edu,200,Apache,Welcome! | My cms
+https://mail.dss-test.sandbox.lib.uci.edu,302,Apache,
+https://mail.egyptomania.sandbox.lib.uci.edu,200,Apache,Sites · Egyptomania
+https://mail.eramirez.sandbox.lib.uci.edu,200,Apache,My cms
+https://mail.daryanaz.sandbox.lib.uci.edu,200,Apache,Blue is my color &#8211; Blue
+https://mail.esim.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://mail.goutamreclaim.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://mail.health.uci.edu,403,,Forbidden
+https://mail.hs.uci.edu,403,,Forbidden
+https://mail.jennalynn.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://mail.kinglong.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://mail.hyokyunh.sandbox.lib.uci.edu,200,Apache,Sites · Hyokyung Hwang
+http://mail.lawnet.uci.edu,301,ghs,301 Moved
+http://lurlabcolony.bio.uci.edu,200,CherryPy/14.0.0,GLAMS
+https://malaria.bio.uci.edu,301,Apache,301 Moved Permanently
+https://manufacturing.uci.edu,200,openresty,UCI Makerspace
+https://map.uci.edu,302,Apache,
+https://marc.bio.uci.edu,200,nginx,MARC - Undergraduate Student Training in Academic Research
+https://marc.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://marc.test-pantheon.bio.uci.edu,200,nginx,
+https://mat-interviews.education.uci.edu,200,AmazonS3,MAT Interviews
+https://mbb.bio.uci.edu,200,nginx,The Department of Molecular Biology and Biochemistry | UC Irvine Charlie Dunlop School of Biological Sciences
+https://mbb.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://mbb.test-pantheon.bio.uci.edu,200,nginx,The Department of Molecular Biology and Biochemistry | UC Irvine Charlie Dunlop School of Biological Sciences
+https://matomo.lib.uci.edu,200,nginx,Sign in - Matomo
+https://mchenrylab.bio.uci.edu,200,AmazonS3,McHenry Lab
+https://mcrs.bio.uci.edu,200,nginx,Home - Masters in Conservation and Restoration Science at UCI
+https://mcrs.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://mcrs.test-pantheon.bio.uci.edu,200,nginx,Home - Masters in Conservation and Restoration Science at UCI
+http://mcsb.bio.uci.edu,530,cloudflare,
+https://mcsb.uci.edu,301,cloudflare,301 Moved Permanently
+http://mail.kotterbo.sandbox.lib.uci.edu,302,Apache,302 Found
+http://mail.kwentuhan.sandbox.lib.uci.edu,302,Apache,302 Found
+http://mail.laurenhanks.sandbox.lib.uci.edu,302,Apache,302 Found
+https://media.bio.uci.edu,403,AmazonS3,
+https://media.learn.uci.edu,301,Apache,301 Moved Permanently
+https://mdsc.eng.uci.edu,200,openresty,Materials Discovery &amp; Synthesis Center
+http://mail.maggior.sandbox.lib.uci.edu,302,Apache,302 Found
+http://mail.mcbrown.sandbox.lib.uci.edu,302,Apache,302 Found
+https://memory.uci.edu,301,Apache,301 Moved Permanently
+https://mediaservices.uci.edu,302,openresty,
+https://mems.eng.uci.edu,200,openresty,MicroSystems Lab &#8211; MEMS
+https://medschool.uci.edu,200,nginx,UC Irvine School of Medicine
+https://medicine.uci.edu,302,openresty,
+https://meng.eng.uci.edu,200,Apache,Professional Master of Engineering | Preparing graduates for employment in industries such as electronics  aerospace  au
+https://mesa.eng.uci.edu,200,openresty,Mathematics  Engineering  Science Achievement (MESA) &#8211; UC Irvine
+https://medclinic.bli.uci.edu,301,Sucuri/Cloudproxy,
+https://mecps.uci.edu,200,Apache,MECPS | Professional Master of Embedded and Cyber-Physical Systems
+https://mfi.soceco.uci.edu,200,openresty,Metropolitan Futures Initiative
+http://mail.mdlaudat.sandbox.lib.uci.edu,302,Apache,302 Found
+http://mail.ncarp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://mail.oclgbthp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://mail.pjp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://mail.plampron.sandbox.lib.uci.edu,302,Apache,302 Found
+http://mail.reclaimtest20220301.sandbox.lib.uci.edu,302,Apache,302 Found
+https://microbiome.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+http://mail.resteele.sandbox.lib.uci.edu,302,Apache,302 Found
+https://mica.uci.edu,404,nginx,Site Not Configured | 404 Not Found
+https://microbiome.test-pantheon.bio.uci.edu,200,nginx,UC Irvine Microbiome Initiative &#8211; UC Irvine Microbiome Initiative
+https://michaeldennin.ovptl.uci.edu,302,openresty,
+http://mail.sandbox.lib.uci.edu,302,Apache,302 Found
+https://microbiome.uci.edu,200,nginx,UC Irvine Microbiome Initiative &#8211; UC Irvine Microbiome Initiative
+https://mindbodylab.bio.uci.edu,200,AmazonS3,The Laboratory for Mind/Body Signaling and Energy Research
+https://milesmorales.studentcenter.uci.edu,303,Microsoft-IIS/10.0,Document Moved
+https://mobility.ics.uci.edu,404,nginx/1.18.0 (Ubuntu),Error
+https://mlfp.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Master of Legal and Forensic Psychology | UC Irvine | Master of Legal and Forensic Psychology
+https://mgrep.grad.uci.edu,200,openresty,Mexico Graduate Research &amp; Education Program
+https://mondego.ics.uci.edu,200,GitHub.com,Home
+https://morrissettelab.bio.uci.edu,200,AmazonS3,                       
+http://mail.sylviabass.sandbox.lib.uci.edu,302,Apache,302 Found
+http://mail.scole.sandbox.lib.uci.edu,302,Apache,302 Found
+https://mpp.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,MPP Home Page | Master of Public Policy
+https://mpa.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Master of Public Administration | Master of Public Administration
+https://microbiology.uci.edu,301,openresty,
+https://mstp.uci.edu,200,openresty,UCI Medical Scientist Training Program &#8211; UCI MSTP
+https://mwoodlab.bio.uci.edu,200,openresty,Wood Lab | Department of Neurobiology and Behavior
+https://molecular-innovation.cohs.uci.edu,200,openresty,Robert A. Mah Molecular Innovation Center
+https://my.housing.uci.edu,200,Microsoft-IIS/10.0,IIS Windows Server
+https://myemail.health.uci.edu,301,Microsoft-HTTPAPI/2.0,
+https://mystudentchart.uci.edu,302,,
+https://myphotoid.uci.edu,301,Apache,301 Moved Permanently
+https://myemail.hs.uci.edu,301,Microsoft-HTTPAPI/2.0,
+https://my.campusrec.uci.edu,200,,UCI Campus Recreation
+https://name-display.commencement.uci.edu,404,Apache,Not Found
+http://mcbrown.sandbox.lib.uci.edu,302,Apache,302 Found
+https://nathistoc.bio.uci.edu,200,AmazonS3,Natural History of Orange County  California
+https://nano.ece.uci.edu,302,Apache,
+https://nature.uci.edu,200,cloudflare,UCI Nature
+https://nano.eng.uci.edu,200,openresty,Nano-Optics and Bio-Technology Lab &#8211; Prof. H. Kumar Wickramasinghe Lab
+https://naturewellness.uci.edu,200,openresty,Nature Wellness
+https://ncic.eng.uci.edu,200,openresty,Nanoscale Communication Integrated Circuits (NCIC) Labs | University of California  Irvine
+http://mdlaudat.sandbox.lib.uci.edu,302,Apache,302 Found
+https://ncarp.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://neurobiology.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://neurobiology.test-pantheon.bio.uci.edu,200,nginx,Neurobiology Department | UC Irvine Charlie Dunlop School of Biological Sciences
+https://neurobiology.uci.edu,200,nginx,Neurobiology Department | UC Irvine Charlie Dunlop School of Biological Sciences
+https://neurology.uci.edu,302,openresty,
+https://neuromechanics.bio.uci.edu,200,openresty,UCI Neuromechanics Lab &#8211; Department of Ecology and Evolutionary
+https://neurorx.cohs.uci.edu,200,openresty,UCI Center for Neurotherapeutics
+https://neurosurgery.uci.edu,302,openresty,
+https://newkirkcenter.uci.edu,200,openresty,UCI Newkirk Center for Science &amp; Society – Promoting Scientific Knowledge in Society&#039;s Interest
+https://news.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://newsletters.provost.uci.edu,200,AmazonS3,UCI Provost Newsletter Archive
+https://news.uci.edu,302,openresty,
+https://news.research.uci.edu,200,cloudflare,News &amp; Announcements &#187; OR News
+https://nextcenter.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://nexus.oit.uci.edu,301,Apache/2.4.37 (Red Hat Enterprise Linux),301 Moved Permanently
+https://nexusconsole.cicd.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://next.catalogue.uci.edu,302,Apache,302 Found
+https://news.oit.uci.edu,200,openresty,Information Technology News Archive – 1996 &#8211; 2017
+https://nmedisp-alb-lb.sait-namedisplay-prod.aws.uci.edu,200,Apache,Not the site your looking for
+https://nmedisp-alb-lb.sait-namedisplay-dev.aws.uci.edu,200,Apache,Not the site your looking for
+https://newstudents.uci.edu,200,openresty,New Student Handbook |
+https://noho.childcare.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://nguyendiuhuong.humanities.uci.edu,200,openresty,Diu-Huong Nguyen Nguyễn Dịu Hương
+https://news.law.uci.edu,200,openresty,UC Irvine Law News
+https://nter.eng.uci.edu,301,Apache,301 Moved Permanently
+https://nursing.hs.uci.edu,200,openresty,Website Not Found
+https://nuclear.eng.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://obc.bio.uci.edu,200,nginx,Home - Optical Biology Core Facility
+https://oai.eng.uci.edu,200,openresty,OAI
+https://obc.test-pantheon.bio.uci.edu,200,nginx,Home - Optical Biology Core Facility
+https://obc.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://oc-aws.oit.uci.edu,403,nginx,403 Forbidden
+https://ocean.education.uci.edu,200,nginx,Organizing Collaboration for Educational Advancement Network
+https://oceanhealth.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://oceans.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://oapir.uci.edu,301,openresty,
+https://nicholaslab.bio.uci.edu,200,Apache,Nicholas Lab
+https://oclgbthp.sandbox.lib.uci.edu,200,Apache,Orange County LGBT History Project
+https://ocseaa.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://nursing.uci.edu,200,openresty,UCI Sue &amp; Bill Gross School of Nursing &#8211; Nursing With Humanity in Mind
+https://obgyn.uci.edu,302,openresty,
+https://octlab.eng.uci.edu,200,openresty,F-OCT Lab &#8211; Functional Optical Coherence Tomography Laboratory
+https://oeod.uci.edu,200,Apache,Office of Equal Opportunity &amp; Diversity // Office of Equal Opportunity and Diversity // UCI
+https://ofas.uci.edu,200,Apache,Office of Financial Aid and Scholarships | UCI
+https://offcampus.housing.uci.edu,403,AkamaiGHost,Access Denied
+https://oit-creator-lb.oit-zotgptcreator-prod.aws.uci.edu,200,nginx,ZotGPT: AI Tools at UCI
+https://oit-creator-lb.oit-zotgptcreator-dev.aws.uci.edu,200,nginx,ZotGPT: AI Tools at UCI
+https://oit-creator-lb.oit-zotgptcreator-stage.aws.uci.edu,200,nginx,ZotGPT: AI Tools at UCI
+https://oit-instrbt-lb.oit-instructorbot-dev.aws.uci.edu,200,nginx,Class Chat: UCI AI Classroom Assistant
+https://oit-instrbt-lb.oit-instructorbot-prod.aws.uci.edu,200,nginx,Class Chat: UCI AI Classroom Assistant
+https://oit-zotdesk-lb.oit-zotdesk-dev.aws.uci.edu,200,nginx,ZotDesk: UCI AI Helpdesk Assistant
+https://oit-instrbt-lb.oit-instructorbot-stage.aws.uci.edu,200,nginx,Class Chat: UCI AI Classroom Assistant
+https://oel.eng.uci.edu,200,openresty,Office for Experiential Learning
+https://oit-zotdesk-lb.oit-zotdesk-prod.aws.uci.edu,200,nginx,ZotDesk: UCI AI Helpdesk Assistant
+https://oit-zotdesk-lb.oit-zotdesk-stage.aws.uci.edu,200,nginx,ZotDesk: UCI AI Helpdesk Assistant
+https://oit-zotsite-lb.oit-zotsites-dev.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://oir.uci.edu,301,openresty,
+https://oit-zotsite-lb.oit-zotsites-stage.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://oit-zotsite-lb.oit-zotsites-prod.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+http://okrdev.studentcenter.uci.edu,200,nginx/1.24.0,Welcome to nginx!
+https://oit.uci.edu,301,openresty,
+https://okr.studentcenter.uci.edu,200,Microsoft-IIS/10.0,SCES OKRs & Accomplishments
+https://oitwpdev.aws.uci.edu,404,awselb/2.0,
+https://ophthalmology.uci.edu,200,nginx,UCI Gavin Herbert Eye Institute
+https://omeka.lib.uci.edu,200,Apache/2.4.66 (Amazon Linux) OpenSSL/3.5.5,Sites ·  UCI Libraries | Digital Scholarship Services
+https://omekas.lib.uci.edu,200,Apache/2.4.66 (Amazon Linux) OpenSSL/3.5.5,Sites ·  UCI Libraries | Digital Scholarship Services
+https://online.dtei.uci.edu,200,openresty,Redirect to DTEI &#8211; Redirect Website
+https://or-p-web-alb-prod12.oit-ei-prod12.aws.uci.edu,403,Apache/2.4.62 (Rocky Linux) mod_jk/1.2.50,HTTP Server Test Page powered by: Rocky Linux
+http://orghelp.lawnet.uci.edu,301,ESF,
+https://oralhistory.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://ombuds.uci.edu,200,openresty,UCI Office of the Ombuds
+https://orientation-d-web.aws.uci.edu,200,Apache,Not the site your looking for
+https://orientation-lb.sait-migration-dev.aws.uci.edu,200,Apache,Not the site your looking for
+https://orientation-lb.sait-migration-prod.aws.uci.edu,200,Apache,Not the site your looking for
+https://orientation-p-web.aws.uci.edu,200,Apache,Not the site your looking for
+https://osc-mh-d-nlb-test34.oit-sas-test34.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://osc-mh-nlb-prod34.oit-sas-prod34.aws.uci.edu,200,Microsoft-IIS/10.0,IIS Windows Server
+https://orthopaedicsurgery.uci.edu,301,Apache,301 Moved Permanently
+https://osc-mh-s-nlb-test34.oit-sas-test34.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://orientation.uci.edu,200,openresty,UCI Orientation
+https://packagist.oit.uci.edu,403,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://ovptl.uci.edu,200,openresty,Office of the Vice Provost for Teaching and Learning | UC Irvine
+https://palcard.uci.edu,200,Apache,Not the site your looking for
+https://parkerlab.bio.uci.edu,200,AmazonS3,Redirecting...
+https://partners.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://parents.uci.edu,200,Apache,parents.uci.edu
+https://pascal.eng.uci.edu,200,openresty,Pascal
+https://partnerships.uci.edu,200,openresty,UC Irvine Office of Educational &amp; Community Partnerships
+https://odit.uci.edu,301,openresty,
+https://payamheydari.eng.uci.edu,200,openresty,Payam Heydari &#8211; Payam Heydari
+https://pathology.uci.edu,302,openresty,
+https://paap.due.uci.edu,302,openresty,
+https://passport.uci.edu,301,openresty,
+https://pbee.eng.uci.edu,200,openresty,Performance Based Earthquake Engineering Laboratory
+https://peacebuilding.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://peeradvisor.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://peggycarter.studentcenter.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://pdc.eng.uci.edu,200,openresty,United in Motion: Building Careers  Communities &amp; Allyship &#8211; UCI Professional Development Conference  for Wome
+https://pda.grad.uci.edu,301,openresty,
+https://personnel.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Personnel
+https://pediatrics.uci.edu,302,openresty,
+https://phibetakappa.uci.edu,200,openresty,UCI Phi Beta Kappa | Mu Chapter of UC Irvine
+https://phit.uci.edu,200,openresty,Public Health Informatics and Technology Program |
+https://photos.sa.uci.edu,403,Apache,HTTP Server Test Page powered by: Rocky Linux
+https://pecelab.socsci.uci.edu,200,openresty,Fortun Lab |
+https://picard-nlb-prod12.uci-soceco-prod12.aws.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Page Not Found
+https://pharmsci.uci.edu,200,openresty,UC Irvine School of Pharmacy &amp; Pharmaceutical Sciences
+https://plampron.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://plannedgiving.uci.edu,403,cloudflare,Attention Required! | Cloudflare
+https://pjp.sandbox.lib.uci.edu,200,Apache,My cms
+https://physastroblog.ps.uci.edu,301,openresty,
+https://physiology.uci.edu,302,openresty,
+https://planningandsustainability.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Campus Planning & Sustainability // UC Irvine
+https://parking.uci.edu,200,openresty,Transportation and Distribution Services | The website for Transportation and Distribution Services at UC Irvine.
+https://pmacslab.eng.uci.edu,200,openresty,PMACS Lab &#8211; Probabilistic Modeling and Analysis of Complex Systems Laboratory
+https://police.uci.edu,200,Apache,UCI Police Department // Police Department // UC Irvine
+https://polisci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://plikuslab.bio.uci.edu,200,openresty,Plikus Laboratory at UC Irvine
+https://portal.azureapi.zotgpt.uci.edu,200,,Home - UC Irvine API Management
+https://policies.uci.edu,200,openresty,Policies
+https://portal.ic.uci.edu,302,Microsoft-IIS/10.0,Object moved
+https://portal.icts.uci.edu,200,Microsoft-IIS/10.0,Institute for Clinical and Translational Science | University of California  Irvine
+https://pov.cogsci.uci.edu,200,openresty,POV
+https://ppe.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://pratikshahlab.cohs.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Site Deactivated
+https://predictiontechnology.uci.edu,302,openresty,
+https://prehealth.uci.edu,200,openresty,UC PRIME Pre-Health Pathways | Advancing Opportunities in the Health Professions
+https://prisonpandemic.uci.edu,200,cloudflare,UCI PrisonPandemic
+https://privacy.uci.edu,200,Apache,Welcome // Privacy // UCI
+https://pmr.uci.edu,302,openresty,
+https://pro.uci.edu,200,Apache,Public Records Office // Public Records Office // UCI
+https://procurement.uci.edu,200,Apache,Home // Procurement Services // UC Irvine
+https://prod.assets.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://prod.data.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://prod.enrollment.uci.edu,200,Apache,Enrollment Management | UCI
+https://prod.int.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://prod.students.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://prod2.students.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://profiles.icts.uci.edu,301,nginx,
+https://properdata.eng.uci.edu,200,openresty,Proper Data
+https://provost.uci.edu,301,openresty,
+https://programs.merage.uci.edu,200,openresty,Merage School Programs
+https://prs.uci.edu,200,Apache,Not the site your looking for
+https://ps.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Psychology | Psychology
+https://psac.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Public Safety Advisory Committee // UCI
+https://ps.uci.edu,200,openresty,Home Page | Building a Better Future Through Science
+https://properai.eng.uci.edu,200,openresty,Proper AI
+https://psychologyclinic.soceco.uci.edu,403,awselb/2.0,403 Forbidden
+https://psychology.uci.edu,301,openresty,
+https://psychlaw.soceco.uci.edu,200,openresty,Home Page – University of California  Irvine
+https://qa.scholarsteps.ap.uci.edu,200,,ScholarSteps
+https://purchasing.uci.edu,200,Apache,Not the site your looking for
+https://pubs.communications.uci.edu,302,,
+https://qa.scholarconnect.uci.edu,200,Apache/2.4.66 (Unix),ScholarConnect | AI-Powered Faculty Expertise Search
+https://psychiatry.uci.edu,302,openresty,
+https://r2r.bio.uci.edu,200,nginx,Ridge 2 Reef  | An NSF Research Traineeship in Ecosystem Management and Environmental Change
+https://qa.recruit.ap.uci.edu,200,,Welcome - UCI - Recruit
+https://r2r.test-pantheon.bio.uci.edu,200,nginx,Ridge 2 Reef  | An NSF Research Traineeship in Ecosystem Management and Environmental Change
+https://qa.ucanr.ucrecruit-sandbox.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://r2r.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://racialhealing.uci.edu,307,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,307 Temporary Redirect
+https://racialjustice.uci.edu,307,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,307 Temporary Redirect
+https://ranzlab.bio.uci.edu,200,openresty,RANZ LABORATORY &#8211; UCI Department of Ecology &amp; Evolutionary Biology
+https://quals.math.uci.edu,200,,Home | UC Math Qualifying Exams
+https://radiology.uci.edu,200,openresty,Department of Radiological Sciences | University of California  Irvine
+https://rcems.medschool.uci.edu,200,openresty,Research Center for Exercise Medicine and Sleep (RCEMS)
+https://rd-gateway.ad.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://rd-gateway-dev.ad.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://rd-gw-nlb-prod34.oit-ei-prod34.aws.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://rd-gw-nlb-test12.oit-ei-test12.aws.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://radonc.uci.edu,302,openresty,
+https://realtimeops.studentcenter.uci.edu,302,Microsoft-IIS/10.0,
+https://reclaimtest20220301.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://publichealth.uci.edu,200,openresty,UC Irvine Wen Public Health
+https://realestate.uci.edu,200,Apache,Home // Real Estate Services // UC Irvine
+https://recruit-lb.ucrecruit-live.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://recruit-lb.ucrecruit-sandbox.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://redirect.cpit.oit.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://recruit.ap.uci.edu,200,,Welcome - UCI - Recruit
+https://remade.its.uci.edu,200,nginx/1.25.4,UCI REMADE (v0.6.0-1-g9631296)
+https://reeve.uci.edu,301,cloudflare,301 Moved Permanently
+https://register.testingcenter.uci.edu,200,Microsoft-IIS/10.0,Upcoming Exams - ATC System
+https://reg.commencement.uci.edu,302,Apache,Redirecting to https://reg.commencement.uci.edu/shibboleth/login
+https://remotelearning.due.uci.edu,200,openresty,DUE Remote Learning  |
+https://research.bio.uci.edu,200,nginx,Welcome to Research Development and Administration - Research Administration and Development
+https://ra.cohs.uci.edu,200,openresty,UCI Research Associates |
+https://research.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://research.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://research.test-pantheon.bio.uci.edu,200,nginx,Welcome to Research Development and Administration - Research Administration and Development
+https://researchdevelopment.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://remotestrategy.ovptl.uci.edu,200,openresty,UCI | OVPTL | Planning for Remote Instruction
+https://research.uci.edu,200,cloudflare,Home - UCI Office of Research
+https://reserveme.studentaffairs.uci.edu,403,Apache,HTTP Server Test Page powered by: Rocky Linux
+https://report.oit.uci.edu,200,openresty,Technology at UCI &#8211; 2020 Impact Report &#8211; Digital Transformation in a Year of Change
+https://resources.latinx.uci.edu,200,Apache,Search - UCI Guide to Latinx Resources
+https://reserve.orientation.uci.edu,200,Apache,Orientation
+https://replay.uci.edu,301,openresty,
+https://rcpsl.eng.uci.edu,200,openresty,Resilient Cyber-Physical Systems Lab
+https://reunion.uci.edu,301,Apache,301 Moved Permanently
+https://reservations.cohs.uci.edu,200,openresty,Reservation for Health Sciences Complex
+https://researchjustice.newkirkcenter.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://risk.uci.edu,200,Apache,Home // Risk Services // UC Irvine
+https://prod2.apps.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://resteele.sandbox.lib.uci.edu,200,Apache,
+https://roster.sororityfraternity.uci.edu,200,Apache,Roster Updates | UCI Office of Sorority & Fraternity Life | UCI
+https://rms.research.uci.edu,301,Microsoft-IIS/10.0,Document Moved
+https://retirees.uci.edu,200,Apache,retirees.uci.edu &#8211; UCI Center for Emeriti and Retirees
+https://s-web02-alb-test34.oit-eas-test34.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,
+https://roadmap.oit.uci.edu,200,openresty,OIT Technology Roadmap | Partnering with UCI to provide innovative solutions
+https://s-web00-alb-test34.oit-eas-test34.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,
+https://rosemuellerlabs.bio.uci.edu,200,openresty,Rose Mueller Labs &#8211; The Lab That Never Ends
+https://robotics.eng.uci.edu,200,openresty,Center for Resilient Autonomous Systems
+https://rna.uci.edu,301,openresty,
+https://sa-name-display-dev.commencement.uci.edu,200,Apache,Not the site your looking for
+https://sa-commencement-dev.aws.uci.edu,200,Apache,Not the site your looking for
+https://sa-commencement-prod.aws.uci.edu,200,Apache,Not the site your looking for
+https://sa-name-display-prod.commencement.uci.edu,200,Apache,Not the site your looking for
+https://sa-orientation-dev.aws.uci.edu,200,Apache,Not the site your looking for
+https://sa-orientation-prod.aws.uci.edu,200,Apache,Not the site your looking for
+https://saas.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://sa-web-nlb-prod34.uci-sa-prod34.aws.uci.edu,302,Apache,Redirecting to https://sa-web-nlb-prod34.uci-sa-prod34.aws.uci.edu/shibboleth/login
+https://sa-webapp-nlb-prod12.uci-sa-prod12.aws.uci.edu,302,Apache,
+https://rocket.eng.uci.edu,301,openresty,
+https://saber.studentaffairs.uci.edu,200,Apache,Home | SABER
+https://salo.studentaffairs.uci.edu,302,Apache,Redirecting to https://salo.studentaffairs.uci.edu/shibboleth/login
+https://saltonsea.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://sam-lb.spark-migration-prod.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://safety.health.uci.edu,200,openresty,UCI Health Safety
+https://sam.compass.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://saml.educ.aws.uci.edu,404,nginx,Error
+https://saip.eng.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://sab2024.socsci.uci.edu,200,openresty,SAB 2024 &#8211; From Animals to Animats 17 International Conference
+https://sba.lawnet.uci.edu,302,ESF,
+https://sas.oit.uci.edu,301,openresty,
+https://sash.eng.uci.edu,200,openresty,SASH
+https://sc-webapp-p-1.ad.uci.edu,200,Microsoft-IIS/10.0,IIS Windows Server
+https://satcfrontier.eng.uci.edu,410,openresty,WordPress &rsaquo; Error
+http://sces-study-space.studentcenter.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://scgas.math.uci.edu,200,Caddy,XXX SCGAS
+https://sagescholars.uci.edu,301,openresty,
+https://scholar-steps-dev-lb.ap-scholar-steps-dev.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://scholar-steps-prod-lb.ap-scholar-steps-prod.aws.uci.edu,200,,ScholarSteps
+https://scheduler.oit.uci.edu,200,nginx,
+https://scholar-steps-qa-lb.ap-scholar-steps-qa.aws.uci.edu,200,,ScholarSteps
+https://sandbox.lib.uci.edu,200,Apache,UCI Libraries &#8211; Digital Sandbox Service
+https://scholarconnect.uci.edu,200,Apache/2.4.63 (Unix),ScholarConnect | AI-Powered Faculty Expertise Search
+https://scholarsteps.ap.uci.edu,200,,ScholarSteps
+https://scienceolympiad.ps.uci.edu,200,openresty,UC Irvine OC Regional Science Olympiad
+http://prod2.data.athletics.uci.edu,301,,301 Moved Permanently
+https://scienceproject.education.uci.edu,200,openresty,UCI Science Project |
+https://scole.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://scoreshare.compass.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://scholars.uci.edu,200,openresty,SOP | Scholarship Opportunities Office
+https://scpa-p-web.aws.uci.edu,403,awselb/2.0,403 Forbidden
+https://scpa-secondaries.aws.uci.edu,403,awselb/2.0,403 Forbidden
+https://scienceproject.cfep.uci.edu,302,openresty,
+https://scpa-web-aws-prod.aws.uci.edu,403,awselb/2.0,403 Forbidden
+https://sdsc-vpn-pri.oit.uci.edu,200,,
+https://sdsc-vpn-sec.oit.uci.edu,404,,
+https://sdsc-vpn.oit.uci.edu,200,,
+https://seaa.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://seaadoc.lib.uci.edu,200,AmazonS3,Site Moved
+https://search.uci.edu,403,awselb/2.0,403 Forbidden
+https://search1.oit.uci.edu,403,awselb/2.0,403 Forbidden
+https://sdw.oit.uci.edu,200,openresty,Student Data Warehouse (SDW) | Building a data ecosystem that serves to meet the operational needs of the UCI
+https://sec-lb.oit-iam-services-prod.aws.uci.edu,403,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,403 Forbidden
+https://sec-lb.oit-iam-services-qa.aws.uci.edu,403,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,It works! Apache httpd
+https://sec.due.uci.edu,200,openresty,Student Excellence Center | UCI
+https://secureemail.hs.uci.edu,403,,Forbidden
+https://securemail.hs.uci.edu,403,,Forbidden
+https://sep.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://senate.uci.edu,200,openresty,Academic Senate
+https://services-web.research.uci.edu,200,Apache,UCI Office of Research Archive
+https://secure.connect.uci.edu,301,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://services.research.uci.edu,403,Apache/2.4.62 (Rocky Linux) mod_jk/1.2.50,HTTP Server Test Page powered by: Rocky Linux
+https://services.sa.uci.edu,404,Apache,Not Found
+https://services.whcs.uci.edu,404,Apache,Not Found
+https://servicenow.hs.uci.edu,302,openresty,
+https://sgross.bio.uci.edu,200,AmazonS3,Gross Lab: Home
+https://secure.give.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,UC Irvine Secure Giving - Home - UCI Secure giving
+https://sexualviolence.uci.edu,301,Apache,301 Moved Permanently
+https://security.uci.edu,301,openresty,
+https://sheldongroup.ps.uci.edu,200,nginx/1.24.0 (Ubuntu),
+https://shib-lb.oit-iam-services-prod.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Shibboleth Server
+https://shib-qa.service.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Shibboleth Server
+https://shib-d-sp01.oit.uci.edu,200,Microsoft-IIS/10.0,IIS Windows Server
+https://shib-d-sp01.aws.uci.edu,200,Microsoft-IIS/10.0,IIS Windows Server
+https://shib-lb.oit-iam-services-qa.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Shibboleth Server
+https://shib.service.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Shibboleth Server
+https://shibboleth-p-app.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Shibboleth Server
+https://shibboleth-prod.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Shibboleth Server
+https://shibboleth-p-app-qa.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Shibboleth Server
+https://shibboleth-qa.aws.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.50,Shibboleth Server
+https://shilab.bio.uci.edu,301,Pepyaka,
+https://shine.uci.edu,403,awselb/2.0,403 Forbidden
+https://shcherbakov.eng.uci.edu,200,openresty,Shcherbakov Nanophotonics Lab
+https://sites.research.uci.edu,200,cloudflare,Sites.Research
+https://sisko-nlb-prod12.uci-soceco-prod12.aws.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Page Not Found
+https://sites.oit.uci.edu,302,openresty,
+http://sites2-nlb-prod12.uci-arts-prod12.aws.uci.edu,200,Apache,You have reached this page in error
+https://skincenter.uci.edu,200,Apache,Home // SKIN A Skin Biology Resource Center // UC Irvine
+https://slate-alb-lb.auconvert-slate-dev.aws.uci.edu,502,awselb/2.0,502 Bad Gateway
+https://shpe.eng.uci.edu,200,openresty,SHPE University of California &#8211; Society of Hispanic Professional Engineers
+https://shrink.eng.uci.edu,200,openresty,Michelle Khine Lab Group |
+https://snehanpeshin.eng.uci.edu,200,openresty,The amazing world of Centrifugal Microfluidics &#8211; Dr. Snehan Peshin – This site is an effort to present my work d
+https://skimball.bio.uci.edu,200,openresty,Sarah Kimball &#8211; Ecologist
+https://sites.uci.edu,200,openresty,UCI Sites &#8211; Managed WordPress Web Hosting
+https://sleep.bio.uci.edu,200,openresty,Cognitive Neuroscience of Sleep Lab
+https://soar.uci.edu,200,openresty,UCI SOAR Center | Student Outreach and Retention Center
+https://socalhub.uci.edu,200,cloudflare,Homepage - SocalHub
+https://socialecology.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,All In For All | School of Social Ecology
+https://socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://sociology.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://socialunity.humanities.uci.edu,200,openresty,UCI Social Unity Research Cluster
+https://songlab.eng.uci.edu,200,openresty,Song Group &#8211; Design Art of Quantum Materials
+https://sororityfraternity.uci.edu,200,openresty,UCI Sorority &amp; Fraternity Life – • Since 1973 •
+https://spaces.hsg.uci.edu,200,nginx,
+https://spaces.lib.uci.edu,200,nginx,
+https://spark.uci.edu,302,Microsoft-IIS/10.0,
+http://speaker.alumni.uci.edu,308,Caddy,
+https://special.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://specialreports.news.uci.edu,403,awselb/2.0,403 Forbidden
+https://spellingdystance.education.uci.edu,200,AmazonS3,Spelling Dystance
+https://specialevents.uci.edu,200,Apache,specialevents.uci.edu
+https://spf.ssi.uci.edu,200,openresty,SPF
+https://spps.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://ss-lb.spark-migration-prod.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://spiro.mmg.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://ssarc.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://src.sustainability.uci.edu,200,openresty,UCI Sustainability Resource Center
+https://sscs.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://ssi.uci.edu,200,openresty,Student Success Initiatives | UC Irvine
+https://ssihi.uci.edu,200,openresty,UCI Susan Samueli Integrative Health Institute &#8211; SSIHI &#8211; Transforming health with whole-person care
+https://sst-ws-nlb-prod34.oit-sas-prod34.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://sss.uci.edu,302,openresty,
+https://staff.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://staff.fs.uci.edu,200,Apache,Home // Financial Services Staff // UC Irvine
+https://stage-profiles.icts.uci.edu,301,nginx,
+https://stage-clinicaltrials.icts.uci.edu,200,Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips,Clinical Trials at UC Irvine
+https://staffassembly.uci.edu,301,openresty,
+https://staging-edocs.oit.uci.edu,200,Apache,Not the site your looking for
+https://staging.accessibility.uci.edu,200,Apache,Home // Accessibility // UCI
+https://staging.accounting.uci.edu,200,Apache,Home // Accounting & Fiscal Services // UC Irvine
+https://staging.admissions.uci.edu,200,Apache,UC Irvine Office of Undergraduate Admissions
+https://staging.amp.web.uci.edu,200,Apache,Home // University of California Administrative Management Professionals // UCI
+https://staging.audit.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Internal Audit Services // UC Irvine
+https://staging.budgetoffice.uci.edu,200,Apache,Home // Budget Office // UC Irvine
+https://staging.campuscounsel.uci.edu,200,Apache,Home // UC Legal UCI Office of Campus Counsel // UCI
+https://staging.cdn.enrollment.uci.edu,403,Apache,It works! Apache httpd
+https://staging.compliance.uci.edu,200,Apache,Compliance | UCI // Compliance // UCI
+https://staging.datahub.oapir.uci.edu,403,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://staging.cp.uci.edu,200,Apache,Home // Capital Planning & Space Management // UCI
+https://staging.designandconstruction.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Design & Construction Services // UC Irvine
+https://staging.deoc.uci.edu,200,Apache,Welcome // Division of Equal Opportunity and Compliance // UCI
+https://staging.dfa.uci.edu,200,Apache,Home // Division of Finance & Administration // UC Irvine
+https://staging.ehs.uci.edu,200,Apache,Home // Environmental Health & Safety // UC Irvine
+https://staging.eec.hr.uci.edu,200,Apache,Employee Experience Center
+https://staging.endfamilyviolence.uci.edu,200,Apache,UCI Initiative to End Family Violence
+https://staging.em.uci.edu,200,Apache,Home // Emergency Management // UC Irvine
+https://staging.enrollment.uci.edu,200,Apache,Enrollment Management | UCI
+https://staging.families.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,UCI Families
+https://staging.gmp.stemcell.uci.edu,200,Apache,HOME // GMP // UC Irvine
+https://staging.fs.uci.edu,200,Apache,Home // Financial Services Students // UC Irvine
+https://staging.fm.uci.edu,200,Apache,Home // Facilities Management // UC Irvine
+https://staging.hr.uci.edu,200,Apache,UCI Human Resources | Home
+https://staging.join.uci.edu,302,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://staging.law.uci.edu,200,Apache,Home | UC Irvine Law
+https://staging.liferesources.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,UCI Life Resources
+https://staging.lrdp.uci.edu,302,Apache,
+https://staging.healthaffairs.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,UCI Health Affairs
+https://staging.oeod.uci.edu,200,Apache,Office of Equal Opportunity &amp; Diversity // Office of Equal Opportunity and Diversity // UCI
+https://staging.illuminations.uci.edu,200,Apache,Home // Illuminations The Chancellor's Arts & Culture Initiative // UCI
+https://staging.ofas.uci.edu,200,Apache,Office of Financial Aid and Scholarships | UCI
+https://staging.planningandsustainability.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Campus Planning & Sustainability // UC Irvine
+https://staging.prisonpandemic.uci.edu,403,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://staging.privacy.uci.edu,200,Apache,Welcome // Privacy // UCI
+https://staging.pro.uci.edu,200,Apache,Public Records Office // Public Records Office // UCI
+https://staging.police.uci.edu,200,Apache,UCI Police Department // Police Department // UC Irvine
+https://staging.procurement.uci.edu,200,Apache,Home // Procurement Services // UC Irvine
+https://staging.psac.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Public Safety Advisory Committee // UCI
+https://staging.skincenter.uci.edu,200,Apache,Home // SKIN A Skin Biology Resource Center // UC Irvine
+https://staging.risk.uci.edu,200,Apache,Home // Risk Services // UC Irvine
+https://staging.realestate.uci.edu,200,Apache,Home // Real Estate Services // UC Irvine
+https://staging.stemcell.uci.edu,200,Apache,Home // Sue & Bill Gross Stem Cell Research Center // UC Irvine
+https://staging.staff.fs.uci.edu,200,Apache,Home // Financial Services Staff // UC Irvine
+https://staging.training.uci.edu,301,Apache,301 Moved Permanently
+https://staging.ucibuy.uci.edu,301,Apache,301 Moved Permanently
+https://staging.ucifund.uci.edu,403,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://staging.uclc.uci.edu,200,Apache,UCLC - UC Learning Center Home Page
+https://staging.uclub.uci.edu,200,Apache,Home // University Club // UCI
+https://staging.ucpath.uci.edu,200,Apache,Home // UCPath // UC Irvine
+https://staging.veteranbenefits.uci.edu,200,Apache,Veteran Benefits
+https://staging.wellness.uci.edu,200,Apache,UC Irvine - Wellness
+https://staging.whistleblower.uci.edu,200,Apache,UCI Whistleblower // Whistleblower // UCI
+https://starclusters.cohs.uci.edu,302,,
+https://startupguide.innovation.uci.edu,301,Squarespace,
+https://status.oit.uci.edu,302,Apache/2.4.66 () mod_jk/1.2.49,302 Found
+https://statusdash-d-web.aws.uci.edu,404,Apache/2.4.66 () mod_jk/1.2.49,HTTP Status 404 – Not Found
+https://statusdash-dev.aws.uci.edu,404,Apache/2.4.66 () mod_jk/1.2.49,HTTP Status 404 – Not Found
+https://statusdash-p-web.aws.uci.edu,302,Apache/2.4.66 () mod_jk/1.2.49,302 Found
+https://stemcell.uci.edu,200,Apache,Home // Sue & Bill Gross Stem Cell Research Center // UC Irvine
+https://stg.apps.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://steyvers.socsci.uci.edu,200,openresty,Mark Steyvers – Research of Mark Steyvers
+https://stg.data.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://stg.assets.athletics.uci.edu,404,Apache,404 Not Found
+https://stg.int.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://stg.students.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://stream.lib.uci.edu,403,CloudFront,ERROR: The request could not be satisfied
+https://strategicplan.uci.edu,301,openresty,
+https://studentcenter.uci.edu,200,nginx/1.30.0,UC Irvine Student Center &amp; Event Services &middot; Interact. Learn. Enjoy.
+https://studentcheckin.ic.uci.edu,403,Apache,HTTP Server Test Page powered by: Rocky Linux
+https://studenthealth.uci.edu,200,openresty,Student Health Center |
+https://studentaffairs.uci.edu,200,openresty,The Division of Student Affairs &#8211; Where Students Thrive and Matter
+https://studentdata.odit.uci.edu,301,openresty,
+https://studentlife.uci.edu,200,openresty,UCI Student Life &#038; Leadership
+https://students.athletics.uci.edu,403,Apache,Test Page for the Apache HTTP Server
+https://students.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Undergraduate Affairs | Social Ecology Undergraduate Affairs
+https://studentleadership.uci.edu,200,openresty,UCI Center for Student Leadership
+https://studyabroad.uci.edu,200,openresty,Study Abroad Center | UC Irvine
+https://suetterlin.bio.uci.edu,200,AmazonS3,
+https://students.uci.edu,200,openresty,Student Resources |
+https://submit.sccur.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://sulaco.pts.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://success.enrollment.uci.edu,302,,
+https://summer.uci.edu,200,openresty,Summer Session at UCI | Welcome Back Students!
+https://summerconferences.studentcenter.uci.edu,200,Apache,UC Irvine Summer Conferences &middot; Eat Here. Meet Here. Stay Here.
+http://support-services-careers.healthcare.uci.edu,530,cloudflare,
+https://sunlab.eng.uci.edu,301,openresty,
+https://summerbridge.due.uci.edu,200,openresty,Summer Bridge Program
+https://surgicaledcenter.uci.edu,200,openresty,Surgical Education Center
+https://surveys.oit.uci.edu,200,openresty,UCI Surveys
+https://surgery.uci.edu,302,openresty,
+https://sw-alb-lb.spark-migration-prod.aws.uci.edu,302,Microsoft-IIS/10.0,
+https://sylviabass.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://sustainability.uci.edu,200,openresty,UCI Sustainability &#8211; A hub for students building community resilience to a changing climate.
+https://systems.bio.uci.edu,200,nginx,Systems Biology | UC Irvine Charlie Dunlop School of Biological Sciences
+https://systems.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://systems.test-pantheon.bio.uci.edu,200,nginx,Systems Biology | UC Irvine Charlie Dunlop School of Biological Sciences
+https://supplychain.health.uci.edu,200,openresty,UCI Health Supply Chain
+https://studentwellness.uci.edu,200,Apache,UCI Center for Student Wellness and Health Promotion
+https://t.arts.uci.edu,404,,404 Not Found
+https://tds-app-alb-prod34.oit-eas-prod34.aws.uci.edu,302,Microsoft-IIS/10.0,
+https://taboreklab.physics.uci.edu,200,openresty,
+https://tds-app-alb-test34.oit-eas-test34.aws.uci.edu,302,Microsoft-IIS/10.0,
+https://tds-app-nlb-prod34.oit-eas-prod34.aws.uci.edu,302,Microsoft-IIS/10.0,
+https://tds-dist-alb-prod12.oit-eas-prod12.aws.uci.edu,403,Microsoft-IIS/10.0,403 - Forbidden: Access is denied.
+https://tds-ent-alb-prod34.oit-eas-prod34.aws.uci.edu,200,Microsoft-IIS/10.0,Parking Portal
+https://tds-dist-nlb-prod12.oit-eas-prod12.aws.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://tds-ent-alb-test34.oit-eas-test34.aws.uci.edu,200,Microsoft-IIS/10.0,Parking Portal
+https://tds-ent-nlb-prod34.oit-eas-prod34.aws.uci.edu,200,Microsoft-IIS/10.0,Parking Portal
+https://tds-net-alb-test12.oit-eas-test12.aws.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://teamscholarship.uci.edu,302,cloudflare,302 Found
+https://teacheracademy.uci.edu,200,openresty,UCI Teacher Academy |
+https://teammade.eng.uci.edu,200,openresty,teamMADE-OC | Team: Modular Affordable Dwellings for the Environment - Orange County
+https://techblog.ce.uci.edu,403,nginx,Error: Active domain connection for this domain not found
+https://technoexpo.uci.edu,200,openresty,UCI&#039;s TechnoExpo &#8211; October 9  2019
+https://tech.book.uci.edu,410,openresty,WordPress &rsaquo; Error
+http://tech.ce.uci.edu,404,Leadpages,404 Error
+https://telecomassetmanager.hs.uci.edu,200,AmazonS3,UCI Health Telecom Asset Manager
+https://technsociety.eng.uci.edu,302,openresty,
+https://tea.dtei.uci.edu,200,openresty,Teaching Experiment Academy | UCI
+https://test-dept.socsci.uci.edu,403,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,HTTP Server Test Page powered by: Rocky Linux
+https://tennerlab.bio.uci.edu,301,openresty,
+https://test-enterprise.pts.uci.edu,200,Microsoft-IIS/10.0,Parking Portal
+https://test-main.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://test-pantheon.bio.uci.edu,200,nginx,UC Irvine Dunlop School of Biological Sciences
+https://test-public.pts.uci.edu,200,Microsoft-IIS/10.0,Landing Page
+https://test-center.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Test-Center
+https://test.capandgown.uci.edu,200,Apache,Not the site your looking for
+https://techprep.oit.uci.edu,302,openresty,
+https://test.law.uci.edu,200,Apache,Home | UC Irvine Law
+https://test.publichealth.uci.edu,200,Apache,Not the site your looking for
+https://test.oit.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://test.saml.educ.aws.uci.edu,404,nginx,Error
+https://test.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://testingcenter.uci.edu,200,openresty,Academic Testing Center | ATC
+https://testkit.studenthealth.uci.edu,200,Apache,Testkit SH
+https://ticklab-db-alb.oit-eas-prod12.aws.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://thompsonpeer.bio.uci.edu,200,openresty,Thompson-Peer Lab &#8211; Dendrite Regeneration
+https://timesheet.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,Index - UCI Time Reporting System - TRS
+https://tier2aps.calit2.uci.edu,404,Pepyaka,
+https://tinyurl.lib.uci.edu,403,CloudFront,ERROR: The request could not be satisfied
+https://tirf.education.uci.edu,200,AmazonS3,Tirf Database
+https://tla.ovptl.uci.edu,200,AmazonS3,Compass Teaching &amp; Learning Analytics
+https://tlrc.dtei.uci.edu,200,openresty,Redirect for TLRC &#8211; Redirect Website
+https://tlrc.dtl.uci.edu,200,openresty,Redirect for TLRC &#8211; Redirect Website
+https://today.uci.edu,403,awselb/2.0,403 Forbidden
+https://trademarks.uci.edu,403,awselb/2.0,403 Forbidden
+https://tour.admissions.uci.edu,200,Heroku,Circuit Virtual Tours
+https://training.studentaffairs.uci.edu,200,Apache,
+https://training.recruit.ap.uci.edu,200,,Welcome - UCI - Recruit
+https://training.uci.edu,301,Apache,301 Moved Permanently
+https://transci.uci.edu,200,Apache,Transportation Science Graduate Program | UC Irvine Transportation Science
+https://transactionsarchive.socialcomputing.uci.edu,200,nginx,TRANSACTIONS Archive
+https://transfercenter.uci.edu,200,openresty,Transfer Student Center | UCI
+https://trs-stg.oit.uci.edu,200,Apache/2.4.62 (Red Hat Enterprise Linux) mod_jk/1.2.49,
+https://transactions.socialcomputing.uci.edu,200,nginx,TRANSACTIONS
+https://transgenic.uci.edu,200,cloudflare,Home - Transgenic Mouse Facility
+https://tubulinmutations.bio.uci.edu,200,AmazonS3,Tubulin Study | 2020
+https://tsal.uci.edu,200,cloudflare,Home - Team Scholarship Acceleration Lab
+https://twocents.ics.uci.edu,200,nginx/1.22.1,twocents
+https://tschilling.bio.uci.edu,301,openresty,
+https://uavforge.eng.uci.edu,200,openresty,UCI UAV Forge
+https://ucb-dev.oit.uci.edu,403,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,It works! Apache httpd
+https://tubulindb.bio.uci.edu,200,openresty,Tubulin Mutations &#8211; Globular GTP-binding proteins
+https://ucb-prd.oit.uci.edu,200,Apache/2.4.66 (Amazon Linux) mod_jk/1.2.49,Index - UC Berkeley Time Reporting System - TRS
+https://uccuba.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://uchastings.trs.aws.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Law SF Time Reporting System - TRS
+https://uchastings.trs.oit.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Law SF Time Reporting System - TRS
+https://ucaac2020.uci.edu,302,openresty,
+https://timewise.uci-ed-chatbot-prod.aws.uci.edu,502,nginx/1.27.0,502 Bad Gateway
+https://trio.due.uci.edu,200,openresty,TRIO Scholars Program | UC Irvine OVPTL
+https://uci-ics-mlr-prod.aws.uci.edu,200,,UCI Machine Learning Repository
+https://ucaac2020.due.uci.edu,200,openresty,Redirect for UCAAC &#8211; Redirect Website
+https://ucibuy.uci.edu,301,Apache,301 Moved Permanently
+https://uciciss.eng.uci.edu,200,openresty,Experimental Combustion: Past  Present  and Future &#8211; UCI Combustion Summer School 2023
+https://ucicmgp001.hs.uci.edu,500,Microsoft-IIS/10.0,
+https://ucidiy.due.uci.edu,302,openresty,
+https://ucifund.uci.edu,200,Apache,ucifund.uci.edu
+https://ucicorrections.seweb.uci.edu,200,openresty,Center for Evidence-Based Corrections – University of California  Irvine
+https://ucimedia.uci.edu,200,openresty,UCI Media
+https://ucinow.studentcenter.uci.edu,200,Microsoft-IIS/10.0,UCI NOW
+https://uciocalliance.uci.edu,200,openresty,Home - UCI-OC Alliance
+https://ucistories.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://uclawsf-stg.oit.uci.edu,403,Apache/2.4.66 () mod_jk/1.2.49,Test Page for the Apache HTTP Server
+https://uclawsf-prd.oit.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Law SF Time Reporting System - TRS
+https://uclc.uci.edu,200,Apache,UCLC - UC Learning Center Home Page
+https://uclub.uci.edu,200,Apache,Home // University Club // UCI
+https://ucmerced-prd.oit.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Merced Time Reporting System - TRS
+https://ucmerced-stg.oit.uci.edu,403,Apache/2.4.66 () mod_jk/1.2.49,Test Page for the Apache HTTP Server
+https://ucmerced.trs.aws.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Merced Time Reporting System - TRS
+https://ucmerced.trs.oit.uci.edu,200,Apache/2.4.66 () mod_jk/1.2.49,Index - UC Merced Time Reporting System - TRS
+https://ucp-tier-n-lb.ucpath-tier-n-dev.aws.uci.edu,404,,
+https://ucp-tier-n-lb.ucpath-tier-n-prod.aws.uci.edu,404,,
+https://ucp-tier-n-lb.ucpath-tier-n-stage.aws.uci.edu,404,,
+https://ucpath.uci.edu,200,Apache,Home // UCPath // UC Irvine
+https://ukulele-nlb-prod12.uci-eng-prod12.aws.uci.edu,200,Apache,Page Not Found
+https://ucpromise.uci.edu,200,openresty,UC PromISE &#8211; UC Collaborative to Promote Immigrant and Student Equity
+https://ucproducers2019.ucimedia.uci.edu,200,openresty,UCI Media -Red &#8211; Redirect Website
+https://ular.research.uci.edu,200,cloudflare,Home - ULAR
+https://undergraduate-research.bio.uci.edu,302,Apache/2.4.62 (Amazon Linux) OpenSSL/3.0.8,Redirecting to /dashboard/
+https://undergrad.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://undergraduate.bio.uci.edu,200,nginx,Welcome UC Irvine Dunlop School Undergraduates - UC Irvine Biological Sciences Undergraduate
+https://undergraduate.dev-pantheon.bio.uci.edu,401,nginx,Pantheon | Site Locked
+https://undergraduate.test-pantheon.bio.uci.edu,200,nginx,Welcome UC Irvine Dunlop School Undergraduates - UC Irvine Biological Sciences Undergraduate
+https://undergraduate.eng.uci.edu,200,openresty,Engineering Undergraduate Student Affairs Office
+https://update.emergency.uci.edu,200,Apache/2.4.66 (),Emergency Updates | UCI
+https://uppp.soceco.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Urban Planning and Public Policy | University of California  Irvine - Urban Planning and Public Policy
+https://upwardbound.cfep.uci.edu,200,openresty,UCI Upward Bound &#8211; Achieve and Succeed
+https://undergroundscholars.uci.edu,301,openresty,
+https://urop.uci.edu,200,openresty,Undergraduate Research Opportunities Program | UC Irvine
+https://v2test.portal.innovation.uci.edu,200,AmazonS3,Beall AI Portal
+https://vaccine.uci.edu,200,cloudflare,Vaccine Research &amp; Development Center
+https://uu.uci.edu,200,openresty,Undergraduate/Undeclared | Advising Program
+https://vcenter-dr.oit.uci.edu,200,,"  ID_VC_Welcome  "
+https://urology.uci.edu,301,openresty,
+https://vdihcoaext.hs.uci.edu,404,,
+https://vector.studentaffairs.uci.edu,301,Apache,301 Moved Permanently
+https://vanvranken.ps.uci.edu,200,openresty,The Van Vranken Group
+https://valdevit.eng.uci.edu,200,openresty,Additive Manufacturing and Metamaterials Group
+https://uteach.due.uci.edu,200,openresty,UTeach
+https://vectorathletes.studentaffairs.uci.edu,301,Apache,301 Moved Permanently
+https://vectorathstaff.studentaffairs.uci.edu,301,Apache,301 Moved Permanently
+https://vdihcoa.hs.uci.edu,301,,
+https://veteranbenefits.uci.edu,200,Apache,Veteran Benefits
+https://veteran.uci.edu,200,openresty,UCI Veteran Services Center
+https://view.zotforce-mc.uci.edu,302,,Object moved
+https://view.mc.ce.uci.edu,302,,Object moved
+https://violin-nlb-prod12.uci-eng-prod12.aws.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,
+https://vis.eng.uci.edu,403,awselb/2.0,403 Forbidden
+https://vocaero.its.uci.edu,200,ESF,Home
+https://vpn-dr.oit.uci.edu,200,,
+https://vpnl.ss.uci.edu,200,openresty,Visual Perception and Neuroimaging Lab
+https://vrdclab-nlb-prod12.uci-som-prod12.aws.uci.edu,200,Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/8.1.29,
+https://voloshina.eng.uci.edu,200,openresty,UCI Rehabilitation and Augmentation Lab
+https://waiver.studentcenter.uci.edu,200,nginx/1.29.4,Event Liability Waiver
+https://volunteer.uci.edu,200,openresty,UCI Volunteer Programs
+https://warriorlab.bio.uci.edu,200,AmazonS3,
+https://web.communications.uci.edu,403,awselb/2.0,403 Forbidden
+https://waypoints.uci.edu,200,openresty,Waypoints Symposium | A UCI Compass Initiative
+https://web.due.uci.edu,200,Microsoft-IIS/10.0,Hello world!
+https://water.uci.edu,200,openresty,Water UCI
+https://weareuci.uci.edu,200,openresty,We Are UCI: Student Success Stories | Celebrate UCI’s diverse student body and learn more about their individual chall
+https://webdisk.afburke.sandbox.lib.uci.edu,401,cPanel,
+https://warc2024.anesthesiology.uci.edu,200,openresty,Annual Western Anesthesia Resident's Conference 2024
+https://webapps.ic.uci.edu,200,Apache,webapps.ic.uci.edu Home
+https://web2-nlb-prod12.uci-soceco-prod12.aws.uci.edu,403,Apache,Apache HTTP Server Test Page powered by CentOS
+https://web01-nlb-prod12.uci-socsci-prod12.aws.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://webdisk.alice.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.brinkmas.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.aprilu.sandbox.lib.uci.edu,401,cPanel,
+https://web1.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://webdisk.bzapata.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.crodelo.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.danielle.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.daryanaz.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.dss-park.sandbox.lib.uci.edu,401,cPanel,
+https://web1-cecs-nlb-prod12.uci-eng-prod12.aws.uci.edu,301,Apache,
+https://webdisk.dss-test.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.egyptomania.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.eramirez.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.esim.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.hyokyunh.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.jennalynn.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.kehan.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.kinglong.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.goutamreclaim.sandbox.lib.uci.edu,401,cPanel,
+https://webdisk.kotterbo.sandbox.lib.uci.edu,401,cPanel,
+http://webdisk.kwentuhan.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.laurenhanks.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.maggior.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.mcbrown.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.mdlaudat.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.ncarp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.oclgbthp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.pjp.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.plampron.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.reclaimtest20220301.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.resteele.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.scole.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.afburke.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.alice.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webdisk.sylviabass.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.aprilu.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.brinkmas.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.bzapata.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.danielle.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.crodelo.sandbox.lib.uci.edu,302,Apache,302 Found
+https://webou.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+http://webmail.daryanaz.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.egyptomania.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.dss-test.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.dss-park.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.eramirez.sandbox.lib.uci.edu,302,Apache,302 Found
+https://wex.uci.edu,301,Apache,301 Moved Permanently
+https://welcome.lawnet.uci.edu,200,ESF,Welcome to UC Irvine School of Law Lawnet Google!
+https://wellness.uci.edu,301,Apache,301 Moved Permanently
+https://whcs.uci.edu,200,Apache,Wellness  Health & Counseling Services |
+https://whistleblower.uci.edu,200,Apache,UCI Whistleblower // Whistleblower // UCI
+https://wildcard.github.aws.uci.edu,301,GitHub.com,
+https://wifi.bli.uci.edu,200,openresty,Wide-field Functional Imaging Lab
+http://webmail.esim.sandbox.lib.uci.edu,302,Apache,302 Found
+http://webmail.fernandoosorio.sandbox.lib.uci.edu,302,Apache,302 Found
+https://womenintech.uci.edu,200,openresty,Women in Technology UCI | Advance - Inspire - Empower - Act
+https://won.eng.uci.edu,302,openresty,
+https://wp.communications.uci.edu,200,openresty,Main &#8211; Just another UCIrvine News site
+https://wp.ovptl.uci.edu,200,openresty,OVPTL WordPress Production &#8211; Educational blogs from our community
+https://womxnscenter.uci.edu,200,openresty,Womxn&#8217;s Center for Success
+https://writingproject.uci.edu,200,cloudflare,UCI Writing Project - Home
+http://webmail.goutamreclaim.sandbox.lib.uci.edu,302,Apache,302 Found
+https://wp-dev.summer.uci.edu,200,openresty,UCI Summer Session (archived) | UCI Summer Session
+https://ws02-alb-prod.eusweb-migration-prod.aws.uci.edu,200,Apache,Not the site your looking for
+http://webmail.hyokyunh.sandbox.lib.uci.edu,302,Apache,302 Found
+https://ws03-alb-prod.eusweb-migration-prod.aws.uci.edu,200,Apache,Not the site your looking for
+https://wpdev.ovptl.uci.edu,200,openresty,CampusPress | Educational blogs from our community
+https://ws04-alb-prod.eusweb-migration-prod.aws.uci.edu,200,Apache,Not the site your looking for
+https://ws07-alb-prod.eusweb-migration-prod.aws.uci.edu,200,Apache,Not the site your looking for
+https://ws07-p-nlb-prod.eusweb-migration-prod.aws.uci.edu,200,Apache,Not the site your looking for
+https://ws08-alb-prod.eusweb-migration-prod.aws.uci.edu,200,Apache,Not the site your looking for
+http://webmail.jennalynn.sandbox.lib.uci.edu,302,Apache,302 Found
+https://www-prod.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://writing.uci.edu,200,openresty,UCI Campus Writing & Communication Coordinator | CWCC
+https://www-qa.lib.uci.edu,200,Apache/2.4.66 (Amazon Linux) OpenSSL/3.5.5,Home | UCI Libraries 2024
+https://writingcenter.uci.edu,200,openresty,Center for Excellence in Writing and Communication | CEWC
+https://www-stage.lib.uci.edu,200,Apache/2.4.66 (Amazon Linux) OpenSSL/3.5.5,Home | UCI Libraries 2024
+https://www.50th.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.accreditation.uci.edu,301,Apache,301 Moved Permanently
+https://www.academicplanning.uci.edu,301,Microsoft-IIS/10.0,Document Moved
+https://www.accounting.uci.edu,200,Apache,Home // Accounting & Fiscal Services // UC Irvine
+https://www.acrc.manufacturing.uci.edu,301,Apache,
+https://www.3dlab.psychology.uci.edu,301,openresty,
+https://www.ablativeoncology.uci.edu,301,openresty,
+https://www.advocacy.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.admissions.uci.edu,200,Apache,UC Irvine Office of Undergraduate Admissions
+https://www.adminintern.studentlife.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.aegep.bio.uci.edu,200,AmazonS3,Redirecting...
+https://www.advancement.uci.edu,301,Apache,
+https://www.academicadvising.uci.edu,301,openresty,
+https://www.aicps.eng.uci.edu,301,openresty,
+https://www.aimslab.eng.uci.edu,301,openresty,
+https://www.alumni.uci.edu,302,Apache,
+https://www.allisonlab.bio.uci.edu,301,openresty,
+https://www.amp.web.uci.edu,200,Apache,Home // University of California Administrative Management Professionals // UCI
+https://www.amir.eng.uci.edu,301,openresty,
+https://www.alumni.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Alumni
+https://www.angaged.bio.uci.edu,200,AmazonS3,Redirecting...
+https://www.anatomy.uci.edu,302,openresty,
+https://www.angagepuci.bio.uci.edu,200,AmazonS3,Redirecting...
+https://www.anesthesiology.uci.edu,301,openresty,
+https://www.annualreport.merage.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.anthro.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://www.antlink.uci.edu,301,Apache,301 Moved Permanently
+https://www.anteatervirtues.uci.edu,301,openresty,
+https://www.antnet.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://www.anthropology.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Anthropology
+https://www.antrepreneur.uci.edu,301,openresty,
+https://www.apps.communications.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.ap.uci.edu,301,openresty,
+https://www.app.health.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.aquazot.uci.edu,301,Apache,301 Moved Permanently
+https://www.apw.uci.edu,301,openresty,
+http://wiki-backup.oit.uci.edu,400,Apache/2.4.39 (Amazon) mod_wsgi/3.5 Python/3.6.8,
+https://www.asian-studies.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://www.armyrotc.due.uci.edu,301,openresty,
+https://www.asianstudies.uci.edu,302,,
+https://www.assessment.uci.edu,302,openresty,
+https://www.athletics.uci.edu,301,Apache,301 Moved Permanently
+https://www.athinagroup.eng.uci.edu,301,openresty,
+https://www.audit.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Internal Audit Services // UC Irvine
+https://www.balsells.eng.uci.edu,301,openresty,
+https://www.autismsensorytherapy.bio.uci.edu,301,openresty,
+https://www.beauty.bli.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.behaviorcore.uci.edu,301,openresty,
+https://www.beacon.bio.uci.edu,301,openresty,
+https://www.basicneeds.uci.edu,301,openresty,
+https://www.bio.uci.edu,200,nginx,UC Irvine Dunlop School of Biological Sciences
+https://www.beic.dtei.uci.edu,301,openresty,
+https://www.bike.uci.edu,200,openresty,bikeUCI &#8211; Biking at UC Irvine
+https://www.bican.uci.edu,301,openresty,
+https://www.board.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://www.blumcenter.uci.edu,301,openresty,
+https://www.blackcultures.uci.edu,301,openresty,
+https://www.aprilu.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://www.brand.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.bren.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://www.brinkmas.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.bmed.publichealth.uci.edu,301,openresty,
+https://www.bowmanlab.eng.uci.edu,301,openresty,
+https://www.business.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Business
+https://www.bzapata.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://www.budgetoffice.uci.edu,200,Apache,Home // Budget Office // UC Irvine
+https://www.calplug.uci.edu,406,Apache,Error 406 - Not Acceptable
+https://www.cada.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | CADA
+https://www.calpha.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | C-ALPHA
+https://www.brilliantfuture.uci.edu,301,Apache,
+https://www.bli.uci.edu,301,Sucuri/Cloudproxy,
+https://www.brodylab.eng.uci.edu,301,openresty,
+https://www.calit2.uci.edu,200,openresty,Calit2
+https://www.campuscounsel.uci.edu,200,Apache,Home // UC Legal UCI Office of Campus Counsel // UCI
+https://www.cancer.uci.edu,301,Pantheon,
+https://www.campusrec.uci.edu,200,Apache,UCI Campus Recreation
+https://www.campussocialwork.uci.edu,200,Apache,Wellness  Health & Counseling Services |
+https://www.campustours.uci.edu,301,Apache,301 Moved Permanently
+https://www.camp.uci.edu,200,openresty,CAMP at UCI – Advancing Inclusive Excellence in STEM
+https://www.capitalinternships.uci.edu,200,openresty,Redirect for Capital Internships &#8211; Redirect Website
+https://www.casb.uci.edu,530,cloudflare,
+https://www.cannabis.uci.edu,301,Apache,
+https://www.cancerresearch.uci.edu,301,cloudflare,
+https://www.cascade.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.calteach.uci.edu,301,openresty,
+https://www.ccbs.uci.edu,530,cloudflare,
+https://www.career.uci.edu,301,cloudflare,
+https://www.campusorgs.uci.edu,301,openresty,
+https://www.cao.eng.uci.edu,301,openresty,
+https://www.cdn.enrollment.uci.edu,403,Apache,It works! Apache httpd
+https://www.cdasa.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://www.ccrdc.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | CCRDC
+https://www.cence.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | CENCE
+https://www.cei.uci.edu,200,openresty,Redirect for CEI &#8211; Redirect Website
+https://www.cdc.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.cepp.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://www.ccp.cfep.uci.edu,301,openresty,
+https://www.cfep.uci.edu,301,openresty,
+https://www.chancellor.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.chen.bli.uci.edu,301,Apache,301 Moved Permanently
+https://www.care.uci.edu,301,openresty,
+https://www.childcare.uci.edu,301,Apache,301 Moved Permanently
+https://www.cie.uci.edu,404,UploadServer,Site is not available
+https://www.cgpacs.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | CGPACS
+https://www.changeofmajor.uci.edu,301,openresty,
+https://www.champ.uci.edu,301,openresty,
+https://www.clic.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | CLIC
+https://www.choi.bli.uci.edu,301,openresty,
+https://www.cnlm.uci.edu,404,Pantheon,404 - Unknown site
+https://www.ccam.uci.edu,301,openresty,
+https://www.ccc.uci.edu,301,openresty,
+https://www.cecs.uci.edu,200,Apache,CECS
+https://www.circ.eng.uci.edu,301,Apache,
+https://www.communications.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.chicanolatinostudies.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Chicano/Latino Studies
+https://www.cohs.uci.edu,302,Apache,302 Found
+https://www.communications.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Communications
+https://www.civicengagement.uci.edu,301,openresty,
+https://www.conferencecenter.uci.edu,308,nginx/1.30.0,308 Permanent Redirect
+https://www.cid.dtl.uci.edu,200,openresty,Redirect for CID &#8211; Redirect Website
+https://www.classrooms.uci.edu,301,openresty,
+https://www.compliance.uci.edu,200,Apache,Compliance | UCI // Compliance // UCI
+http://www.connect.lib.uci.edu,530,cloudflare,
+https://www.coccolab.bio.uci.edu,301,openresty,
+https://www.compass.uci.edu,200,openresty,Compass: UCI's Data-Driven Student Success Initiative
+https://www.cogsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Cognitive Sciences
+https://www.cp.uci.edu,200,Apache,Home // Capital Planning & Space Management // UCI
+https://www.cor.web.uci.edu,200,openresty,Center for Organizational Research (COR)
+https://www.connect.uci.edu,301,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://www.cosmos.uci.edu,200,openresty,COSMOS UC Irvine – California State Summer School for Mathematics and Science
+https://www.counseling.uci.edu,200,Apache,UCI Counseling Center
+https://www.conduct.uci.edu,301,openresty,
+https://www.cosmology.uci.edu,301,openresty,
+https://www.cri.bio.uci.edu,301,Apache,301 Moved Permanently
+https://www.cri.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://www.copplab.eng.uci.edu,301,openresty,
+https://www.ctvr.uci.edu,301,Pantheon,
+https://www.crodelo.sandbox.lib.uci.edu,200,Apache,My cms
+https://www.danielle.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.climatecollab.uci.edu,301,openresty,
+https://www.cryoem.bio.uci.edu,301,openresty,
+https://www.cpip.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | CPIP
+https://www.daplab.education.uci.edu,301,CloudFront,
+https://www.content.eee.uci.edu,301,openresty,
+https://www.ctipr.uci.edu,301,openresty,
+https://www.cvr.bio.uci.edu,301,cloudflare,301 Moved Permanently
+https://www.deconstructingdiversity.uci.edu,307,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,307 Temporary Redirect
+https://www.democ.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://www.culture.oit.uci.edu,200,openresty,OIT Culture |
+https://www.coeh.uci.edu,200,openresty,Center for Occupational &amp; Environmental Health &#8211; COEH
+https://www.demography.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | DASA
+https://www.ctbs.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | CTBS
+https://www.deoc.uci.edu,200,Apache,Welcome // Division of Equal Opportunity and Compliance // UCI
+https://www.development.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://www.dion.eng.uci.edu,301,Pepyaka,
+https://www.cwlab.ss.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.connectedlearning.uci.edu,301,nginx,
+https://www.designandconstruction.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Design & Construction Services // UC Irvine
+https://www.dirha.uci.edu,307,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,307 Temporary Redirect
+https://www.ding.eng.uci.edu,200,Pepyaka,Home | Ding Lab
+https://www.dfa.uci.edu,200,Apache,Home // Division of Finance & Administration // UC Irvine
+https://www.digitallearning.dtei.uci.edu,200,openresty,Redirect for DL &#8211; Redirect Website
+https://www.dmaf.biochem.uci.edu,301,Apache,301 Moved Permanently
+https://www.democracy.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | CSD
+https://www.dls.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Dean's Leadership Society
+https://www.diabetes.uci.edu,200,openresty,UC Irvine Diabetes Center
+https://www.diversityinmedicine.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.dccenter.uci.edu,200,openresty,Redirect for DC Center &#8211; Redirect Website
+https://www.dermatology.uci.edu,302,openresty,
+https://www.dtl.uci.edu,200,openresty,Redirect for DTL &#8211; Redirect Website
+https://www.dss-park.sandbox.lib.uci.edu,200,Apache,Welcome! | My cms
+https://www.daryanaz.sandbox.lib.uci.edu,301,Apache,
+https://www.econ.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://www.dosi.bli.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.dos.uci.edu,301,openresty,
+https://www.editor.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://www.disabilityculture.uci.edu,301,openresty,
+https://www.economicsandpublicpolicy.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://www.eaop.uci.edu,200,openresty,UCI EAOP &#8211; Where preparation meets opportunity!
+https://www.due.uci.edu,301,openresty,
+https://www.dsc.uci.edu,301,openresty,
+https://www.dss-test.sandbox.lib.uci.edu,301,Apache,
+https://www.ehs.uci.edu,200,Apache,Home // Environmental Health & Safety // UC Irvine
+https://www.docusign.uci.edu,301,openresty,
+https://www.economics.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Economics
+https://www.endfamilyviolence.uci.edu,200,Apache,UCI Initiative to End Family Violence
+https://www.em.uci.edu,200,Apache,Home // Emergency Management // UC Irvine
+https://www.egyptomania.sandbox.lib.uci.edu,200,Apache,Sites · Egyptomania
+https://www.dev.sites.uci.edu,302,openresty,
+https://www.edingerlab.bio.uci.edu,301,openresty,
+https://www.environmentalcollaboratory.uci.edu,530,cloudflare,
+https://www.emrap.medschool.uci.edu,301,openresty,
+https://www.enrollment.uci.edu,200,Apache,Enrollment Management | UCI
+https://www.educationresearch.uci.edu,301,openresty,
+https://www.epl.eng.uci.edu,301,Apache,301 Moved Permanently
+https://www.eod.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://www.electrochemicaldynamics.eng.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.dtei.uci.edu,301,openresty,
+https://www.esim.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://www.engage.due.uci.edu,301,openresty,
+https://www.emergencymed.uci.edu,302,openresty,
+https://www.esports.uci.edu,301,Apache,301 Moved Permanently
+http://www.alice.sandbox.lib.uci.edu,302,Apache,302 Found
+http://www.afburke.sandbox.lib.uci.edu,302,Apache,302 Found
+https://www.eramirez.sandbox.lib.uci.edu,200,Apache,My cms
+https://www.esportsconference.uci.edu,200,Apache,Not the site your looking for
+https://www.engage.alumni.uci.edu,301,Apache,
+https://www.edtechtools.eee.uci.edu,301,openresty,
+https://www.essl.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | ESSL
+https://www.event-request.studentaffairs.uci.edu,302,Apache,Redirecting to https://www.event-request.studentaffairs.uci.edu/shibboleth/login
+https://www.experts.communications.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.ethnography.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Ethnography
+https://www.ent.uci.edu,302,openresty,
+https://www.faculty.uci.edu,200,Apache/2.4.62 (Rocky Linux) mod_jk/1.2.50,UC Irvine - Faculty Profile System
+https://www.facilities.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Social Sciences | Facilities Office | Facilities
+https://www.fm.uci.edu,200,Apache,Home // Facilities Management // UC Irvine
+https://www.ethicscenter.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Ethics Center
+https://www.escape.uci.edu,301,openresty,
+https://www.faultline.sites.uci.edu,301,openresty,
+https://www.etech.uci.edu,301,openresty,
+https://www.floodlab.eng.uci.edu,301,openresty,
+https://www.epilepsyresearch.uci.edu,301,openresty,
+https://www.fundopp.uci.edu,530,cloudflare,
+https://www.fundconsciousness.socsci.uci.edu,301,Apache,301 Moved Permanently
+https://www.etad.calit2.uci.edu,301,openresty,
+https://www.equity.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Equity
+https://www.faculty.sites.uci.edu,301,openresty,
+https://www.frostiglab.bio.uci.edu,200,openresty,Frostig Lab
+https://www.first.uci.edu,301,openresty,
+https://www.fs.uci.edu,200,Apache,Home // Financial Services Students // UC Irvine
+https://www.gartner.uci.edu,301,Apache,301 Moved Permanently
+https://www.familymed.uci.edu,302,openresty,
+https://www.facultydev.sites.uci.edu,302,openresty,
+http://www.giftlegacy.uci.edu,530,cloudflare,
+https://www.globalengagement.uci.edu,404,UploadServer,Site is not available
+https://www.food.uci.edu,301,openresty,
+https://www.firstgen.due.uci.edu,301,openresty,
+https://www.giving.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Development Office
+https://www.goutamreclaim.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.give.uci.edu,301,Apache,
+https://www.gmp.stemcell.uci.edu,200,Apache,HOME // GMP // UC Irvine
+https://www.geri.uci.edu,200,openresty,Genetic Epidemiology Research Institute
+https://www.gautlab.bio.uci.edu,200,openresty,Gaut Lab
+https://www.healthsciences.uci.edu,302,Apache,302 Found
+https://www.ghtf.biochem.uci.edu,301,openresty,
+https://www.grants.uci.edu,301,Apache,
+https://www.freshmanseminar.uci.edu,301,openresty,
+https://www.grad.uci.edu,301,Apache,
+https://www.globalstudies.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Global Studies
+https://www.google.uci.edu,301,openresty,
+https://www.hie.eng.uci.edu,301,GitHub.com,301 Moved Permanently
+https://www.gps.bio.uci.edu,301,openresty,
+https://www.fyre.due.uci.edu,301,openresty,
+https://www.healthaffairs.uci.edu,301,openresty,
+https://www.gati.due.uci.edu,301,openresty,
+https://www.freespeech.uci.edu,301,openresty,
+https://www.hooder-checkin.commencement.uci.edu,200,Apache,
+https://www.hr.uci.edu,200,Apache,UCI Human Resources | Home
+https://www.heart.uci.edu,301,openresty,
+https://www.homecoming.uci.edu,301,Apache,
+https://www.help.replay.uci.edu,301,openresty,
+https://www.gradstudies.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Graduate Studies
+https://www.grosberglab.eng.uci.edu,301,openresty,
+https://www.hsl.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://www.hri.uci.edu,200,nginx,Are We All Postracial Yet?
+https://www.geecs.eng.uci.edu,301,openresty,
+https://www.humanities.uci.edu,200,nginx,UCI School of Humanities
+https://www.healthpromotinguniversity.uci.edu,301,openresty,
+https://www.historyproject.uci.edu,301,openresty,
+https://www.honors.uci.edu,301,openresty,
+https://www.icha.uci.edu,301,cloudflare,
+https://www.herschel.uci.edu,301,openresty,
+https://www.imageworks.bio.uci.edu,200,openresty,ImageWorks | Poster Printing  Digital Imaging  and Copy Services for UC Irvine
+https://www.hero.eng.uci.edu,301,openresty,
+https://www.hyokyunh.sandbox.lib.uci.edu,200,Apache,Sites · Hyokyung Hwang
+https://www.global.uci.edu,301,openresty,
+https://www.imaging.uci.edu,301,openresty,
+https://www.imca.uci.edu,200,openresty,Home - UC Irvine Langson Orange County Museum of Art
+https://www.hui.bme.uci.edu,301,openresty,
+https://www.ilssc.soceco.uci.edu,301,openresty,
+https://www.icts.uci.edu,301,openresty,
+https://www.immigrationresearch.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://www.imagine.hs.uci.edu,302,openresty,
+https://www.imeded.uci.edu,301,openresty,
+https://www.housing.uci.edu,301,openresty,
+https://www.innovation.uci.edu,301,nginx,
+https://www.invention.uci.edu,200,Apache,Not the site your looking for
+https://www.internationalaffairs.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://www.ip.extension.uci.edu,301,Apache,301 Moved Permanently
+https://www.helab.eng.uci.edu,301,openresty,
+http://www.iup.ce.uci.edu,403,cloudflare,
+https://www.hughesmedia.bio.uci.edu,301,openresty,
+https://www.intranet.ovptl.uci.edu,302,openresty,
+https://www.jennalynn.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.imtfi.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | IMTFI
+https://www.kinglong.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://www.intranet.due.uci.edu,302,openresty,
+https://www.kotterbo.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.join.uci.edu,302,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,
+https://www.ipat.law.uci.edu,301,openresty,
+https://www.jdsylab.physics.uci.edu,301,openresty,
+https://www.languagescience.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://www.isep.due.uci.edu,301,openresty,
+https://www.kwentuhan.sandbox.lib.uci.edu,200,Apache,Kwentuhan Oral History Project
+https://www.isrw.bio.uci.edu,301,openresty,
+https://www.languagescience.ss.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://www.jianglab.eng.uci.edu,301,openresty,
+https://www.laurenhanks.sandbox.lib.uci.edu,403,Apache,403 Forbidden
+https://www.law.uci.edu,200,Apache,Home | UC Irvine Law
+https://www.inrf.uci.edu,301,openresty,
+https://www.lakey.som.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.ldi.merage.uci.edu,404,Pepyaka,
+https://www.inclusion.uci.edu,301,openresty,
+https://www.jbrouwer.eng.uci.edu,301,openresty,
+https://www.imri.uci.edu,301,openresty,
+https://www.itsneo.health.uci.edu,301,openresty,
+https://www.langsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Language Science
+https://www.immunology.uci.edu,301,cloudflare,
+https://www.leadher.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | LeadHER
+https://www.its.uci.edu,301,Pantheon,
+https://www.lawnet.uci.edu,200,ESF,Welcome to UC Irvine School of Law Lawnet Google!
+https://www.longevity.uci.edu,404,Pantheon,404 - Unknown site
+https://www.lander-office.bio.uci.edu,301,openresty,
+https://www.lib.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.liferesources.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,UCI Life Resources
+https://www.latinx.uci.edu,301,openresty,
+https://www.laferlalab.bio.uci.edu,301,openresty,
+https://www.lrdp.uci.edu,302,Apache,
+https://www.malaria.bio.uci.edu,301,Apache,301 Moved Permanently
+https://www.lee-cemi-lab.eng.uci.edu,301,openresty,
+https://www.mcsb.uci.edu,530,cloudflare,
+https://www.mcbrown.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.lin.hs.uci.edu,301,openresty,
+https://www.lopour.eng.uci.edu,301,openresty,
+https://www.madlab.socsci.uci.edu,301,openresty,
+https://www.longinstitute.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Long Institute
+https://www.medschool.uci.edu,301,Pantheon,
+https://www.lifted.uci.edu,301,openresty,
+https://www.maggior.sandbox.lib.uci.edu,200,Apache,Medical Humanities
+https://www.lee.eng.uci.edu,301,openresty,
+https://www.lgbtrc.uci.edu,301,openresty,
+https://www.memory.uci.edu,301,Apache,301 Moved Permanently
+https://www.mediaservices.uci.edu,302,openresty,
+https://www.loudonlab.bio.uci.edu,301,openresty,
+https://www.meng.eng.uci.edu,301,Apache,
+https://www.nature.uci.edu,530,cloudflare,
+https://www.ncarp.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.lps.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | LPS
+https://www.livablecitieslab.socialecology.uci.edu,301,openresty,
+https://www.medicine.uci.edu,302,openresty,
+https://www.manufacturing.uci.edu,301,openresty,
+https://www.mdlaudat.sandbox.lib.uci.edu,301,Apache,
+https://www.mems.eng.uci.edu,301,openresty,
+https://www.microbiology.uci.edu,301,openresty,
+https://www.lvaslab.education.uci.edu,200,Pepyaka,Home | Language Variation A
+https://www.nano.eng.uci.edu,301,openresty,
+https://www.ncic.eng.uci.edu,301,openresty,
+https://www.mfi.soceco.uci.edu,301,openresty,
+https://www.nter.eng.uci.edu,301,Apache,301 Moved Permanently
+https://www.nextcenter.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | NeXtCenter
+https://www.neurology.uci.edu,302,openresty,
+https://www.mwoodlab.bio.uci.edu,301,openresty,
+https://www.microbiome.uci.edu,404,Pantheon,404 - Unknown site
+https://www.news.uci.edu,301,openresty,
+https://www.news.oit.uci.edu,301,openresty,
+https://www.oeod.uci.edu,200,Apache,Office of Equal Opportunity &amp; Diversity // Office of Equal Opportunity and Diversity // UCI
+https://www.newkirkcenter.uci.edu,301,openresty,
+https://www.neuromechanics.bio.uci.edu,301,openresty,
+https://www.nuclear.eng.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.oclgbthp.sandbox.lib.uci.edu,200,Apache,Orange County LGBT History Project
+https://www.ophthalmology.uci.edu,301,Pantheon,
+https://www.neurosurgery.uci.edu,302,openresty,
+https://www.oir.uci.edu,404,UploadServer,Site is not available
+https://www.nursing.uci.edu,301,openresty,
+https://www.ofas.uci.edu,200,Apache,Office of Financial Aid and Scholarships | UCI
+https://www.palcard.uci.edu,200,Apache,Not the site your looking for
+https://www.obgyn.uci.edu,302,openresty,
+https://www.parents.uci.edu,200,Apache,Not the site your looking for
+https://www.oai.eng.uci.edu,301,openresty,
+https://www.orthopaedicsurgery.uci.edu,301,Apache,301 Moved Permanently
+https://www.ombuds.uci.edu,301,openresty,
+http://www.dlac.dtei.uci.edu,301,openresty,301 Moved Permanently
+https://www.paap.due.uci.edu,302,openresty,
+https://www.personnel.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Personnel
+https://www.peacebuilding.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | CCPB
+https://www.passport.uci.edu,200,openresty,Passport Services at UC Irvine &#8211; Designated by the U.S. Department of State
+https://www.partnerships.uci.edu,301,openresty,
+https://www.plampron.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.ovptl.uci.edu,301,openresty,
+http://www.plannedgiving.uci.edu,530,cloudflare,
+https://www.physastroblog.ps.uci.edu,200,openresty,UCI Physics &amp; Astro Blog &#8211; Welcome to UCI&#039;s Physics &amp; Astro Blog. Learn about research coming from ou
+https://www.physsci.uci.edu,200,openresty,Website Not Found
+https://www.pathology.uci.edu,302,openresty,
+https://www.pjp.sandbox.lib.uci.edu,200,Apache,My cms
+https://www.physiology.uci.edu,302,openresty,
+https://www.pharmsci.uci.edu,301,openresty,
+https://www.planningandsustainability.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Campus Planning & Sustainability // UC Irvine
+https://www.ppe.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | PPE
+https://www.police.uci.edu,200,Apache,UCI Police Department // Police Department // UC Irvine
+https://www.parking.uci.edu,301,openresty,
+https://www.phibetakappa.uci.edu,301,openresty,
+https://www.plikuslab.bio.uci.edu,301,openresty,
+http://www.prisonpandemic.uci.edu,530,cloudflare,
+https://www.pda.grad.uci.edu,200,openresty,UCI Postdoctoral Association
+https://www.pratikshahlab.cohs.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Site Deactivated
+https://www.phit.uci.edu,301,openresty,
+https://www.privacy.uci.edu,200,Apache,Welcome // Privacy // UCI
+https://www.oit.uci.edu,200,openresty,Office of Information Technology | UCI
+https://www.pro.uci.edu,200,Apache,Public Records Office // Public Records Office // UCI
+https://www.pmacslab.eng.uci.edu,301,openresty,
+https://www.policies.uci.edu,301,openresty,
+https://www.polisci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Political Science
+https://www.prs.uci.edu,200,Apache,Not the site your looking for
+https://www.pmr.uci.edu,302,openresty,
+https://www.procurement.uci.edu,200,Apache,Home // Procurement Services // UC Irvine
+https://www.psac.uci.edu,200,Apache/2.4.58 (IUS) OpenSSL/1.0.2k-fips PHP/7.4.33,Home // Public Safety Advisory Committee // UCI
+https://www.racialhealing.uci.edu,307,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,307 Temporary Redirect
+https://www.racialjustice.uci.edu,307,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,307 Temporary Redirect
+https://www.provost.uci.edu,200,openresty,UC Irvine Provost and Executive Vice Chancellor
+https://www.pov.cogsci.uci.edu,301,openresty,
+https://www.purchasing.uci.edu,200,Apache,Not the site your looking for
+https://www.reclaimtest20220301.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.physci.uci.edu,200,openresty,Website Not Found
+https://www.psychology.uci.edu,200,openresty,
+https://www.reeve.uci.edu,200,cloudflare,Reeve-Irvine Research Center | Spinal Cord Injury Research
+https://www.realestate.uci.edu,200,Apache,Home // Real Estate Services // UC Irvine
+https://www.psychlaw.soceco.uci.edu,301,openresty,
+https://www.researchdevelopment.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Office of Research Development
+https://www.ranzlab.bio.uci.edu,301,openresty,
+https://www.programs.merage.uci.edu,301,openresty,
+https://www.reunion.uci.edu,200,Apache,Not the site your looking for
+https://www.research.uci.edu,301,cloudflare,
+https://www.radonc.uci.edu,302,openresty,
+https://www.remotestrategy.ovptl.uci.edu,301,openresty,
+https://www.retirees.uci.edu,301,Apache,
+https://www.researchjustice.newkirkcenter.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.replay.uci.edu,301,openresty,
+https://www.radiology.uci.edu,301,openresty,
+https://www.rcpsl.eng.uci.edu,301,openresty,
+https://www.risk.uci.edu,200,Apache,Home // Risk Services // UC Irvine
+https://www.rna.uci.edu,200,openresty,The UCI Center on RNA Science and Therapeutics (CSRT)
+https://www.properai.eng.uci.edu,301,openresty,
+https://www.rosemuellerlabs.bio.uci.edu,301,openresty,
+https://www.resteele.sandbox.lib.uci.edu,200,Apache,
+https://www.scole.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.research.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Research
+https://www.search.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.sas.oit.uci.edu,200,openresty,Student &amp; Academic Services — Office of Information Technology  UC Irvine
+https://www.remotelearning.due.uci.edu,301,openresty,
+https://www.shilab.bio.uci.edu,200,Pepyaka,Xiaoyu Shi Lab
+https://www.shine.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.sho.uci.edu,404,Microsoft-HTTPAPI/2.0,Not Found
+https://www.sash.eng.uci.edu,301,openresty,
+https://www.satcfrontier.eng.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.scienceproject.cfep.uci.edu,302,openresty,
+https://www.scholars.uci.edu,301,openresty,
+https://www.sec.due.uci.edu,301,openresty,
+https://www.senate.uci.edu,301,openresty,
+https://www.socialecology.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Page Not Found
+https://www.skincenter.uci.edu,200,Apache,Home // SKIN A Skin Biology Resource Center // UC Irvine
+https://www.sep.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | SEP
+https://www.specialreports.news.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | School of Social Sciences
+https://www.rocket.eng.uci.edu,200,openresty,UC Irvine Rocket Project |
+https://www.scienceproject.education.uci.edu,301,openresty,
+https://www.sites.uci.edu,301,openresty,
+https://www.spirl.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | SPIRL
+https://www.spps.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | SPPS
+https://www.sscs.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Social Sciences Computer Services
+https://www.staging.amp.web.uci.edu,200,Apache,Not the site your looking for
+https://www.specialevents.uci.edu,301,Apache,
+https://www.sociology.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Sociology
+https://www.saip.eng.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.stemcell.uci.edu,200,Apache,Home // Sue & Bill Gross Stem Cell Research Center // UC Irvine
+https://www.sagescholars.uci.edu,200,openresty,SAGE Scholars Program &#8211; SAGE Scholars Program
+https://www.sss.uci.edu,302,openresty,
+https://www.songlab.eng.uci.edu,301,openresty,
+https://www.sandbox.lib.uci.edu,301,Apache,
+https://www.startupguide.innovation.uci.edu,200,Squarespace,Startup Guide for Employee Inventors
+https://www.staffassembly.uci.edu,200,openresty,UC Irvine Staff Assembly
+https://www.security.uci.edu,200,openresty,UCI Information Security
+https://www.studentcenter.uci.edu,200,nginx/1.30.0,UC Irvine Student Center &amp; Event Services &middot; Interact. Learn. Enjoy.
+https://www.steyvers.socsci.uci.edu,301,openresty,
+https://www.soar.uci.edu,301,openresty,
+https://www.ssi.uci.edu,301,openresty,
+https://www.studentaffairs.uci.edu,301,openresty,
+https://www.studentdata.odit.uci.edu,301,openresty,
+https://www.sylviabass.sandbox.lib.uci.edu,200,Apache,UCI Libraries Digital Sandbox Service
+https://www.sunlab.eng.uci.edu,200,openresty,Smart Nanocomposites Lab &#8211; Research and Development
+https://www.strategicplan.uci.edu,200,openresty,UC Irvine Strategic Plan
+https://www.studyabroad.uci.edu,301,openresty,
+https://www.teamscholarship.uci.edu,530,cloudflare,
+https://www.studentlife.uci.edu,301,openresty,
+https://www.summerbridge.due.uci.edu,301,openresty,
+https://www.surgery.uci.edu,302,openresty,
+https://www.studenthealth.uci.edu,301,openresty,
+https://www.surveys.oit.uci.edu,301,openresty,
+https://www.taboreklab.physics.uci.edu,301,openresty,
+https://www.ssarc.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | SSARC
+https://www.students.uci.edu,301,openresty,
+https://www.test.socsci.uci.edu,301,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,301 Moved Permanently
+https://www.tennerlab.bio.uci.edu,200,openresty,Tenner Lab
+https://www.sustainability.uci.edu,301,openresty,
+https://www.spf.ssi.uci.edu,301,openresty,
+https://www.tea.dtei.uci.edu,301,openresty,
+https://www.surgicaledcenter.uci.edu,301,openresty,
+https://www.tech.book.uci.edu,410,openresty,WordPress &rsaquo; Error
+https://www.technsociety.eng.uci.edu,302,openresty,
+https://www.tsal.uci.edu,530,cloudflare,
+https://www.studentleadership.uci.edu,301,openresty,
+https://www.technoexpo.uci.edu,301,openresty,
+https://www.today.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.transci.uci.edu,200,Apache,Transportation Science Graduate Program | UC Irvine Transportation Science
+https://www.tlrc.dtei.uci.edu,200,openresty,Redirect for TLRC &#8211; Redirect Website
+https://www.trademarks.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.studentwellness.uci.edu,301,Apache,
+https://www.teacheracademy.uci.edu,301,openresty,
+https://www.ucaac2020.due.uci.edu,200,openresty,Redirect for UCAAC &#8211; Redirect Website
+https://www.techprep.oit.uci.edu,302,openresty,
+https://www.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.thompsonpeer.bio.uci.edu,301,openresty,
+https://www.tschilling.bio.uci.edu,200,openresty,Schilling Lab
+https://www.uccuba.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | UC Cuba Academic Initiative
+https://www.uclc.uci.edu,200,Apache,UCLC - UC Learning Center Home Page
+https://www.uclub.uci.edu,200,Apache,Home // University Club // UCI
+https://www.uci-ics-mlr-prod.aws.uci.edu,200,,UCI Machine Learning Repository
+https://www.ucidiy.due.uci.edu,302,openresty,
+https://www.ucpath.uci.edu,200,Apache,Home // UCPath // UC Irvine
+https://www.ucifund.uci.edu,301,Apache,
+https://www.testingcenter.uci.edu,301,openresty,
+https://www.ucicorrections.seweb.uci.edu,301,openresty,
+https://www.vaccine.uci.edu,301,cloudflare,
+https://www.ucpromise.uci.edu,301,openresty,
+https://www.tier2aps.calit2.uci.edu,404,Pepyaka,
+https://www.undergroundscholars.uci.edu,200,openresty,Underground Scholars UCI |
+https://www.urology.uci.edu,200,openresty,UC Irvine Urology – Discover. Teach. Heal
+https://www.uavforge.eng.uci.edu,301,openresty,
+https://www.ucimedia.uci.edu,301,openresty,
+http://www.mecps.uci.edu,301,awselb/2.0,301 Moved Permanently
+https://www.ucproducers2019.ucimedia.uci.edu,301,openresty,
+http://www.michaeldennin.ovptl.uci.edu,301,openresty,301 Moved Permanently
+https://www.uteach.due.uci.edu,301,openresty,
+https://www.web.communications.uci.edu,403,awselb/2.0,403 Forbidden
+https://www.wellness.uci.edu,301,Apache,301 Moved Permanently
+https://www.veteranbenefits.uci.edu,200,Apache,Veteran Benefits
+https://www.wex.uci.edu,301,Apache,301 Moved Permanently
+https://www.whcs.uci.edu,200,Apache,Wellness  Health & Counseling Services |
+https://www.urop.uci.edu,301,openresty,
+https://www.uu.uci.edu,301,openresty,
+https://www.whistleblower.uci.edu,200,Apache,UCI Whistleblower // Whistleblower // UCI
+https://www.vpnl.ss.uci.edu,301,openresty,
+https://www.upwardbound.cfep.uci.edu,301,openresty,
+https://www.vanvranken.ps.uci.edu,301,openresty,
+https://www.weareuci.uci.edu,301,openresty,
+https://www.wifi.bli.uci.edu,301,openresty,
+https://www.volunteer.uci.edu,301,openresty,
+https://www.wp.communications.uci.edu,301,openresty,
+https://www.water.uci.edu,301,openresty,
+https://www.won.eng.uci.edu,302,openresty,
+https://www.zotforce.uci.edu,301,Apache,301 Moved Permanently
+https://www1.icts.uci.edu,200,Microsoft-IIS/10.0,Institute for Clinical and Translational Science | University of California  Irvine
+https://www.ycc.eng.uci.edu,200,openresty,Yu-Chien (Alice) Chien – PI for NASA  NIST and DOE projects; Working as a research professor
+https://www2-arts-nlb-prod12.uci-arts-prod12.aws.uci.edu,400,Apache/2.4.67 (Ubuntu),
+https://www.uciocalliance.uci.edu,301,openresty,
+https://www.valdevit.eng.uci.edu,301,openresty,
+https://www.waypoints.uci.edu,301,openresty,
+https://www.wp-dev.summer.uci.edu,301,openresty,
+https://www.wpdev.ovptl.uci.edu,301,openresty,
+http://xrcourse.ce.uci.edu,308,,
+https://www.yuja.replay.uci.edu,301,openresty,
+https://www.writingcenter.uci.edu,301,openresty,
+https://zena-app-alb-prod34.oit-ei-prod34.aws.uci.edu,403,Jetty(11.0.20),Error 403 Forbidden
+https://www.writing.uci.edu,301,openresty,
+https://www.wp.ovptl.uci.edu,301,openresty,
+https://zena.oit.uci.edu,403,Jetty(11.0.20),Error 403 Forbidden
+https://zm-app-alb-prod.oit-zotmail-dr-prod.aws.uci.edu,200,Microsoft-IIS/10.0,
+https://yeelab.eng.uci.edu,200,openresty,AF Yee Research Group
+https://zm-app-alb-dev.oit-zotmail-dr-dev.aws.uci.edu,200,Microsoft-IIS/10.0,
+https://zm-app-lb.oit-zotmail-dr-dev.aws.uci.edu,200,Microsoft-IIS/10.0,
+https://www.womenintech.uci.edu,301,openresty,
+https://zotfinder.studentcenter.uci.edu,200,Microsoft-IIS/10.0,ZOTFinder
+https://yuja.replay.uci.edu,200,openresty,UCI Replay &#8211; YuJa
+https://www.zoom.oit.uci.edu,301,openresty,
+https://www.undergrad.socsci.uci.edu,200,Apache/2.4.62 (Rocky Linux) OpenSSL/3.5.1,Home | Undergraduate Studies
+https://zotforce.uci.edu,301,Apache,301 Moved Permanently
+https://ycc.eng.uci.edu,301,openresty,
+https://zotbites.basicneeds.uci.edu,200,Apache,Zot Bites
+https://xulab.anat.uci.edu,200,openresty,XU LAB
+https://zm-app-lb.oit-zotmail-dr-prod.aws.uci.edu,200,Microsoft-IIS/10.0,
+https://zotmail.uci.edu,200,Microsoft-IIS/10.0,
+https://zotmail.oit.uci.edu,200,Microsoft-IIS/10.0,
+https://zoom.oit.uci.edu,200,openresty,UCI Zoom
+https://zotmaildev.oit.uci.edu,302,Microsoft-IIS/10.0,
+https://zotgpt-lb.zot-gpt-dev.aws.uci.edu,200,nginx,Home | UCI ZotGPT by OIT
+https://zotmailtest.oit.uci.edu,200,Microsoft-IIS/10.0,
+https://zotgpt-lb.zot-gpt-stg.aws.uci.edu,200,nginx,Home | UCI ZotGPT by OIT
+https://zotgpt-lb.zot-gpt-prod.aws.uci.edu,200,nginx,Home | UCI ZotGPT by OIT
+https://zotfunder.give.uci.edu,200,waitress,University of California  Irvine | Give
+https://zotsites.oit-zotsite-lb.oit-zotsites-dev.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://zotirb.research.uci.edu,302,Microsoft-IIS/10.0,Document Moved
+https://zotsites.oit-zotsite-lb.oit-zotsites-prod.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://zotgpt.uci.edu,200,nginx,Home | UCI ZotGPT by OIT
+https://zotsites.oit-zotsite-lb.oit-zotsites-stage.aws.uci.edu,503,awselb/2.0,503 Service Temporarily Unavailable
+https://www.yeelab.eng.uci.edu,301,openresty,
+https://zotkey.uci.edu,200,openresty,Zotkey |
+https://zportal.hs.uci.edu,303,ZBA/1.0,
+https://zpp.hs.uci.edu,303,ZBA/1.0,
+https://zotspot.uci.edu,302,,
+http://www.summer.uci.edu,301,openresty,301 Moved Permanently
+http://www.tlrc.dtl.uci.edu,301,openresty,301 Moved Permanently
