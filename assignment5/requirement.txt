@@ -1,0 +1,121 @@
+Web Hacking Assignment
+Due Wednesday by 11:59pm Points 100 Submitting a file upload File Types pdf
+In this assignment students will explore basic web hacking techniques and tools. From a cloud security perspective, it is important to be familiar with web hacking threats since cloud solutions often are exposed via attack surfaces that include web management interfaces and APIs. These often contain web application vulnerabilities that attackers will actively search for, target and exploit to gain unauthorized access. Understanding the offensive aspects of web application security is valuable with regards to making cloud solutions more secure and managing associated risks to an acceptable level.
+
+The student should submit a brief report documenting all work performed, including any analysis and use of tools carried out to complete the exercises in this assignment. Use screenshots where appropriate.
+
+Web application proxy
+Installation and configuration
+[*] Ensure you have a working web proxy to intercept requests and modify them.
+
+Use a proxy that comes pre-installed in Kali or install an additional a web proxy that fits your needs.
+Hint. For simpler web application analysis tasks that do not require heavy automation and complex payloads, the browser built-in web developer tools can be used.
+
+Hint. Certain web application proxies may have useful required features that are restricted unless you buy the pro version eg rate limitations.
+
+ 
+
+[*] Configure the web proxy to listen on an appropriate port.
+
+Use a port that does not conflict with existing listening ports.
+Hint. The Linux commands ss and netstat are useful for displaying ports with associated listening services in the Kali VM.
+
+Hint. In order to proxy TLS/SSL traffic you first need to import the web proxy CA certificate into the browser.
+
+ 
+
+ 
+
+[*] Add a proxy manager to the browser.
+
+Install a proxy manager so that it is easier to toggle the proxy on and off when required or switch between multiple proxies.
+Add your web proxy to the proxy manager and configure the options accordingly.
+Test that the web proxy is working as expected together with the proxy manager.
+Hint. Use the browser add-on/extension search functionality to find a suitable proxy manager.
+
+Hint. More and advanced web proxy options is not necessarily better depending on what you will be doing with your proxy.
+
+ 
+
+[*] Document the web proxy manager and proxy setup and configuration with screen shots. What were the challenges to get the proxy up and running? Provide a brief analysis that discusses which proxy was chosen and why, including pros and cons of the web proxy used.
+
+ 
+
+OWASP Juice Shop
+Installation
+[*] Install the OWASP Juice Shop in the Kali VM.
+
+Use VMware Player to run the Kali Linux VM.
+https://www.kali.org/tools/juice-shop/#juice-shop
+Hint. You may need to update your packages first.
+
+ 
+
+[*] Familiarize yourself with starting and stopping the Juice Shop.
+
+Start the shop and examine the start script, including the listening port.
+Verify the listening port using the command line.
+Shutdown the shop and examine the stop script.
+Verify that the shop has stopped using command line.
+Hint. https://www.kali.org/tools/juice-shop/#juice-shop
+
+Hint. Scripts are located in /usr/bin.
+
+Hint. The ss or netstat commands can be used to display listening services.
+
+ 
+
+[*] Document the Juice Shop installation configuration with screen shots. Were there any challenges to get the Juice Shop up and running? Provide a brief summary that explains how the Juice Shop is managed from the command line using scripts. Discuss what changes, if anything, from an attack surface perspective when you run the Juice Shop.
+
+Tutorials
+[*] Start the Juice Shop and familiarize yourself with how it works and its functionality.
+
+Create a user and login
+Browse the products in the shop
+Add items to the basket and complete a purchase (use a fictive card number).
+Review the order details
+Explore other sections of the shop eg customer feedback, complaint, support chat and so on.
+Hint. Analyzing the web traffic using the built-in browser web developer tools or a web proxy will reveal interesting data that is normally not displayed in the browser.
+
+ 
+
+[*] Complete the following tutorials to become familiar with how the Score Board works.
+
+Scoreboard
+DOM XSS
+Bonus Payload
+Privacy Policy
+Login Admin
+Password Strength
+View Basket
+Forged Feedback
+Hint. Click on the orange hat symbol icon on the Scoreboard page to start interactive tutorials and follow the directions.
+
+ 
+
+[*] Explore the save and restore challenge progress functionality
+
+Save current progress state in a file.
+Restore current state from the saved.
+Hint. Save the current challenge progress state so that you can revert to it later, if you need to. Otherwise you have to redo the challenges again to get back to the same application state in the Juice Shop.
+
+ 
+
+[*] Document completed tutorials with screenshots. Provide a brief analysis of the Juice Shop functionality and its technical implementation, including progress backup/restore and general Juice Shop pros and cons.
+
+ 
+
+Web hacking challenges
+[*] Complete the following Juice Shop challenges.
+
+DOM XSS
+Admin Section
+Payback Time
+Hint. Only use hints when you get stuck after attempting to solve the challenge on your own. Click on the “unsolved” icon on the scoreboard page to see hints for each challenge.
+
+Hint. The important thing is to understand and gain hands-on experience with the various hacking techniques so that you not only can break web applications but also use this knowledge to reduce attack surface and remove vulnerabilities.
+
+Hint. There are plenty of detailed solutions how to solve each challenge. However, it is highly recommended to use this option only as a last resort. You will learn a lot more from hacking entirely on your own or relying only on Juice Shop hints.
+
+ [*] Provide documented solutions for each challenge, including a brief analysis to explain your overall approach, time spent, what worked and what did not, including lessons learnt and to what degree you had to rely on already published solutions (provide links). Use screenshots where appropriate.
+
