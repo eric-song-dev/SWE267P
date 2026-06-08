@@ -166,6 +166,10 @@ Lesson learned: Informational pages can still reveal useful route and applicatio
 
 My approach was to test the login workflow and use the guided challenge to understand how weak authentication logic can be bypassed.
 
+```sql
+SELECT * FROM users WHERE email='{user input email}' AND password='{user input password}'
+```
+
 What worked: Enter username: `' or 1=1--`, password `test` in Login page. A SQL injection payload in the email field bypassed login.
 What did not work: Normal invalid credentials were rejected.
 Lesson learned: Authentication must be enforced server-side with safe input handling and parameterized queries.
